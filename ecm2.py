@@ -35,7 +35,7 @@ def get_data(dart, code, year = 2022, quarter = "사업보고서"):
         invst_df.columns = change_cols
         return invst_df
 
-@st.cache_data
+#@st.cache_data
 def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949')    
