@@ -1,0 +1,11 @@
+streamlit==1.20.0
+streamlit_option_menu==0.3.2
+numpy
+OpenDartReader
+dart_fss
+warnings
+pandas
+os
+re
+time
+datetime
