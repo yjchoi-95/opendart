@@ -1,10 +1,10 @@
-streamlit==1.20.0
+streamlit==1.13.0
 streamlit_option_menu==0.3.2
+pandas==1.3.4
 numpy
 OpenDartReader
 dart_fss
 warnings
-pandas
 os
 re
 time
