@@ -113,7 +113,7 @@ def main():
     st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
 
 ## 02. path
-data_path = os.getcwd() + "\\datasets\\"
+data_path = "./datasets/"
 if not os.path.isdir(data_path):
     os.mkdir(data_path)
     
