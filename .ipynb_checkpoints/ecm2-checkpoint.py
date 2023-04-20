@@ -153,7 +153,7 @@ with st.form(key='form1'):
     c1, c2 = st.columns(2)
     with c1:
         year = st.selectbox('연도',[x for x in range(2015, datetime.datetime.now().year+1)])
-        file_list = st.selectbox('저장소 파일',os.listdir(data_path))
+        file_list = st.selectbox('저장소 파일',sorted(os.listdir(data_path)))
     with c2:
         r_code = st.radio("보고서 선택", ("1분기보고서", "반기보고서", "3분기보고서", "사업보고서"), horizontal=True)
         load = st.radio("재수집 여부", ("아니오", "예"), horizontal=True)
