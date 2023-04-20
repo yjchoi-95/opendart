@@ -112,6 +112,7 @@ def main():
 
     p_ratio = 1.0
     p_bar.progress(p_ratio, text=progress_text)
+    
     try:
         save_df = output_df.loc[(output_df['출자목적'] == '단순투자') & (output_df['법인명'].isin(list(corp_df.corp_name.unique())))]
         save_df.index = [x for x in range(save_df.shape[0])]
@@ -166,16 +167,18 @@ if st.session_state.get('button') == True:
             btn2 = st.button('아니오')
 
         if btn1:
-            st.write("btn1")
+            st.write("btn1-new")
             main()
 
         elif btn2:
-            st.write("btn2")
+            st.write("btn2-new")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
             save_df = convert_df(save_df)
             st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+            st.stop()
 
     else:
-        st.write("else")
+        st.write("else-new")
         main()
+        st.stop()
