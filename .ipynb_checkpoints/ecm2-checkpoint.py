@@ -120,6 +120,7 @@ def main():
 
         save_df = convert_df(save_df)
         st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+        st.stop()
     except:
         st.write("수집 데이터 없음")
 
@@ -173,6 +174,7 @@ if st.session_state.get('button') == True:
         if genre == "예":
             st.write("btn1-new")
             main()
+            st.stop()
 
         else:
             st.write("btn2-new")
