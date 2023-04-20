@@ -158,19 +158,23 @@ if st.session_state.get('button') == True:
     if os.path.isfile(data_path + "ECM_타법인출자-단순투자-{}-{}.csv".format(year, r_code)):
         st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다. 재수집하시겠습니까?
         \n (아니오 선택 시 기존 파일을 불러옵니다.)""".format(year,r_code), icon="⚠️")
-
+        
+        '''
         inside_c1, inside_c2 = st.columns(2)
 
         with inside_c1:
             btn1 = st.button('예')
         with inside_c2:
             btn2 = st.button('아니오')
+        '''
+        genre = st.radio(('예', '아니오'), horizontal =True)
 
-        if btn1:
+
+        if genre == "예":
             st.write("btn1-new")
             main()
 
-        elif btn2:
+        else:
             st.write("btn2-new")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
