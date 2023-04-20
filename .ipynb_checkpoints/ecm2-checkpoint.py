@@ -150,13 +150,14 @@ with st.form(key='form1'):
 if form1_bt:
     # 파일 존재할 경우
     if os.path.isfile(data_path + "ECM_타법인출자-단순투자-{}-{}.csv".format(year, r_code)):
-        st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다. 
-        \n사용자 조건에 따라 저장소 파일을 불러옵니다.""".format(year,r_code), icon="⚠️")
+        st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다.""".format(year,r_code), icon="⚠️")
         
         if load == "예":
+            st.warning('사용자 조건에 따라 재수집을 진행합니다.', icon="⚠️")
             main()
 
         else:
+            st.warning('사용자 조건에 따라 저장소 파일을 불러옵니다.', icon="⚠️")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
             save_df = convert_df(save_df)
