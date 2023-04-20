@@ -137,6 +137,7 @@ with st.sidebar:
 ## 메인 틀 작성
 st.header('ECM2부 - 타법인출자현황(단순투자)')
 
+'''
 with st.form(key='form1'):
     c1, c2, c3 = st.columns(3)
     with c1:
@@ -146,7 +147,18 @@ with st.form(key='form1'):
     with c3:
         load = st.radio("파일 존재 시 재수집 여부", ("아니오", "예"), horizontal=True)
     form1_bt = st.form_submit_button('조회')
-    
+'''
+
+with st.form(key='form1'):
+    c1, c2 = st.columns(2)
+    with c1:
+        year = st.selectbox('연도',[x for x in range(2015, datetime.datetime.now().year+1)])
+        file_list = st.selectbox('저장소 파일',os.listdir(data_path))
+    with c2:
+        r_code = st.radio("보고서 선택", ("1분기보고서", "반기보고서", "3분기보고서", "사업보고서"), horizontal=True)
+        load = st.radio("재수집 여부", ("아니오", "예"), horizontal=True)
+    form1_bt = st.form_submit_button('조회')
+
 if form1_bt:
     # 파일 존재할 경우
     if os.path.isfile(data_path + "ECM_타법인출자-단순투자-{}-{}.csv".format(year, r_code)):
