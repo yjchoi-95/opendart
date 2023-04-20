@@ -52,7 +52,7 @@ def main():
     corp_df = pd.DataFrame(corp_dict)
     corp_df = corp_df.loc[corp_df.stock_code.notnull()]
     corp_df.index = [x for x in range(corp_df.shape[0])]
-    corp_df = corp_df.tail(50)
+    corp_df = corp_df.tail(500)
 
     pass_list = []
     t_cnt = 0

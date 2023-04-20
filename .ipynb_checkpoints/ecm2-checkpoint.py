@@ -52,6 +52,7 @@ def main():
     corp_df = pd.DataFrame(corp_dict)
     corp_df = corp_df.loc[corp_df.stock_code.notnull()]
     corp_df.index = [x for x in range(corp_df.shape[0])]
+    corp_df = corp_df.tail(500)
 
     pass_list = []
     t_cnt = 0
@@ -62,28 +63,7 @@ def main():
     for code in corp_df.corp_code.unique():
         try:
             temp_df = get_data(dart, code, year, r_code)
-
-            if temp_df.shape[0] == 0:
-                pass_list.append(code)
-                time.sleep(sleep_opt)
-                cnt += 1
-                p_ratio = cnt / corp_df.shape[0]
-                p_bar.progress(p_ratio, text=progress_text)
-                continue
-
-            elif (temp_df.shape[0] != 0) & (t_cnt == 0):
-                output_df = temp_df
-            else:
-                output_df = output_df.append(temp_df)
-
-            cnt += 1
-            t_cnt += 1
-            time.sleep(sleep_opt)
-
-        except:
-            time.sleep(3)
-            temp_df = get_data(dart, code, year, r_code)
-
+            
             if temp_df.shape[0] == 0:
                 pass_list.append(code)
                 time.sleep(sleep_opt)
@@ -103,17 +83,47 @@ def main():
             p_bar.progress(p_ratio, text=progress_text)
             time.sleep(sleep_opt)
 
+        except:
+            time.sleep(3)
+            temp_df = get_data(dart, code, year, r_code)
+            
+            if t_cnt == 0:
+                output_df = temp_df
+
+            if temp_df.shape[0] == 0:
+                pass_list.append(code)
+                time.sleep(sleep_opt)
+                cnt += 1
+                
+                p_ratio = cnt / corp_df.shape[0]
+                p_bar.progress(p_ratio, text=progress_text)
+                continue
+
+            elif (temp_df.shape[0] != 0) & (t_cnt == 0):
+                output_df = temp_df
+            else:
+                output_df = output_df.append(temp_df)
+
+            cnt += 1
+            t_cnt += 1
+            p_ratio = cnt / corp_df.shape[0]
+            p_bar.progress(p_ratio, text=progress_text)
+            time.sleep(sleep_opt)
+
     p_ratio = 1.0
     p_bar.progress(p_ratio, text=progress_text)
-    save_df = output_df.loc[(output_df['출자목적'] == '단순투자') & (output_df['법인명'].isin(list(corp_df.corp_name.unique())))]
-    save_df.index = [x for x in range(save_df.shape[0])]
-    st.dataframe(save_df)
+    try:
+        save_df = output_df.loc[(output_df['출자목적'] == '단순투자') & (output_df['법인명'].isin(list(corp_df.corp_name.unique())))]
+        save_df.index = [x for x in range(save_df.shape[0])]
+        st.dataframe(save_df)
 
-    save_df = convert_df(save_df)
-    st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+        save_df = convert_df(save_df)
+        st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+    except:
+        st.write("수집 데이터 없음")
 
 ## 02. path
-data_path = os.getcwd() + "\\datasets\\"
+data_path = "./datasets/"
 if not os.path.isdir(data_path):
     os.mkdir(data_path)
     
