@@ -172,12 +172,12 @@ if st.session_state.get('button') == True:
 
 
         if genre == "예":
-            st.write("btn1-new")
+            st.write("btn1-new2")
             main()
             st.stop()
 
         else:
-            st.write("btn2-new")
+            st.write("btn2-new2")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
             save_df = convert_df(save_df)
@@ -185,6 +185,6 @@ if st.session_state.get('button') == True:
             st.stop()
 
     else:
-        st.write("else-new")
+        st.write("else-new2")
         main()
         st.stop()
