@@ -52,7 +52,7 @@ def main():
     corp_df = pd.DataFrame(corp_dict)
     corp_df = corp_df.loc[corp_df.stock_code.notnull()]
     corp_df.index = [x for x in range(corp_df.shape[0])]
-    corp_df = corp_df.tail(500)
+    corp_df = corp_df.tail(100)
 
     pass_list = []
     t_cnt = 0
@@ -166,13 +166,16 @@ if st.session_state.get('button') == True:
             btn2 = st.button('아니오')
 
         if btn1:
+            st.write("btn1")
             main()
 
         elif btn2:
+            st.write("btn2")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
             save_df = convert_df(save_df)
             st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
 
     else:
+        st.write("else")
         main()
