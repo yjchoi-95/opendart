@@ -1,7 +1,3 @@
-'''
-00. import
-
-'''
 from streamlit_option_menu import option_menu
 import streamlit as st
 import pandas as pd
@@ -142,33 +138,25 @@ with st.sidebar:
 st.header('ECM2부 - 타법인출자현황(단순투자)')
 
 with st.form(key='form1'):
-    c1, c2 = st.columns(2)
+    c1, c2, c3 = st.columns(3)
     with c1:
         year = st.selectbox('연도',[x for x in range(2015, datetime.datetime.now().year+1)])
     with c2:
         r_code = st.radio("보고서 선택", ("1분기보고서", "반기보고서", "3분기보고서", "사업보고서"), horizontal=True)
+    with c3:
+        load = st.radio("파일 존재 시 재수집 여부", ("아니오", "예"), horizontal=True)
     form1_bt = st.form_submit_button('조회')
     
-if st.session_state.get('button') != True:
-    st.session_state['button'] = form1_bt
-
-if st.session_state.get('button') == True:
+if form1_bt:
     # 파일 존재할 경우
     if os.path.isfile(data_path + "ECM_타법인출자-단순투자-{}-{}.csv".format(year, r_code)):
-        st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다. 재수집하시겠습니까?
-        \n (아니오 선택 시 기존 파일을 불러옵니다.)""".format(year,r_code), icon="⚠️")
-
-        inside_c1, inside_c2 = st.columns(2)
-
-        with inside_c1:
-            btn1 = st.button('예')
-        with inside_c2:
-            btn2 = st.button('아니오')
-
-        if btn1:
+        st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다. 
+        \n사용자 조건에 따라 저장소 파일을 불러옵니다.""".format(year,r_code), icon="⚠️")
+        
+        if load == "예":
             main()
 
-        elif btn2:
+        else:
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
             save_df = convert_df(save_df)
