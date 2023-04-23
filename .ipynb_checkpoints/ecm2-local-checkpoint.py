@@ -32,9 +32,12 @@ def get_data(dart, code, year = 2022, quarter = "사업보고서"):
         return invst_df
 
 @st.cache_data
-def convert_df(df):
+def convert_df(df, encode_opt = False):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
-    return df.to_csv()
+    if encode_opt:
+        return df.to_csv().encode('CP949')
+    else:
+        return df.to_csv()
 
 def main():
     p_bar = st.progress(0.0, text=progress_text)
@@ -112,8 +115,12 @@ def main():
         save_df.index = [x for x in range(save_df.shape[0])]
         st.dataframe(save_df)
 
-        save_df = convert_df(save_df)
-        st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+        save_df1 = convert_df(save_df)
+        save_df1.to_csv('./datasets/ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
+        
+        save_df2 = convert_df(save_df, True)
+        st.download_button(label="Download", data=save_df2, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
+        
     except:
         st.write("수집 데이터 없음")
 
@@ -159,7 +166,7 @@ if form1_bt:
             st.warning('사용자 조건에 따라 저장소 파일을 불러옵니다.', icon="⚠️")
             save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
             st.dataframe(save_df)
-            save_df = convert_df(save_df)
+            save_df = convert_df(save_df, encode_opt = True)
             st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
 
     else:
