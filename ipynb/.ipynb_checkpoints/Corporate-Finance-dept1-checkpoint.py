@@ -39,8 +39,9 @@ def convert_df(df):
 #@st.experimental_singleton
 @st.cache_resource
 def get_driver():
+    return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    return webdriver.Chrome(options=options)
+    #return webdriver.Chrome(options=options)
 
 def to_excel(df):
     output = BytesIO()
