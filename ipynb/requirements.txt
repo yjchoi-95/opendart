@@ -1,0 +1,11 @@
+pyxlsb==1.0.10
+streamlit==1.21.0
+webdriver_manager==3.8.6
+selenium==4.8.2
+bs4==4.11.1
+requests==2.28.1
+streamlit_option_menu==0.3.2
+pandas==1.5.3
+OpenDartReader==0.2.1
+io
+numpy
