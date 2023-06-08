@@ -8,3 +8,4 @@ streamlit_option_menu==0.3.2
 pandas==1.5.3
 OpenDartReader==0.2.1
 undetected-chromedriver
+seleniumbase==4.15.0
