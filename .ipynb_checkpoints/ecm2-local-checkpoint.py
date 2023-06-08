@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 
 ## 01. functions
-def get_data(dart, code, year = 2022, quarter = "사업보고서"):
+def get_data(dart, code):
     select_cols = ['corp_cls', 'corp_code', 'corp_name', 'inv_prm', 'frst_acqs_de', 'invstmnt_purps', 'frst_acqs_amount', 'trmend_blce_qy', 'trmend_blce_qota_rt', 'trmend_blce_acntbk_amount']
     change_cols = ['법인구분', '고유번호', '회사명', '법인명', '최초취득일자', '출자목적', '최초취득금액', '기말잔액수량', '기말잔액지분율', '기말잔액장부가액']
     change_cls = {"Y":"유가", "K":"코스닥", "N":"코넥스", "E":"기타"}

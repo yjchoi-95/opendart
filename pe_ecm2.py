@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import openpyxl
-#import graphviz
+import graphviz
 import matplotlib.font_manager as fm
 from matplotlib import rc
 import pickle
@@ -13,8 +13,8 @@ import os
 import ecm2
 
 # 폰트 관련 세팅
-#font_name = fm.FontProperties(fname='./malgun.ttf').get_name()
-#rc('font', family=font_name)
+font_name = fm.FontProperties(fname='./malgun.ttf').get_name()
+rc('font', family=font_name)
 
 # API 관련 세팅
 warnings.filterwarnings(action='ignore')
@@ -53,6 +53,7 @@ def get_data(knd, corp_nm, start_dt, end_dt, intr_ex_min, intr_ex_max, intr_sf_m
         df.loc[df['표면이자율(%)'] == -1000, '표면이자율(%)'] = '-'
         df.loc[df['만기이자율(%)'] == -1000, '만기이자율(%)'] = '-'
         df = df.reset_index(drop=True)
+        df.index += 1
     return df
 
 
@@ -120,9 +121,10 @@ elif selected == "타법인출자현황":
 
             else:
                 st.warning('사용자 조건에 따라 저장소 파일을 불러옵니다.', icon="⚠️")
-                save_df = pd.read_csv(data_path + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
+                save_df = pd.read_csv('./datasets/' + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
+                save_df.index += 1
                 st.dataframe(save_df)
-                save_df = convert_df(save_df, encode_opt = True)
+                save_df = ecm2.convert_df(save_df, encode_opt = True)
                 st.download_button(label="Download", data=save_df, file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
 
         else:
