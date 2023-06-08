@@ -29,8 +29,8 @@ def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949') 
 
-#@st.cache_resource
-@st.experimental_singleton
+#@st.experimental_singleton
+@st.cache_resource
 def get_driver():
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(options=options)
