@@ -20,6 +20,7 @@ import os
 warnings.filterwarnings('ignore')
 
 options = Options()
+options.add_argument('--disable-gpu')
 options.add_argument('--headless')
 
 ## 01. functions
@@ -28,7 +29,8 @@ def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949') 
 
-#@st.cache_resource
+@st.cache_resource
+#@st.experimental_singleton
 def get_driver():
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(options=options)
