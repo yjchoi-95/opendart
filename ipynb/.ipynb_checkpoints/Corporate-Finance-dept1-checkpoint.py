@@ -41,7 +41,7 @@ def convert_df(df):
 def get_driver():
     from chromedriver_py import binary_path # this will get you the path variable
     service_object = Service(binary_path)
-    return driver = webdriver.Chrome(service=service_object, options = options)
+    return webdriver.Chrome(service=service_object, options = options)
 
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
