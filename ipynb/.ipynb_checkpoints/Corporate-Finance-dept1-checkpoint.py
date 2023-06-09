@@ -57,6 +57,8 @@ def to_excel(df):
     return processed_data
 
 def main(start_dt, end_dt, opt = 'IB전략'):
+    st.write(os.getcwd())
+    
     progress_text = "Operation in progress. Please wait."
     p_bar = st.progress(0.0, text=progress_text)
     
