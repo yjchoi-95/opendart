@@ -39,11 +39,16 @@ def convert_df(df):
 #@st.cache_resource
 #@st.cache_data
 def get_driver():
+    
+    #from chromedriver_py import binary_path # this will get you the path variable
+    #service_object = Service(binary_path)
+    #return driver = webdriver.Chrome(service=service_object)
+
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    return webdriver.Chrome("/app/opendart/ipynb/chromedriver", options=options)
+    #return webdriver.Chrome("/app/opendart/ipynb/chromedriver", options=options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
-    #return webdriver.Chrome(options=options)
+    return webdriver.Chrome(options=options)
 
 def to_excel(df):
     output = BytesIO()
