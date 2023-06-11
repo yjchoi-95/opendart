@@ -157,6 +157,12 @@ end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 start_btn = st.button('🛠 수집')
 
 if start_btn:
+    import os
+    
+    os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    
     #head_df = main(start_dt, end_dt, opt = 'IB전략')
     form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
     st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('01_리그테이블'),unsafe_allow_html=True)
