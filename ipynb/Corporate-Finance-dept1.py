@@ -27,7 +27,6 @@ options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
 options.add_argument("--disable-features=NetworkService")
 options.add_argument("--window-size=1920x1080")
-options.add_argument("--disable-features=VizDisplayCompositor")
 
 ## 01. functions
 @st.cache_data
@@ -42,10 +41,9 @@ def get_driver():
     #from chromedriver_py import binary_path # this will get you the path variable
     #service_object = Service(binary_path)
     #return webdriver.Chrome(service=service_object, options = options)
-
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
-    #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
+    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(options=options)
 
