@@ -164,6 +164,7 @@ if start_btn:
     fr = '/app/opendart/ipynb/'
     to = '/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/'
     shutil.move(fr + filename, to + filename)
+    st.write("이동 완료")
     #os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
     #os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
     #os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
