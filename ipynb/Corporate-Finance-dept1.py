@@ -42,6 +42,9 @@ def get_driver():
     #service_object = Service(binary_path)
     #return webdriver.Chrome(service=service_object, options = options)
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
+    st.write("install")
+    Service(ChromeDriverManager().install()
+    st.write("finish-install")
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
@@ -157,16 +160,16 @@ end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 start_btn = st.button('🛠 수집')
 
 if start_btn:
-    import os
-    import shutil
+    #import os
+    #import shutil
     
-    filename = 'chromedriver'
-    fr = '/app/opendart/ipynb/'
-    to = '/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/'
-    shutil.move(fr + filename, to + filename)
-    st.write("이동 완료")
+    #filename = 'chromedriver'
+    #fr = '/app/opendart/ipynb/'
+    #to = '/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/'
+    #shutil.move(fr + filename, to + filename)
+    #st.write("이동 완료")
     #os,system("sudo apt-get install -y chromium-browser")
-    os.system("apt-get install -y chromium-browser")
+    #os.system("apt-get install -y chromium-browser")
     #os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
     #os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
     #os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
