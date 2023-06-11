@@ -45,7 +45,8 @@ def get_driver():
     st.write("install")
     Service(ChromeDriverManager().install()
     st.write("finish-install")
-    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    return "temp"
+    #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(options=options)
