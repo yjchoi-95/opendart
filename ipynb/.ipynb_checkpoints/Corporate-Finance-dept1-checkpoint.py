@@ -42,9 +42,7 @@ def get_driver():
     #service_object = Service(binary_path)
     #return webdriver.Chrome(service=service_object, options = options)
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
-    st.write("install")
     Service(ChromeDriverManager().install()
-    st.write("finish-install")
     return "temp"
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
@@ -161,6 +159,7 @@ end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 start_btn = st.button('🛠 수집')
 
 if start_btn:
+    st.write("install")
     #import os
     #import shutil
     
@@ -177,6 +176,7 @@ if start_btn:
     
     #head_df = main(start_dt, end_dt, opt = 'IB전략')
     form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
+    st.write("finish-install")
     st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('01_리그테이블'),unsafe_allow_html=True)
     st.dataframe(form_1)
     save_df1 = convert_df(form_1)
