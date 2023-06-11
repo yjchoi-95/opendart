@@ -158,10 +158,15 @@ start_btn = st.button('🛠 수집')
 
 if start_btn:
     import os
+    import shutil
     
-    os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
-    os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
-    os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    filename = 'chromedriver'
+    fr = '/app/opendart/ipynb/'
+    to = '/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/'
+    shutil.move(fr + filename, to + filename)
+    #os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    #os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
+    #os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
     
     #head_df = main(start_dt, end_dt, opt = 'IB전략')
     form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
