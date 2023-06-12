@@ -48,7 +48,7 @@ st.write("run-browser")
 #browser = webdriver.Firefox(options=opts)
 options = Options()
 options.add_argument("--headless")
-browser = webdriver.Chrome(Service(ChromeDriverManager.install()), options = options)
+browser = webdriver.Chrome(Service(ChromeDriverManager().install()), options = options)
 
 #browser.get('http://naver.com')
 st.write(browser.page_source)
