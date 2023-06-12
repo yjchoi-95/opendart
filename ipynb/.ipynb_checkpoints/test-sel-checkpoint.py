@@ -6,9 +6,9 @@ import os, sys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
-#import subprocess
+import subprocess
 
-#a = subprocess.call("whereis firefox", shell=True)
+st.write(subprocess.call("whereis firefox", shell=True))
 #st.write(a)
 
 @st.cache_resource
