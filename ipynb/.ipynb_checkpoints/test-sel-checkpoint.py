@@ -21,12 +21,17 @@ def installff():
     #os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
     #os.system('cd . add-apt-repository ppa:ubuntu-mozilla-security/ppa')
     #os.system('sbase install geckodriver')
-    os.system('sbase install chromedriver')
     #os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
     #os.system('export PATH=$PATH:/home/appuser/venv/bin/geckodriver')
     #os.system('export PATH=$PATH:/home/appuser/venv/bin/firefox')
     #os.system('export PATH=$PATH:/home/appuser/venv/bin/firefox.exe')
     #os.system('export PATH=$PATH:/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver')
+    
+    os.system('sbase install chromedriver')
+    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/venv/bin/chromedriver')
+    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.cache/selenium/chromedriver/linux64/114.0.5735.90/chromedriver)
+    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.wdm/selenium/chromedriver/linux64/114.0.5735.90/chromedriver)
+
     
     #/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver
     
@@ -53,7 +58,8 @@ options.add_argument("--headless")
 
 #browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
 
-browser = webdriver.Chrome(service = Service(excutable_path = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver'), options = options)
+#browser = webdriver.Chrome(service = Service(excutable_path = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver'), options = options)
+browser = webdriver.Chrome(options = options)
 
 #browser.get('http://naver.com')
 st.write(browser.page_source)
