@@ -31,7 +31,7 @@ opts.add_argument("--headless")
 
 #opts.binary = firefox_binary
 #opts.binary_location = '/home/appuser/venv/bin/geckodriver'
-opts.binary_location = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver'
+opts.binary_location = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver.exe'
 
 #service = Service(GeckoDriverManager().install())
 st.write("set-service")
