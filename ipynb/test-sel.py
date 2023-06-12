@@ -53,7 +53,7 @@ options.add_argument("--headless")
 
 #browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
 
-browser = webdriver.Chrome(executable_path = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver', options = options)
+browser = webdriver.Chrome(service = Service(excutable_path = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver'), options = options)
 
 #browser.get('http://naver.com')
 st.write(browser.page_source)
