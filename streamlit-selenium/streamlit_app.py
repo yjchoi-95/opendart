@@ -30,7 +30,8 @@ def show_selenium_log():
 
 def run_selenium():
     name = str()
-    with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
+    #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
+    with webdriver.Chrome(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
         xpath = '//*[@class="ui-mainview-block eventpath-wrapper"]'
@@ -41,7 +42,7 @@ def run_selenium():
 
 
 if __name__ == "__main__":
-    delete_selenium_log()
+    #delete_selenium_log()
     st.set_page_config(page_title="Selenium Test", page_icon='✅',
         initial_sidebar_state='collapsed')
     st.title('🔨 Selenium Test for Streamlit Sharing')
@@ -61,4 +62,5 @@ if __name__ == "__main__":
         result = run_selenium()
         st.info(f'Result -> {result}')
         st.info('Successful finished. Selenium log file is shown below...')
-        show_selenium_log()
+        #st.write('sucesss')
+        #show_selenium_log()
