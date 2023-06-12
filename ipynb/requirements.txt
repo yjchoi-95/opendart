@@ -4,6 +4,6 @@ selenium
 seleniumbase
 beautifulsoup4
 streamlit_option_menu
-pandas==1.5.3
+pandas
 OpenDartReader
 requests
