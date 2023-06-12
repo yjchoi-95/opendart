@@ -42,6 +42,13 @@ def convert_df(df):
 #@st.cache_resource
 #@st.cache_data
 def get_driver():
+    
+    import shutil
+    filename = 'chromedriver'
+    fr = '/app/opendart/ipynb/'
+    to = '/home/appuser/venv/lib/python3.9/site-packages/chromedriver_py/chromedriver_linux64'
+    shutil.move(fr + filename, to)
+    
     from chromedriver_py import binary_path # this will get you the path variable
     ChromeDriverManager().install()
     service_object = Service(binary_path)
