@@ -43,6 +43,7 @@ def convert_df(df):
 #@st.cache_data
 def get_driver():
     
+    '''
     import shutil
     
     filename = 'chromedriver'
@@ -55,17 +56,19 @@ def get_driver():
     ChromeDriverManager().install()
     service_object = Service(binary_path)
     return webdriver.Chrome(service=service_object, options = options)
+    '''
 
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #ChromeDriverManager().install()
     #Service(ChromeDriverManager().install())
-    #os.chmod('/app/opendart/ipynb/chromedriver', 755)
+    os.chmod('/app/opendart/ipynb/chromedriver', 755)
+    return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
     #return webdriver.Firefox(executable_path=GeckoDriverManager().install(), options = options)
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
-    #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
+    
     #return webdriver.Chrome(options=options)
 
 def to_excel(df):
@@ -163,6 +166,7 @@ with st.sidebar:
 st.header('기업금융1부 - IPO 현황 수집')
 
 c1, c2 = st.columns(2)
+os.chmod('/app/opendart/ipynb/chromedriver', 755)
 
 today = date.today()
 diff_day = timedelta(days=60)
