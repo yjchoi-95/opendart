@@ -22,6 +22,8 @@ import time
 import re
 import os
 
+os.system("/home/appuser/venv/bin/python -m pip install --upgrade pip")
+
 warnings.filterwarnings('ignore')
 
 options = Options()
