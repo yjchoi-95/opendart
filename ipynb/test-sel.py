@@ -14,6 +14,7 @@ st.write(subprocess.call("whereis firefox", shell=True))
 @st.cache_resource
 def installff():
     os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
+    os.system('add-apt-repository ppa:ubuntu-mozilla-security/ppa')
     os.system('sbase install geckodriver')
     os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
     os.system('export PATH=$PATH:/home/appuser/venv/bin/geckodriver')
