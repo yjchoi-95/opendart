@@ -40,7 +40,7 @@ def convert_df(df):
 
 #@st.experimental_singleton
 #@st.cache_resource
-#@st.cache_data
+@st.cache_data
 def get_driver():
     
     '''
@@ -66,8 +66,9 @@ def get_driver():
     #return webdriver.Chrome(executable_path = "./app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
     #st.write(os.getcwd())
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
-    
+    os.system("chmod +x /app/opendart/ipynb/chromedriver")
+    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
+    return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
