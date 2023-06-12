@@ -5,6 +5,12 @@ import os, sys
 
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
+
+import subprocess
+
+a = subprocess.call("whereis firefox", shell=True)
+st.write(a)
+
 @st.cache_resource
 def installff():
     os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
