@@ -14,7 +14,7 @@ options.add_argument("--disable-gpu")
 options.add_argument("--disable-features=NetworkService")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("--disable-features=VizDisplayCompositor")
-options.binary_location('/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver')
+#options.binary_location('/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver')
 
 def delete_selenium_log():
     if os.path.exists('selenium.log'):
@@ -32,7 +32,7 @@ def run_selenium():
     name = str()
     os.system('sbase get chromedriver 114.0.5735.90')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
-    with webdriver.Chrome(options=options) as driver:
+    with webdriver.Chrome('/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver', options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
         xpath = '//*[@class="ui-mainview-block eventpath-wrapper"]'
