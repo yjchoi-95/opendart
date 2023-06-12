@@ -28,6 +28,8 @@ def installff():
     #os.system('export PATH=$PATH:/home/appuser/venv/bin/firefox.exe')
     #os.system('export PATH=$PATH:/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver')
     
+    #/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver
+    
 _ = installff()
 st.write("finish-install")
 
@@ -49,7 +51,9 @@ st.write("run-browser")
 options = Options()
 options.add_argument("--headless")
 
-browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
+#browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
+
+browser = webdriver.Chrome('/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver', options = options)
 
 #browser.get('http://naver.com')
 st.write(browser.page_source)
