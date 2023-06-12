@@ -2,10 +2,13 @@ pyxlsb
 streamlit
 webdriver-manager
 selenium
+seleniumbase
+chromedriver-py
+chromium
+chromium-driver
 beautifulsoup4
 streamlit_option_menu
 pandas==1.5.3
 OpenDartReader
 undetected-chromedriver
 requests
-seleniumbase
