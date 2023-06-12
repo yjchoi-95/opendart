@@ -3,6 +3,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 import streamlit as st
 import os, sys
 
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+
 @st.experimental_singleton
 def installff():
     os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
@@ -15,9 +17,10 @@ _ = installff()
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 opts = FirefoxOptions()
+firefox_binary = FirefoxBinary()
 opts.add_argument("--headless")
 service = Service(GeckoDriverManager().install())
-browser = webdriver.Firefox(service = service, options=opts)
+browser = webdriver.Firefox(service = service, options=opts, firefox_binary=firefox_binary)
 
 
 browser.get('http://naver.com')
