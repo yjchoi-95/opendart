@@ -13,7 +13,7 @@ import subprocess
 @st.cache_resource
 def installff():
     #os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
-    #os.system('cd . add-apt-repository ppa:ubuntu-mozilla-security/ppa')
+    os.system('cd . add-apt-repository ppa:ubuntu-mozilla-security/ppa')
     os.system('sbase install geckodriver')
     #os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
     #os.system('export PATH=$PATH:/home/appuser/venv/bin/geckodriver')
@@ -31,7 +31,8 @@ opts.add_argument("--headless")
 
 #opts.binary = firefox_binary
 #opts.binary_location = '/home/appuser/venv/bin/geckodriver'
-opts.binary_location = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver.exe'
+#opts.binary_location = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver.exe'
+opts.binary_location = '/home/appuser/venv/bin/firefox.exe'
 
 #service = Service(GeckoDriverManager().install())
 st.write("set-service")
