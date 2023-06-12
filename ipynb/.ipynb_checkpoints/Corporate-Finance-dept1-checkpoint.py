@@ -40,8 +40,8 @@ def convert_df(df):
     return df.to_csv().encode('CP949')
 
 #@st.experimental_singleton
-#@st.cache_resource
-@st.cache_data
+@st.cache_resource
+#@st.cache_data
 def get_driver():
     '''
     import shutil
