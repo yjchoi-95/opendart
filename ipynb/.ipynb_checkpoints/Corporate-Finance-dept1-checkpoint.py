@@ -62,7 +62,9 @@ def get_driver():
     #ChromeDriverManager().install()
     #Service(ChromeDriverManager().install())
     os.chmod('/app/opendart/ipynb/chromedriver', 755)
-    return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
+    return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
+
+    #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
     #return webdriver.Firefox(executable_path=GeckoDriverManager().install(), options = options)
