@@ -28,10 +28,9 @@ def installff():
     #os.system('export PATH=$PATH:/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver')
     
     os.system('sbase install chromedriver')
-    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/venv/bin/chromedriver')
-    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.cache/selenium/chromedriver/linux64/114.0.5735.90/chromedriver')
-    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.wdm/selenium/chromedriver/linux64/114.0.5735.90/chromedriver')
-
+    #os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/venv/bin/chromedriver')
+    #os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.cache/selenium/chromedriver/linux64/114.0.5735.90/chromedriver')
+    #os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/.wdm/selenium/chromedriver/linux64/114.0.5735.90/chromedriver')
     
     #/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver
     
@@ -55,6 +54,7 @@ st.write("run-browser")
 #browser = webdriver.Firefox(options=opts)
 options = Options()
 options.add_argument("--headless")
+options.binary_location("/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver")
 
 #browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
 
