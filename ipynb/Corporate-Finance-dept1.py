@@ -59,7 +59,7 @@ def get_driver():
     '''
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Firefox(service=Service(GeckoDriverManager().install()), options = options)
-    return webdriver.Chrome(executable_path = "./ipynb/chromedriver", options = options)
+    return webdriver.Chrome("./ipynb/chromedriver", options = options)
 
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #ChromeDriverManager().install()
