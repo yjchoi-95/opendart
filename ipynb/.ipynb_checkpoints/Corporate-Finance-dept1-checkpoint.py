@@ -1,10 +1,10 @@
-#from selenium.webdriver.chrome.options import Options
-#from selenium.webdriver.chrome.service import Service
-#from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.service import Service
-from webdriver_manager.firefox import GeckoDriverManager
+#from selenium.webdriver.firefox.options import Options
+#from selenium.webdriver.firefox.service import Service
+#from webdriver_manager.firefox import GeckoDriverManager
 
 from streamlit_option_menu import option_menu
 from datetime import datetime, timedelta, date
@@ -57,8 +57,8 @@ def get_driver():
     service_object = Service(binary_path)
     return webdriver.Chrome(service=service_object, options = options)
     '''
-
-    return webdriver.Firefox(service=Service(GeckoDriverManager().install()), options = options)
+    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    #return webdriver.Firefox(service=Service(GeckoDriverManager().install()), options = options)
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #ChromeDriverManager().install()
     #Service(ChromeDriverManager().install())
