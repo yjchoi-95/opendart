@@ -4,7 +4,6 @@ webdriver-manager
 selenium
 seleniumbase
 chromedriver-py
-chromium
 chromium-driver
 beautifulsoup4
 streamlit_option_menu
