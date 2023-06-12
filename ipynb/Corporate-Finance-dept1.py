@@ -62,10 +62,11 @@ def get_driver():
     #ChromeDriverManager().install()
     #Service(ChromeDriverManager().install())
     #os.chmod('/app/opendart/ipynb/chromedriver', 755)
-    os.chmod('./app/opendart/ipynb/chromedriver', 755)
+    #os.chmod('./app/opendart/ipynb/chromedriver', 755)
     #return webdriver.Chrome(executable_path = "./app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
+    #st.write(os.getcwd())
     return webdriver.Chrome(executable_path = "./app/opendart/ipynb/chromedriver", options = options)
-
+    
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
@@ -88,8 +89,6 @@ def to_excel(df):
     return processed_data
 
 def main(start_dt, end_dt, opt = 'IB전략'):
-    st.write(os.getcwd())
-    
     progress_text = "Operation in progress. Please wait."
     p_bar = st.progress(0.0, text=progress_text)
     
@@ -170,7 +169,7 @@ with st.sidebar:
 st.header('기업금융1부 - IPO 현황 수집')
 
 c1, c2 = st.columns(2)
-os.chmod('/app/opendart/ipynb/chromedriver', 755)
+#os.chmod('/app/opendart/ipynb/chromedriver', 755)
 
 today = date.today()
 diff_day = timedelta(days=60)
