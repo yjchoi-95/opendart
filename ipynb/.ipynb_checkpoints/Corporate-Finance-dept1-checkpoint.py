@@ -42,7 +42,6 @@ def convert_df(df):
 #@st.cache_resource
 @st.cache_data
 def get_driver():
-    
     '''
     import shutil
     
@@ -66,16 +65,16 @@ def get_driver():
     #return webdriver.Chrome(executable_path = "./app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
     #st.write(os.getcwd())
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    os.system("chmod +x /app/opendart/ipynb/chromedriver")
+    #os.system("chmod +x /app/opendart/ipynb/chromedriver")
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
-    return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
+    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
     #return webdriver.Firefox(executable_path=GeckoDriverManager().install(), options = options)
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
-    
+    return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
     #return webdriver.Chrome(options=options)
 
 def to_excel(df):
