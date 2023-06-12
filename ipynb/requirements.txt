@@ -3,6 +3,7 @@ webdriver-manager
 selenium
 seleniumbase
 beautifulsoup4
+chromedriver-binary
 streamlit_option_menu
 pandas
 OpenDartReader
