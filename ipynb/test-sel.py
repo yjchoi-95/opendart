@@ -24,7 +24,7 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 opts = FirefoxOptions()
 opts.add_argument("--headless")
-firefox_binary = FirefoxBinary('/home/appuser/venv/bin/firefox')
+firefox_binary = FirefoxBinary('/home/appuser/venv/bin/firefox.exe')
 opts.binary = firefox_binary
 #opts.binary_location = '/home/appuser/venv/bin/geckodriver'
 
