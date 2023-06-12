@@ -8,7 +8,7 @@ def installff():
     os.system('/home/appuser/venv/bin/python -m pip install --upgrade pip')
     os.system('sbase install geckodriver')
     os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
-
+    options.binary_location = '/home/appuser/venv/bin/geckodriver'
     
 _ = installff()
 
