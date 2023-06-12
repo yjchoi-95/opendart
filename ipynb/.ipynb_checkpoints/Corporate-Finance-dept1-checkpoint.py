@@ -43,7 +43,7 @@ def get_driver():
     #return webdriver.Chrome(service=service_object, options = options)
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #ChromeDriverManager().install()
-    #Service(ChromeDriverManager().install())
+    Service(ChromeDriverManager().install())
     os.chmod('/app/opendart/ipynb/chromedriver', 755)
     return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
