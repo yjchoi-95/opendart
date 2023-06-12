@@ -11,7 +11,7 @@ def installff():
     os.system('sbase install geckodriver')
     os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
     os.system('export PATH=$PATH:/home/appuser/venv/bin/geckodriver')
-    options.binary_location = '/home/appuser/venv/bin/geckodriver'
+    opts.binary_location = '/home/appuser/venv/bin/geckodriver'
     
 _ = installff()
 
