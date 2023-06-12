@@ -48,6 +48,7 @@ def get_driver():
     fr = '/app/opendart/ipynb/'
     to = '/home/appuser/venv/lib/python3.9/site-packages/chromedriver_py/chromedriver_linux64'
     shutil.move(fr + filename, to)
+    os.chmod(to, 755)
     
     from chromedriver_py import binary_path # this will get you the path variable
     ChromeDriverManager().install()
