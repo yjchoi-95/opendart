@@ -1,6 +1,7 @@
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 from streamlit_option_menu import option_menu
 from datetime import datetime, timedelta, date
 from selenium import webdriver
@@ -32,7 +33,7 @@ options.add_argument("--window-size=1920x1080")
 @st.cache_data
 def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
-    return df.to_csv().encode('CP949') 
+    return df.to_csv().encode('CP949')
 
 #@st.experimental_singleton
 #@st.cache_resource
@@ -44,9 +45,10 @@ def get_driver():
     #return webdriver.Chrome(options=options, service_log_path='selenium.log')
     #ChromeDriverManager().install()
     #Service(ChromeDriverManager().install())
-    os.chmod('/app/opendart/ipynb/chromedriver', 755)
+    #os.chmod('/app/opendart/ipynb/chromedriver', 755)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
+    #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
+    return webdriver.Firefox(executable_path=GeckoDriverManager().install(), options = options)
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
     #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
