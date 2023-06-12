@@ -1,11 +1,3 @@
-pyxlsb
-streamlit
-webdriver-manager
-selenium==4.1.0
-beautifulsoup4
-streamlit_option_menu
-pandas==1.5.3
-OpenDartReader
-undetected-chromedriver
-requests
-chromedriver-py
+<DOCUMENT SAFER V2010 R2>?ÎAB‹¯Î1/(­¨á¹Ü½ìM+ÜÑ½Şİş9†!èâÀ4¹„ßÉDÍä¤Môæìk­k³7æqÃÿÙ9ªwËoÊáøw	Ã‹#“5,÷¬oƒ$Ät«ƒµEî™šíš‰«£B…¡0+—gšu’­”„9Eäht’
+Ğ8xz¦ÆÛkrßÖ¥ğ>¤ñM±£?d³çœZ	œ“`ê¢ö*mÛÇ[—0Ú$â;°a’L+Fğ\AºÑ4	¬LÛ«X>éE3eHl‚T‡×$~3_|;Í¸óšÜÓ[Pt‹îÄ4ÍñüÈ•2oP÷?ÁÔdjÓ>â	XÙó–tï õ–Ï*Z9ŒT­ÏùxØ,–î;Şà’Ÿ•“®ÏéÌG©ÎğõáŞtÔàÁšû;T[ëÑ"ÓK	49n‘B+<Hkanydocsafer>‘K…ó¼ƒ¢DX>!]¨ Ğí6Y1òJòoUÂˆ-G¶m½%¤8%½µŒª ÅhìtÜv°E+E'cDÉ÷ÑòI&E'\6êf#`¯¸Z·“©E(RM5Æ£X‹ÚÆŞqGˆËŞaŞàÔw¢9AmCæ«òœ…j|Şsk:`†ç
+/ƒ¼Õ\`úÕÍ$˜~4x×Ç4½yWhğÄG|u®ø@ÿX&xûNø‹Hb;´ÔÓY¨şxM¹!ØÖRv~©nßHéG¥ßQ×ôX®h·±Ï´šh’	LÒO™Ş‡¼Rm>Ük.Ã»â.Q–T#‰$œª«r
