@@ -30,6 +30,8 @@ def show_selenium_log():
 
 def run_selenium():
     name = str()
+    os.system('sbase install chromedriver')
+    os.system('sbase install chrome')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
     with webdriver.Chrome(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
