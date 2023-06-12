@@ -3,8 +3,6 @@ streamlit
 webdriver-manager
 selenium
 seleniumbase
-chromedriver-py
-chromium-driver
 beautifulsoup4
 streamlit_option_menu
 pandas==1.5.3
