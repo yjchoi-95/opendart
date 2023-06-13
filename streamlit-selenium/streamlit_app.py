@@ -54,11 +54,14 @@ def about_chrome():
 def run_selenium():
     name = str()
     
-    os.system('chmod -R 777 /root')
+    #os.system('chmod -R 777 /root')
     
-    os.system('find / -name firefox')
-    os.system('find / -name Mozila')
-    os.system('find / -name geckodriver')
+    os.system('find / -name chromium')
+    os.system('find / -name chrome')
+    os.system('find / -name chrome.exe')
+    os.system('find / -name chromedriver')
+#    os.system('find / -name Mozila')
+#    os.system('find / -name geckodriver')
     
     
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
