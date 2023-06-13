@@ -68,10 +68,8 @@ def run_selenium():
 #    os.system('find / -name geckodriver')
     
     service = Service(executable_path = '/app/opendart/streamlit-selenium/chromedriver')
-    
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
-    #with webdriver.Chrome(service = service, options=options) as driver:
-    with webdriver.Chrome(executable_path = '/app/opendart/streamlit-selenium/chromedriver', options=options) as driver:
+    with webdriver.Chrome(service = service, options=options) as driver:
     #with webdriver.Chrome(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
