@@ -17,7 +17,11 @@ st.write(subprocess.call("whereis firefox", shell=True))
 st.write(subprocess.call("which firefox", shell=True))
 st.write(os.getcwd())
 
-#os.system('sbase install chromedriver')
+os.system('sbase install chromedriver')
+st.write(subprocess.call("locate chromedriver", shell=True))
+st.write(subprocess.call("whereis chromedriver", shell=True))
+st.write(subprocess.call("which chromedriver", shell=True))
+
 os.system('sbase install geckodriver')
 st.write(subprocess.call("locate geckodriver", shell=True))
 st.write(subprocess.call("whereis geckodriver", shell=True))
