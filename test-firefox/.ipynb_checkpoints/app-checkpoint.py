@@ -20,20 +20,23 @@ os.system("firefox -v")
 os.system("cd ~")
 os.system("apt install ./google-chrome-stable_current_amd64.deb")
 
-st.write(subprocess.call("locate firefox", shell=True))
-st.write(subprocess.call("whereis firefox", shell=True))
-st.write(subprocess.call("which firefox", shell=True))
-st.write(os.getcwd())
+os.system("sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa")
 
-#os.system('sbase install chromedriver')
-st.write(subprocess.call("locate chromedriver", shell=True))
-st.write(subprocess.call("whereis chromedriver", shell=True))
-st.write(subprocess.call("which chromedriver", shell=True))
+def test():
+    st.write(subprocess.call("locate firefox", shell=True))
+    st.write(subprocess.call("whereis firefox", shell=True))
+    st.write(subprocess.call("which firefox", shell=True))
+    st.write(os.getcwd())
 
-#os.system('sbase install geckodriver')
-st.write(subprocess.call("locate geckodriver", shell=True))
-st.write(subprocess.call("whereis geckodriver", shell=True))
-st.write(subprocess.call("which geckodriver", shell=True))
+    #os.system('sbase install chromedriver')
+    st.write(subprocess.call("locate chromedriver", shell=True))
+    st.write(subprocess.call("whereis chromedriver", shell=True))
+    st.write(subprocess.call("which chromedriver", shell=True))
+
+    #os.system('sbase install geckodriver')
+    st.write(subprocess.call("locate geckodriver", shell=True))
+    st.write(subprocess.call("whereis geckodriver", shell=True))
+    st.write(subprocess.call("which geckodriver", shell=True))
 
 def save():
 
