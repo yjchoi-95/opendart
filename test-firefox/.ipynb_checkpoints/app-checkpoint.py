@@ -11,7 +11,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.firefox import GeckoDriverManager
 
 import subprocess
-st.write(subprocess.call("locate firefox", shell=True))
+a = subprocess.call("locate firefox", shell=True)
+st.write(a)
+st.write(os.getcwd())
 
 '''
 URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
