@@ -11,6 +11,7 @@ ENV PYTHONUNBUFFERED=1 \
 # we probably need build tools?
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
+    && apt-get install mlocate \
     gcc \
     g++ \
     build-essential \
