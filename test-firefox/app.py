@@ -12,7 +12,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 import subprocess
 st.write(subprocess.call("locate firefox", shell=True))
-st.write(a)
 
 '''
 URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
