@@ -54,7 +54,7 @@ def about_chrome():
 def run_selenium():
     name = str()
     
-    os.system('chmod -R 777 root')
+    os.system('chmod -R 777 /root')
     
     os.system('find / -name firefox')
     os.system('find / -name Mozila')
