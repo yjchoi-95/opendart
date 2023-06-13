@@ -12,12 +12,13 @@ from selenium.webdriver.chromium.service import ChromiumService
 
 options = ChromiumOptions()
 options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument("--disable-gpu")
-options.add_argument("--disable-features=NetworkService")
 options.add_argument("--window-size=1920x1080")
-options.add_argument("--disable-features=VizDisplayCompositor")
+
+#options.add_argument("--no-sandbox")
+#options.add_argument("--disable-dev-shm-usage")
+#options.add_argument("--disable-gpu")
+#options.add_argument("--disable-features=NetworkService")
+#options.add_argument("--disable-features=VizDisplayCompositor")
 
 def delete_selenium_log():
     if os.path.exists('selenium.log'):
@@ -52,17 +53,16 @@ def about_chrome():
     os.system('locate firefox')
     os.system('which firefox')
     os.system('whereis firefox')
-
-    
-def run_selenium():
-    name = str()
     
     #os.system('chmod -R 777 /root')
-    
     #os.system('find / -name chromium -type f')
     #os.system('find / -name chrome -type f')
     #os.system('find / -name chrome.exe -type f')
     #os.system('find / -name chromedriver -type f')
+
+def run_selenium():
+    name = str()
+
     os.system('find / -name chrome*')
     import selenium
     st.write(selenium.__version__)
@@ -75,7 +75,8 @@ def run_selenium():
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
     #with webdriver.Chrome(service = service, options=options) as driver:
     #with webdriver.Chrome(options=options) as driver:
-    with webdriver.ChromiumEdge(options=options) as driver:
+    #with webdriver.ChromiumEdge(options=options) as driver:
+    with webdriver.chrome.webdriver.ChromiumDriver(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
         xpath = '//*[@class="ui-mainview-block eventpath-wrapper"]'
