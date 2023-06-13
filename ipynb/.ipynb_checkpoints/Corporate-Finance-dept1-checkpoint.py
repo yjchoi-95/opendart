@@ -22,17 +22,6 @@ import time
 import re
 import os
 
-os.system("/home/appuser/venv/bin/python -m pip install --upgrade pip")
-
-'''
-@st.experimental_singleton
-def installff():
-    os.system('sbase install geckodriver')
-    os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
-
-_ = installff()
-'''
-
 warnings.filterwarnings('ignore')
 
 options = Options()
@@ -50,48 +39,11 @@ def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949')
 
-#@st.experimental_singleton
 #@st.cache_resource
-#@st.cache_data
 def get_driver():
-    '''
-    import shutil
-    
-    filename = 'chromedriver'
-    fr = '/app/opendart/ipynb/'
-    to = '/home/appuser/venv/lib/python3.9/site-packages/chromedriver_py/chromedriver_linux64'
-    shutil.move(fr + filename, to)
-    os.chmod(to, 755)
-    
-    from chromedriver_py import binary_path # this will get you the path variable
-    ChromeDriverManager().install()
-    service_object = Service(binary_path)
-    return webdriver.Chrome(service=service_object, options = options)
-    '''
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    #return webdriver.Firefox(service=Service(GeckoDriverManager().install()), options = options)
-    return webdriver.Chrome("./ipynb/chromedriver", options = options)
-
-    #return webdriver.Chrome(options=options, service_log_path='selenium.log')
-    #ChromeDriverManager().install()
-    #Service(ChromeDriverManager().install())
-    #os.chmod('/app/opendart/ipynb/chromedriver', 755)
-    #os.chmod('./app/opendart/ipynb/chromedriver', 755)
-    #return webdriver.Chrome(executable_path = "./app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
-    #st.write(os.getcwd())
-    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    #os.system("chmod +x /app/opendart/ipynb/chromedriver")
-    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", service = Service(ChromeDriverManager().install()), options = options)
-    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    #return webdriver.Chrome("/app/opendart/ipynb/chromedriver.exe", options=options)
-    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options = options)
-    #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
-    #return webdriver.Firefox(executable_path=GeckoDriverManager().install(), options = options)
-    #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    #return webdriver.Chrome(executable_path = "/app/opendart/ipynb/chromedriver", options=options)
-    #return webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
-    #return webdriver.Chrome(options=options)
-
+    return webdriver.Chrome(options=options)
+    
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
@@ -109,6 +61,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     p_bar = st.progress(0.0, text=progress_text)
     
     api_key = '1b39652cef07f626c9d37375edf582ee51b1407f'
+    #api_key = 'd08546d14aedde5f2918b783aa10188e789f8f5f'
     dart = OpenDartReader(api_key)
     
     # C=발행공시, D=지분공시
@@ -185,7 +138,6 @@ with st.sidebar:
 st.header('기업금융1부 - IPO 현황 수집')
 
 c1, c2 = st.columns(2)
-#os.chmod('/app/opendart/ipynb/chromedriver', 755)
 
 today = date.today()
 diff_day = timedelta(days=60)
@@ -201,21 +153,6 @@ end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 start_btn = st.button('🛠 수집')
 
 if start_btn:
-
-    #import os
-    #import shutil
-    
-    #filename = 'chromedriver'
-    #fr = '/app/opendart/ipynb/'
-    #to = '/home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/'
-    #shutil.move(fr + filename, to + filename)
-    #st.write("이동 완료")
-    #os,system("sudo apt-get install -y chromium-browser")
-    #os.system("apt-get install -y chromium-browser")
-    #os.system("sudo mv chromedriver /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
-    #os.system("sudo chown root:root /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
-    #os.system("sudo chmod +x /home/appuser/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver")
-    
     #head_df = main(start_dt, end_dt, opt = 'IB전략')
     form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
     st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('01_리그테이블'),unsafe_allow_html=True)

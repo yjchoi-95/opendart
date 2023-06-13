@@ -10,6 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.firefox import GeckoDriverManager
 
+import subprocess
+st.write(subprocess.call("locate firefox", shell=True))
+st.write(a)
+
+'''
 URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
 XPATH = "//*[@class='ui-mainview-block eventpath-wrapper']"
 TIMEOUT = 20
@@ -39,3 +44,4 @@ time.sleep(10)
 elements = driver.find_elements_by_xpath(XPATH)
 st.write([el.text for el in elements])
 driver.quit()
+'''

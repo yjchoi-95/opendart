@@ -27,12 +27,12 @@ options.add_argument('--headless')
 @st.cache_data
 def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
-    return df.to_csv().encode('CP949') 
+    return df.to_csv().encode('CP949')
 
 #@st.cache_resource
 def get_driver():
-    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    #return webdriver.Chrome(options=options)
+    #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    return webdriver.Chrome(options=options)
 
 def to_excel(df):
     output = BytesIO()
@@ -51,6 +51,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     p_bar = st.progress(0.0, text=progress_text)
     
     api_key = '1b39652cef07f626c9d37375edf582ee51b1407f'
+    #api_key = 'd08546d14aedde5f2918b783aa10188e789f8f5f'
     dart = OpenDartReader(api_key)
     
     # C=발행공시, D=지분공시
