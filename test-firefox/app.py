@@ -14,6 +14,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 import subprocess
 
 #os.system("google-chrome --version")
+os.system("firefox -v")
+
 #os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
 os.system("cd ~")
 os.system("apt install ./google-chrome-stable_current_amd64.deb")
