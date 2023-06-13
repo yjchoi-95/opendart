@@ -15,7 +15,8 @@ import subprocess
 
 #os.system("google-chrome --version")
 #os.system("firefox -v")
-os.system("yum install wget")
+os.system("apt install flatpak")
+os.system("flatpak install flathub org.mozilla.firefox")
 
 #os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
 #os.system("cd ~")
