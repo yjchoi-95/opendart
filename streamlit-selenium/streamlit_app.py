@@ -56,10 +56,10 @@ def run_selenium():
     
     #os.system('chmod -R 777 /root')
     
-    os.system('find / -name chromium')
-    os.system('find / -name chrome')
-    os.system('find / -name chrome.exe')
-    os.system('find / -name chromedriver')
+    os.system('find / -name chromium -type f')
+    os.system('find / -name chrome -type f')
+    os.system('find / -name chrome.exe -type f')
+    os.system('find / -name chromedriver -type f')
 #    os.system('find / -name Mozila')
 #    os.system('find / -name geckodriver')
     
