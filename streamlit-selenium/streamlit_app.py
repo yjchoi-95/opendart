@@ -23,7 +23,6 @@ def delete_selenium_log():
     if os.path.exists('selenium.log'):
         os.remove('selenium.log')
 
-
 def show_selenium_log():
     if os.path.exists('selenium.log'):
         with open('selenium.log') as f:
@@ -35,8 +34,8 @@ def run_selenium():
     name = str()
     os.system('sbase get chromedriver 114.0.5735.90')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
-    #with webdriver.Chrome(service = service, options=options) as driver:
-    with webdriver.Chrome(options=options) as driver:
+    with webdriver.Chrome(service = service, options=options) as driver:
+    #with webdriver.Chrome(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
         xpath = '//*[@class="ui-mainview-block eventpath-wrapper"]'
