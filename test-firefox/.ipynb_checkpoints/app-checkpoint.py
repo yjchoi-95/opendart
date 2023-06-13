@@ -14,16 +14,17 @@ from webdriver_manager.firefox import GeckoDriverManager
 import subprocess
 
 #os.system("google-chrome --version")
-os.system("firefox -v")
+#os.system("firefox -v")
+os.system("yum install wget")
 
 #os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
-os.system("cd ~")
-os.system("apt install ./google-chrome-stable_current_amd64.deb")
+#os.system("cd ~")
+#os.system("apt install ./google-chrome-stable_current_amd64.deb")
 
-os.system("apt-get update && \
-      apt-get -y install sudo")
+#os.system("apt-get update && \
+#      apt-get -y install sudo")
 
-os.system("sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa")
+#os.system("sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa")
 
 def test():
     st.write(subprocess.call("locate firefox", shell=True))
