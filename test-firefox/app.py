@@ -14,6 +14,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 import subprocess
 
 os.system("google-chrome --version")
+os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
 
 st.write(subprocess.call("locate firefox", shell=True))
 st.write(subprocess.call("whereis firefox", shell=True))
