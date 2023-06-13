@@ -2,10 +2,13 @@ import os
 
 import streamlit as st
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
+
+from selenium.webdriver.chromium.options import Options
+from selenium.webdriver.chromium.service import Service
 
 options = Options()
 options.add_argument("--headless")
@@ -68,10 +71,11 @@ def run_selenium():
     #os.system('google-chrome --product-version')
     #os.system('docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest')
     
-    service = Service(executable_path = '/app/opendart/streamlit-selenium/chromedriver')
+    #service = Service(executable_path = '/app/opendart/streamlit-selenium/chromedriver')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
-    with webdriver.Chrome(service = service, options=options) as driver:
+    #with webdriver.Chrome(service = service, options=options) as driver:
     #with webdriver.Chrome(options=options) as driver:
+    with webdriver.ChromiumEdge(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
         xpath = '//*[@class="ui-mainview-block eventpath-wrapper"]'
