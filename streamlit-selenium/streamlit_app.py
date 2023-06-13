@@ -7,10 +7,10 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 
-from selenium.webdriver.chromium.options import Options
-from selenium.webdriver.chromium.service import Service
+from selenium.webdriver.chromium.options import ChromiumOptions
+from selenium.webdriver.chromium.service import ChromiumService
 
-options = Options()
+options = ChromiumOptions()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
