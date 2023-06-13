@@ -60,6 +60,7 @@ def run_selenium():
     os.system('find / -name chrome -type f')
     os.system('find / -name chrome.exe -type f')
     os.system('find / -name chromedriver -type f')
+    
     os.system('chromium-browser --product-version')
     os.system('google-chrome --product-version')
     
@@ -69,7 +70,8 @@ def run_selenium():
     service = Service(executable_path = '/app/opendart/streamlit-selenium/chromedriver')
     
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
-    with webdriver.Chrome(service = service, options=options) as driver:
+    #with webdriver.Chrome(service = service, options=options) as driver:
+    with webdriver.Chrome(executable_path = '/app/opendart/streamlit-selenium/chromedriver', options=options) as driver:
     #with webdriver.Chrome(options=options) as driver:
         url = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
         driver.get(url)
