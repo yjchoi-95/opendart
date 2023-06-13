@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.7-slim
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
@@ -31,6 +31,7 @@ RUN xargs -a packages.txt apt-get install --yes
 
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
+#RUN conda install --no-cache-dir --upgrade -r requirements.txt
 
 EXPOSE 8501
 
