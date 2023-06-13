@@ -61,6 +61,8 @@ def run_selenium():
     #os.system('find / -name chrome.exe -type f')
     #os.system('find / -name chromedriver -type f')
     os.system('find / -name chrome*')
+    import selenium
+    st.write(selenium.__version__)
     
     #os.system('chromium-browser --product-version')
     #os.system('google-chrome --product-version')
