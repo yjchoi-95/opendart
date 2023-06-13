@@ -12,38 +12,44 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.firefox import GeckoDriverManager
 
 import subprocess
-a = subprocess.call("locate firefox", shell=True)
-st.write(a)
+st.write(subprocess.call("locate firefox", shell=True))
+st.write(subprocess.call("whereis firefox", shell=True))
+st.write(subprocess.call("which firefox", shell=True))
 st.write(os.getcwd())
 
-'''
-URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
-XPATH = "//*[@class='ui-mainview-block eventpath-wrapper']"
-TIMEOUT = 20
+os.system('sbase install chromedriver')
+st.write(subprocess.call("locate chromedriver", shell=True))
+st.write(subprocess.call("whereis chromedriver", shell=True))
+st.write(subprocess.call("which chromedriver", shell=True))
 
-st.title("Test Selenium")
-st.markdown("You should see some random Football match text below in about 21 seconds")
+def save():
 
-firefoxOptions = Options()
-firefoxOptions.add_argument("--headless")
-service = Service(GeckoDriverManager().install())
-driver = webdriver.Firefox(
-    options=firefoxOptions,
-    service=service,
-)
-driver.get(URL)
+    URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
+    XPATH = "//*[@class='ui-mainview-block eventpath-wrapper']"
+    TIMEOUT = 20
 
-try:
-    WebDriverWait(driver, TIMEOUT).until(
-        EC.visibility_of_element_located((By.XPATH, XPATH,))
+    st.title("Test Selenium")
+    st.markdown("You should see some random Football match text below in about 21 seconds")
+
+    firefoxOptions = Options()
+    firefoxOptions.add_argument("--headless")
+    service = Service(GeckoDriverManager().install())
+    driver = webdriver.Firefox(
+        options=firefoxOptions,
+        service=service,
     )
+    driver.get(URL)
 
-except TimeoutException:
-    st.warning("Timed out waiting for page to load")
+    try:
+        WebDriverWait(driver, TIMEOUT).until(
+            EC.visibility_of_element_located((By.XPATH, XPATH,))
+        )
+
+    except TimeoutException:
+        st.warning("Timed out waiting for page to load")
+        driver.quit()
+
+    time.sleep(10)
+    elements = driver.find_elements_by_xpath(XPATH)
+    st.write([el.text for el in elements])
     driver.quit()
-
-time.sleep(10)
-elements = driver.find_elements_by_xpath(XPATH)
-st.write([el.text for el in elements])
-driver.quit()
-'''
