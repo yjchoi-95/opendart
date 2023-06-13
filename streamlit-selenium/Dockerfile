@@ -41,6 +41,6 @@ CMD ["streamlit", "run", "streamlit_app.py"]
 # docker build --progress=plain --tag selenium:latest .
 # docker run -ti -p 8501:8501 --rm selenium:latest /bin/bash
 # docker run -ti -p 8501:8501 --rm selenium:latest
-docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest
+#docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest
 # docker run -ti -p 8501:8501 -v ${pwd}:/app --rm selenium:latest
 # docker run -ti -p 8501:8501 -v ${pwd}:/app --rm selenium:latest /bin/bash

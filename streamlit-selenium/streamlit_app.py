@@ -63,6 +63,7 @@ def run_selenium():
     
     os.system('chromium-browser --product-version')
     os.system('google-chrome --product-version')
+    os.system('docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest')
     
 #    os.system('find / -name Mozila')
 #    os.system('find / -name geckodriver')
