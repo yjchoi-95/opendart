@@ -56,17 +56,15 @@ def run_selenium():
     
     #os.system('chmod -R 777 /root')
     
-    os.system('find / -name chromium -type f')
-    os.system('find / -name chrome -type f')
-    os.system('find / -name chrome.exe -type f')
-    os.system('find / -name chromedriver -type f')
+    #os.system('find / -name chromium -type f')
+    #os.system('find / -name chrome -type f')
+    #os.system('find / -name chrome.exe -type f')
+    #os.system('find / -name chromedriver -type f')
+    os.system('find / -name chrome*')
     
-    os.system('chromium-browser --product-version')
-    os.system('google-chrome --product-version')
-    os.system('docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest')
-    
-#    os.system('find / -name Mozila')
-#    os.system('find / -name geckodriver')
+    #os.system('chromium-browser --product-version')
+    #os.system('google-chrome --product-version')
+    #os.system('docker run -ti -p 8501:8501 -v $(pwd):/app --rm selenium:latest')
     
     service = Service(executable_path = '/app/opendart/streamlit-selenium/chromedriver')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
