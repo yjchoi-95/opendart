@@ -28,9 +28,8 @@ def show_selenium_log():
         with open('selenium.log') as f:
             content = f.read()
             st.code(content)
-
-def run_selenium():
-    name = str()
+            
+def about_chrome():
     os.system('sbase get chromedriver 114.0.5735.90')
     #os.system('pwd')
     os.system('which chromedriver')
@@ -44,6 +43,15 @@ def run_selenium():
     os.system('locate chromedriver')
     os.system('locate google-chrome')
     os.system('locate chrome.exe')
+    
+def run_selenium():
+    name = str()
+
+    os.system('sbase get geckodriver')
+    os.system('locate geckodriver')
+    os.system('which geckodriver')
+    os.system('whereis geckodriver')
+    
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
     #with webdriver.Chrome(service = service, options=options) as driver:
     with webdriver.Chrome(options=options) as driver:
