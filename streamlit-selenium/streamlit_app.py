@@ -60,6 +60,9 @@ def run_selenium():
     os.system('find / -name chrome -type f')
     os.system('find / -name chrome.exe -type f')
     os.system('find / -name chromedriver -type f')
+    os.system('chromium-browser --product-version')
+    os.system('google-chrome --product-version')
+    
 #    os.system('find / -name Mozila')
 #    os.system('find / -name geckodriver')
     
