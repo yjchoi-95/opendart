@@ -11,13 +11,13 @@ ENV PYTHONUNBUFFERED=1 \
 # we probably need build tools?
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
-    && apt-get install mlocate \
+    #&& apt-get install mlocate \
     gcc \
     g++ \
     build-essential \
-    python3-dev \
-    apt-get install flatpak \
-    flatpak install flathub org.mozilla.firefox\
+    python3-dev 
+    #apt-get install flatpak \
+    #flatpak install flathub org.mozilla.firefox\
     
     #curl -LO http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_$114.0.5735.90_amd64.deb \
     #apt-get install -y ./google-chrome-stable_$114.0.5735.90_amd64.deb \

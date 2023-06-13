@@ -15,9 +15,6 @@ options.add_argument("--disable-gpu")
 options.add_argument("--disable-features=NetworkService")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("--disable-features=VizDisplayCompositor")
-#options.binary_location('/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver')
-
-#service = Service(executable_path = '/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver')
 
 def delete_selenium_log():
     if os.path.exists('selenium.log'):
@@ -57,9 +54,12 @@ def about_chrome():
 def run_selenium():
     name = str()
     
+    os.system('chmod -R 777 root')
+    
     os.system('find / -name firefox')
     os.system('find / -name Mozila')
     os.system('find / -name geckodriver')
+    
     
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:
     #with webdriver.Chrome(service = service, options=options) as driver:
