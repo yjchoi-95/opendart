@@ -32,9 +32,9 @@ def show_selenium_log():
 def run_selenium():
     name = str()
     os.system('sbase get chromedriver 114.0.5735.90')
-    os.system('pwd')
-    os.system('which chromedriver')
-    os.system('which chrome.exe')
+    #os.system('pwd')
+    #os.system('which chromedriver')
+    #os.system('which chrome.exe')
     #os.system('locate chromedriver')
     #os.system('locate google-chrome')
     #with webdriver.Chrome(options=options, service_log_path='selenium.log') as driver:

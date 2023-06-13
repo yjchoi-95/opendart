@@ -15,7 +15,11 @@ RUN apt-get update \
     gcc \
     g++ \
     build-essential \
-    python3-dev
+    python3-dev \
+    
+    curl -LO http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_$114.0.5735.90_amd64.deb \
+    apt-get install -y ./google-chrome-stable_$114.0.5735.90_amd64.deb \
+    rm google-chrome-stable_$114.0.5735.90_amd64.deb
 
 WORKDIR /app
 
