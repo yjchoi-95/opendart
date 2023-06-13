@@ -36,6 +36,11 @@ def run_selenium():
     os.system('which chromedriver')
     os.system('which google-chrome')
     os.system('which chrome.exe')
+    
+    os.system('whereis chromedriver')
+    os.system('whereis google-chrome')
+    os.system('whereis chrome.exe')
+    
     os.system('locate chromedriver')
     os.system('locate google-chrome')
     os.system('locate chrome.exe')
