@@ -20,6 +20,9 @@ os.system("firefox -v")
 os.system("cd ~")
 os.system("apt install ./google-chrome-stable_current_amd64.deb")
 
+os.system("apt-get update && \
+      apt-get -y install sudo")
+
 os.system("sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa")
 
 def test():
