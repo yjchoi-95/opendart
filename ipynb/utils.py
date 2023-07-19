@@ -26,7 +26,6 @@ def cleansing(x):
         return value 
     else :
         return 0
-
     
 ## kind 수집
 def go_kind(driver, code, FIRST = True):
@@ -42,7 +41,7 @@ def go_kind(driver, code, FIRST = True):
     if FIRST:
         check_box = '/html/body/section[2]/section/form/section/div/div[1]/table/tbody/tr[7]/td/label[{}]'
 
-        for idx in range(4):
+        for idx in range(1, 4):
             driver.find_element(By.XPATH, check_box.format(idx+2)).click()
 
         time.sleep(0.1)
@@ -128,9 +127,9 @@ def get_finstate(driver):
     if df.shape[0] != 3:
         except_values = [x for x in ['매출액(수익)', '영업이익(손실)', '당기순이익(손실)'] if x not in list(df['항목'])]
         append_df = pd.DataFrame({"항목":[x for x in except_values],
-                      df.columns[1]:['-' for x in range(len(except_values))],
-                      df.columns[2]:['-' for x in range(len(except_values))],
-                      df.columns[3]:['-' for x in range(len(except_values))]})
+                      df.columns[1]:[0 for x in range(len(except_values))],
+                      df.columns[2]:[0 for x in range(len(except_values))],
+                      df.columns[3]:[0 for x in range(len(except_values))]})
         df = pd.concat([df, append_df])
         df['항목'] = df['항목'].astype("category")
         df['항목'] = df['항목'].cat.set_categories(['매출액(수익)', '영업이익(손실)', '당기순이익(손실)'])
@@ -157,7 +156,8 @@ def kind_main(driver, info_df, start_dt, end_dt):
     wait.until(EC.presence_of_element_located((By.ID, "fromDate")))
 
     value = '-'
-
+    cnt = 0
+    
     for idx, code in enumerate(info_df.stock_code):
         time.sleep(1)
 
@@ -206,12 +206,11 @@ def kind_main(driver, info_df, start_dt, end_dt):
                   ratio, new_s, old_s, a_cnt, l_date, f_date, temp_date1, temp_date2]
         temp_dict = {x:[y] for x, y in zip(keys, values)}
 
-        if idx == 0:
+        if cnt == 0:
             kind_df = pd.DataFrame(temp_dict)
-            #kind_df = pd.concat([kind_df, df_change], axis = 1)
+            cnt += 1
         else:
             loop_df = pd.DataFrame(temp_dict)
-            #loop_df = pd.concat([loop_df, df_change], axis = 1)
             kind_df = pd.concat([kind_df, loop_df])
 
     kind_df = kind_df.loc[(kind_df['상장일'] >= start_dt) & (kind_df['상장일'] <= end_dt)]
@@ -229,7 +228,6 @@ def kind_main(driver, info_df, start_dt, end_dt):
     del first_df['수요예측일정'], first_df['공모청약일정']
     
     return first_df
-
 
 ## 38커뮤니케이션
 def get_38df(soup, x):
@@ -251,9 +249,9 @@ def change_corp(x):
 def change(x):
     return x.replace('TE', 'TD').replace('TU', 'TD')
 
-
 def get_38(start_dt, end_dt, max_page = 30):
     cnt = 0
+    p = 0
 
     for page in range(1, max_page+1):
         outer_url = 'http://www.38.co.kr/html/fund/index.htm?o=r1&page={}'.format(page)
@@ -277,12 +275,12 @@ def get_38(start_dt, end_dt, max_page = 30):
             outer_df = pd.concat([outer_df, temp_df])
 
         if temp_df['예측일'].min() < start_dt.replace("-", "."):
-            break
-
+            p += 1
+            if p > 1:
+                break
+                
         cnt += 1
 
-    #outer_df = outer_df.loc[(outer_df['예측일'] >= start_dt.replace("-", ".")) & (outer_df['예측일'] <= end_dt.replace("-", "."))]
-    outer_df = outer_df.loc[outer_df['예측일'] <= end_dt.replace("-", ".")]
     data_dict = {x:[] for x in ['stock_code', '기업명']}
 
     for name, url in zip(outer_df['기업명'], outer_df['url']):
@@ -301,7 +299,7 @@ def get_38(start_dt, end_dt, max_page = 30):
     inner_df = pd.DataFrame.from_dict(data_dict)
     outer_df = pd.merge(outer_df, inner_df, on = '기업명', how = 'inner')
     
-    select_cols = ['stock_code', '하단공모가액', '상단공모가액', '의무보유 확약']
+    select_cols = ['stock_code', '하단공모가액', '상단공모가액', '의무보유 확약', '기관 경쟁률']
     outer_df['하단공모가액'] = [cleansing(x.split("~")[0]) for x in outer_df['공모희망가(원)']]
     outer_df['상단공모가액'] = [cleansing(x.split("~")[1]) for x in outer_df['공모희망가(원)']]
     
@@ -435,6 +433,8 @@ def ipo_main(driver, info_df):
     col_names = [x+"매출액" + "({})".format(y) for x, y in zip(['당해연도', '직전연도', '전전연도'], ['T', 'T-1', 'T-2'])]
     col_names.extend([x+"영업이익" + "({})".format(y) for x, y in zip(['당해연도', '직전연도', '전전연도'], ['T', 'T-1', 'T-2'])])
     col_names.extend([x+"당기순이익" + "({})".format(y) for x, y in zip(['당해연도', '직전연도', '전전연도'], ['T', 'T-1', 'T-2'])])
+    
+    cnt = 0
 
     for idx, corp_name in enumerate(info_df.corp_name):
         driver.get(url)
@@ -497,25 +497,26 @@ def ipo_main(driver, info_df):
 
         df_change['corp_name'] = corp_name
 
-        if idx == 0:
+        if cnt == 0:
             ipo_df = df_change
+            cnt += 1
         else:
             ipo_df = pd.concat([ipo_df, df_change])
             
     driver.close()
     ipo_df['유통가능주식수'] = [cleansing(x) for x in ipo_df['유통가능주식수']]
+    ipo_df.loc[:, '당해연도매출액(T)':'전전연도당기순이익(T-2)'] = ipo_df.loc[:, '당해연도매출액(T)':'전전연도당기순이익(T-2)'].astype(float)
     
     return ipo_df
-
 
 def change_form(df, dept, opt = None):
     if dept == 'IB전략':
         select_cols = ['수요예측(시작일)', '수요예측(종료일)', '상장일', '대표주관회사', 'corp_name', '신주모집', '구주매출',
-              '하단공모가액', '상단공모가액', '상장주식수', '유통가능주식수', '공모가', '경쟁률', '의무보유 확약',
+              '하단공모가액', '상단공모가액', '상장주식수', '유통가능주식수', '공모가', '기관 경쟁률', '의무보유 확약',
               '전전연도매출액(T-2)', '직전연도매출액(T-1)', '당해연도매출액(T)',
                '전전연도영업이익(T-2)', '직전연도영업이익(T-1)', '당해연도영업이익(T)', '전전연도당기순이익(T-2)',
                '직전연도당기순이익(T-1)', '당해연도당기순이익(T)', '기준연도(T=)', '주요제품']
-        change_cols = {"corp_name": "회사명"}
+        change_cols = {"corp_name": "회사명", "기관 경쟁률":"경쟁률"}
 
         output = df.loc[:, select_cols]
         output['공모주식수'] = output['신주모집'] + output['구주매출']
@@ -527,6 +528,7 @@ def change_form(df, dept, opt = None):
                        '전전연도영업이익(T-2)', '직전연도영업이익(T-1)', '당해연도영업이익(T)', '전전연도당기순이익(T-2)',
                        '직전연도당기순이익(T-1)', '당해연도당기순이익(T)', '기준연도(T=)', '주요제품']
         output = output.loc[:, sorted_cols]
+        output['유통가능주식수'] = [0 for x in range(output.shape[0])]
         del output['기준연도(T=)']
         
     else:

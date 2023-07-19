@@ -1,0 +1,3923 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dart3.xsd">
+
+<DOCUMENT-NAME ACODE="10001">증권신고서(지분증권)</DOCUMENT-NAME>
+<FORMULA-VERSION ADATE="20230220">3.4</FORMULA-VERSION>
+<COMPANY-NAME AREGCIK="01724417">하나29호기업인수목적 주식회사</COMPANY-NAME>
+
+
+<BODY>
+
+<LIBRARY>
+<CORRECTION>
+<TITLE ATOC="Y" AASSOCNOTE="COR_FIX_PB_VAL">증권발행조건확정</TITLE>
+
+<TABLE ACLASS="NORMAL" AFIXTABLE="N" WIDTH="600" BORDER="0">
+
+<COLGROUP>
+<COL WIDTH="137"></COL>
+<COL WIDTH="445"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" WIDTH="600" HEIGHT="53"></TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30">금융위원회 귀중</TD>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="454" HEIGHT="30">2023 년     6 월    15 일</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="53"></TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="53"></TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="53">회       사       명 :</TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="53">하나29호기업인수목적 주식회사</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="53">대   표     이   사 :</TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="53">윤 경 순</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30">본  점  소  재  지 :</TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30">서울특별시 영등포구 의사당대로 82</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30"></TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30">(전  화) 02-3771-3055</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30"></TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30"></TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30"></TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30"></TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30">작  성  책  임  자 :</TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30">(직  책) 기타비상무이사    (성  명) 우 동 윤</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD VALIGN="MIDDLE" WIDTH="146" HEIGHT="30"></TD>
+<TD VALIGN="MIDDLE" WIDTH="454" HEIGHT="30">(전  화) 02-3771-3055</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P USERMARK="F-14">1. 정정대상 신고서의 최초제출일 : 2023년 05월 12일</P>
+<P></P>
+<P USERMARK="F-14">2. 모집 또는 매출 증권의 종류 : 기명식 보통주 4,500,000주</P>
+<P></P>
+<P USERMARK="F-14">3. 모집 또는 매출금액 : 9,000,000,000원</P>
+<P></P>
+<P USERMARK="F-14">4. 정정사유 : 공모가액 확정에 따른 기재사항 정정</P>
+<P></P>
+
+<P USERMARK="F-14">5. 정정사항금번 정정에 따른 변동사항은 투자자 편의를 위해 "
+<SPAN USERMARK=" 0XFF1200 B">굵은 파란색</SPAN>"으로 표시하였습니다.
+</P>
+
+<TABLE ACLASS="NORMAL" AFIXTABLE="N" WIDTH="974" BORDER="1">
+
+<COLGROUP>
+<COL WIDTH="293"></COL>
+<COL WIDTH="327"></COL>
+<COL WIDTH="327"></COL>
+</COLGROUP>
+
+<THEAD>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH ALIGN="CENTER" WIDTH="302" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">항  목</TH>
+<TH ALIGN="CENTER" WIDTH="336" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">정 정 전</TH>
+<TH ALIGN="CENTER" WIDTH="336" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">정 정 후</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="260">공통 정정사항</TD>
+<TD WIDTH="336" HEIGHT="260">- 모집(매출)가액(예정): 2,000원- 모집(매출)가액 총액(예정): 9,000,000,000원- 공모희망가액: 2,000원- 일반투자자 배정주식수: 1,125,000주 ~ 1,350,000주- 기관투자자 배정주식수: 3,150,000주 ~ 3,375,000주- 일반투자자 배정비율: 25.0% ~ 30.0%- 기관투자자 배정비율: 70.0% ~ 75.0%</TD>
+
+<TD WIDTH="336" HEIGHT="260">- 모집(매출)가액(
+<SPAN USERMARK=" 0XFF1200 B">확정</SPAN>): 2,000원- 모집(매출)가액 총액(
+<SPAN USERMARK=" 0XFF1200 B">확정</SPAN>): 9,000,000,000원- 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>: 2,000원- 일반투자자 배정주식수: 
+<SPAN USERMARK=" 0XFF1200 B">1,125,000주</SPAN>- 기관투자자 배정주식수: 
+<SPAN USERMARK=" 0XFF1200 B">3,375,000주</SPAN>- 일반투자자 배정비율: 
+<SPAN USERMARK=" 0XFF1200 B">25.0%</SPAN>- 기관투자자 배정비율: 
+<SPAN USERMARK=" 0XFF1200 B">75.0%</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3" USERMARK=" B">[제1부 모집 또는 매출에 관한 사항]</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3" USERMARK=" B">I. 모집 또는 매출에 관한 일반사항</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">1. 공모개요</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주1)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">2. 공모방법</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주2)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주2)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3">3. 공모가격 결정방법</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">나. 공모가격 산정 개요</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주3)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주3)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">다. 수요예측에 관한 사항 - (3)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주4)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주4)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">다. 수요예측에 관한 사항 - (13)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(신규 작성)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주5)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3">4. 모집 또는 매출절차 등에 관한 사항</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">가. 모집 또는 매출 조건</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주6)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주6)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">라. 청약방법</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주7)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주7)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">마. 청약결과 배정방법</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주8)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주8)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">5. 인수 등에 관한 사항</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주9)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주9)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3" USERMARK=" B">III. 투자위험요소</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3">3. 기타위험</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">가. 지분 희석 가능성</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주10)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주10)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">아. 청약자 유형군별 배정비율 변경위험</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주11)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주11)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3" USERMARK=" B">IV. 인수인의 의견(분석기관의 평가의견)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="974" HEIGHT="30" COLSPAN="3">3. 기업실사결과 및 평가내용</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">다. 공모가격에 대한 의견</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주12)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주12)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="302" HEIGHT="30">V. 자금의 사용목적</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주13)</TD>
+<TD WIDTH="336" HEIGHT="30" VALIGN="MIDDLE" ALIGN="CENTER">(주13)</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주1)■ 정정 전</P>
+<P USERMARK="F-16 0XFF0000 B">1. 공모개요</P>
+<P></P>
+
+<TABLE WIDTH="797" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="788"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="797" VALIGN="BOTTOM" ALIGN="RIGHT" HEIGHT="30">(단위: 원, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="797" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="147"></COL>
+<COL WIDTH="120"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권의종류</TH>
+<TH WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권수량</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">액면가액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)가액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)총액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)방법</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주</TD>
+<TD WIDTH="129" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">100</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">9,000,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">일반공모</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="796" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="39"></COL>
+<COL WIDTH="99"></COL>
+<COL WIDTH="120"></COL>
+<COL WIDTH="118"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수인</TH>
+<TH WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권의종류</TH>
+<TH WIDTH="127" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수수량</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수금액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수대가</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수방법</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">대표</TD>
+<TD WIDTH="108" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">하나증권㈜</TD>
+<TD WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">9,000,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">300,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">총액인수</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="796" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="151"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="160" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">청약기일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">납입기일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">청약공고일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">배정공고일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">배정기준일</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="160" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 19일 ~2023년 06월 20일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 22일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 19일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 22일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="38"></COL>
+<COL WIDTH="739"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="53">주1)</TD>
+<TD WIDTH="748" HEIGHT="53">모집(매출)가액(이하 "공모희망가액"이라 한다.)의 산정 근거는 『Ⅳ. 인수인의 의견(분석기관의 평가의견)』의『3. 기업실사결과 및 평가내용, 다. 공모가격에 대한 의견』부분을 참조하시기 바랍니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="53">주2)</TD>
+<TD WIDTH="748" HEIGHT="53">모집(매출)가액, 모집(매출)총액, 인수금액 및 인수대가는 하나29호기업인수목적㈜의 희망공모가격 2,000원 기준입니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="76">주3)</TD>
+<TD WIDTH="748" HEIGHT="76">모집(매출)가액의 확정(이하 "확정공모가액"이라 한다.)은 청약일 전에 실시하는 수요예측 결과를 반영하여 대표주관회사인 하나증권㈜와 발행회사인 하나29호기업인수목적㈜가 협의한 후 1주당 확정공모가액을 최종 결정할 예정이며, 모집(매출)가액의 확정 시 정정신고서를 제출할 예정입니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="99">주4)</TD>
+<TD WIDTH="748" HEIGHT="99">기관투자자, 일반투자자 청약일 : 2023년 06월 19일 ~ 2023년 06월 20일 (2일간)기관투자자의 청약과 일반투자자 청약은 동일한 날에 실시됨에 유의하시기 바라며, 상기 청약일 및 납입일 등 일정은 효력발생일의 변경 및 회사상황, 주식시장 상황 등에 따라 변경될 수 있습니다. 한편, 금번 공모의 경우 대표주관회사에 두 차례 이상 청약하는 이중청약이 불가하오니, 이 점 유의하시기 바랍니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="207">주5)</TD>
+
+<TD WIDTH="748" HEIGHT="207">
+<P>본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로 2023년 03월 28일 상장예비심사신청서를 제출하여 2023년 05월 02일 한국거래소로부터 사후이행사항을 제외하고 신규상장 예비심사 승인을 받았습니다. 따라서, 아래와 같은 사후이행사항 및 일부 상장요건을 충족하지 못하게 되면 코스닥시장에서 거래될 수 없어 환금성에 큰 제약을 받을 수도 있음을 유의하시기 바랍니다. </P>
+
+<TABLE BORDER="1" WIDTH="730" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="721"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="730" HEIGHT="76">[사후이행사항]청구법인은 상장규정 제69조에서 정하는 신규상장신청일(모집 완료일)까지상장규정 제70조 제1항 제1호(기업규모), 제2호(주식의 분산), 제8호(금융투자업자 소유주식등의 발행금액) 요건을 구비하여야 함</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="76">주6)</TD>
+<TD WIDTH="748" HEIGHT="76">상기 인수대가는 300,000,000원으로 상기 금액의 50%는 금번 공모 이후에 지급되며, 나머지 50%는 합병등기 완료시점(합병등기일 익일)으로 이연되어 지급되므로, 합병이 완료되지 않은 경우에는 지급을 청구할 수 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="99">주7)</TD>
+<TD WIDTH="748" HEIGHT="99">금번 공모 결과 하나29호기업인수목적㈜의 총발행주식은 5,401,000주(전환사채 전환행사 가정 시 6,700,000주)가 되며 공모전 주주등(전환사채 전환권 행사 가정 시 2,200,000주)으로 인해 발생하는 희석요인을 반영한 주당 가중평균발행가격은 약 1,672원으로 공모희망가격인 2,000원과 비교할 때 약 328원 낮아집니다. 따라서 주당 장부가치 희석비율은 16.42% 정도입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="786"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="795" VALIGN="BOTTOM" ALIGN="RIGHT" HEIGHT="30">(단위: 원, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="795" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="104"></COL>
+<COL WIDTH="104"></COL>
+<COL WIDTH="104"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="228" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모</TH>
+<TH COLSPAN="2" WIDTH="228" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모전주주(CB 전환 후)</TH>
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모희망가격</TH>
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">가중평균발행가격</TH>
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">희석비율</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">67.16%</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,200,000</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">32.84%</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">1,672</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">16.42%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="786"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="795" HEIGHT="168">* 공모비율 = 공모주식수 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 공모전주주비율 = (공모전 발행주식수 + CB전환가능주식수) / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 총납입금액 = (공모전발행가액 ×공모전발행주식수) + (CB전환가액 ×CB전환가능주식수) + (공모희망가액 ×공모주식수)* 가중평균발행가격 = 총납입금액 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 희석비율 = (공모희망가액 - 가중평균발행가격) / 공모희망가액</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>■ 정정 후</P>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">1. 공모개요</P>
+<P></P>
+
+<TABLE WIDTH="797" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="788"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="797" VALIGN="BOTTOM" ALIGN="RIGHT" HEIGHT="30">(단위: 원, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="797" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="147"></COL>
+<COL WIDTH="120"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권의종류</TH>
+<TH WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권수량</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">액면가액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)가액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)총액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">모집(매출)방법</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주</TD>
+<TD WIDTH="129" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">100</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">9,000,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">일반공모</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="796" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="39"></COL>
+<COL WIDTH="99"></COL>
+<COL WIDTH="120"></COL>
+<COL WIDTH="118"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+<COL WIDTH="119"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수인</TH>
+<TH WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">증권의종류</TH>
+<TH WIDTH="127" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수수량</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수금액</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수대가</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">인수방법</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">대표</TD>
+<TD WIDTH="108" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">하나증권㈜</TD>
+<TD WIDTH="129" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">9,000,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">300,000,000</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">총액인수</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="796" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="151"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+<COL WIDTH="150"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="160" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">청약기일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">납입기일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">청약공고일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">배정공고일</TH>
+<TH WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">배정기준일</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="160" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 19일 ~2023년 06월 20일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 22일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 19일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">2023년 06월 22일</TD>
+<TD WIDTH="159" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="38"></COL>
+<COL WIDTH="739"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="53">주1)</TD>
+
+<TD WIDTH="748" HEIGHT="53">모집(매출)가액(이하 "
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>"이라 한다.)의 산정 근거는 『Ⅳ. 인수인의 의견(분석기관의 평가의견)』의『3. 기업실사결과 및 평가내용, 다. 공모가격에 대한 의견』부분을 참조하시기 바랍니다. 
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="53">주2)</TD>
+
+<TD WIDTH="748" HEIGHT="53">모집(매출)가액, 모집(매출)총액, 인수금액 및 인수대가는 하나29호기업인수목적㈜의 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> 2,000원 기준입니다. 
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="76">주3)</TD>
+
+<TD WIDTH="748" HEIGHT="76">모집(매출)가액의 확정(이하 "확정공모가액"이라 한다.)은 청약일 전에 실시하는 수요예측 결과를 반영하여 대표주관회사인 하나증권㈜와 발행회사인 하나29호기업인수목적㈜가
+<SPAN USERMARK=" 0XFF1200 B"> 협의하여 1주당 2,000원으로 최종 결정하였습니다.</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="99">주4)</TD>
+<TD WIDTH="748" HEIGHT="99">기관투자자, 일반투자자 청약일 : 2023년 06월 19일 ~ 2023년 06월 20일 (2일간)기관투자자의 청약과 일반투자자 청약은 동일한 날에 실시됨에 유의하시기 바라며, 상기 청약일 및 납입일 등 일정은 효력발생일의 변경 및 회사상황, 주식시장 상황 등에 따라 변경될 수 있습니다. 한편, 금번 공모의 경우 대표주관회사에 두 차례 이상 청약하는 이중청약이 불가하오니, 이 점 유의하시기 바랍니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="207">주5)</TD>
+
+<TD WIDTH="748" HEIGHT="207">
+<P>본 주식은 코스닥시장 상장을 목적으로 모집하는 것으로 2023년 03월 28일 상장예비심사신청서를 제출하여 2023년 05월 02일 한국거래소로부터 사후이행사항을 제외하고 신규상장 예비심사 승인을 받았습니다. 따라서, 아래와 같은 사후이행사항 및 일부 상장요건을 충족하지 못하게 되면 코스닥시장에서 거래될 수 없어 환금성에 큰 제약을 받을 수도 있음을 유의하시기 바랍니다. </P>
+
+<TABLE BORDER="1" WIDTH="730" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="721"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="730" HEIGHT="76">[사후이행사항]청구법인은 상장규정 제69조에서 정하는 신규상장신청일(모집 완료일)까지상장규정 제70조 제1항 제1호(기업규모), 제2호(주식의 분산), 제8호(금융투자업자 소유주식등의 발행금액) 요건을 구비하여야 함</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="76">주6)</TD>
+<TD WIDTH="748" HEIGHT="76">상기 인수대가는 300,000,000원으로 상기 금액의 50%는 금번 공모 이후에 지급되며, 나머지 50%는 합병등기 완료시점(합병등기일 익일)으로 이연되어 지급되므로, 합병이 완료되지 않은 경우에는 지급을 청구할 수 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="47" HEIGHT="99">주7)</TD>
+
+<TD WIDTH="748" HEIGHT="99">금번 공모 결과 하나29호기업인수목적㈜의 총발행주식은 5,401,000주(전환사채 전환행사 가정 시 6,700,000주)가 되며 공모전 주주등(전환사채 전환권 행사 가정 시 2,200,000주)으로 인해 발생하는 희석요인을 반영한 주당 가중평균발행가격은 약 1,672원으로 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>인 2,000원과 비교할 때 약 328원 낮아집니다. 따라서 주당 장부가치 희석비율은 16.42% 정도입니다.
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="786"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="795" VALIGN="BOTTOM" ALIGN="RIGHT" HEIGHT="30">(단위: 원, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="795" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="105"></COL>
+<COL WIDTH="104"></COL>
+<COL WIDTH="104"></COL>
+<COL WIDTH="104"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="228" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모</TH>
+<TH COLSPAN="2" WIDTH="228" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모전주주(CB 전환 후)</TH>
+
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</TH>
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">가중평균발행가격</TH>
+<TH ROWSPAN="2" WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">희석비율</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">67.16%</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,200,000</TD>
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">32.84%</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">1,672</TD>
+<TD WIDTH="113" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">16.42%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="795" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="786"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+
+<TD WIDTH="795" HEIGHT="168">* 공모비율 = 공모주식수 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 공모전주주비율 = (공모전 발행주식수 + CB전환가능주식수) / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 총납입금액 = (공모전발행가액 ×공모전발행주식수) + (CB전환가액 ×CB전환가능주식수) + (
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> ×공모주식수)* 가중평균발행가격 = 총납입금액 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 희석비율 = (
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> - 가중평균발행가격) / 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주2)■ 정정 전</P>
+<P USERMARK="F-16 0XFF0000 B">2. 공모방법</P>
+<P></P>
+<P>금번 하나29호기업인수목적㈜의 코스닥 상장공모는 일반공모의 모집방식을 통해 진행합니다.</P>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[모집방법 : 일반공모]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="102"></COL>
+<COL WIDTH="101"></COL>
+<COL WIDTH="101"></COL>
+<COL WIDTH="259"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="111" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">공모대상</TH>
+<TH WIDTH="110" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">주수</TH>
+<TH WIDTH="110" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비율</TH>
+<TH WIDTH="268" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비  고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="111" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">일반공모</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">4,500,000주</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">100.0%</TD>
+<TD WIDTH="268" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="651" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="642"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="651" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[일반공모대상 배정 내역]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="651" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="192"></COL>
+<COL WIDTH="110"></COL>
+<COL WIDTH="229"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">공모대상</TH>
+<TH WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">주수</TH>
+<TH WIDTH="119" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비율</TH>
+<TH WIDTH="238" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">1,125,000주 ~ 1,350,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">25.0% ~ 30.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">3,150,000주 ~ 3,375,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">70.0% ~ 75.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">합 계</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">100.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="777" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="768"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="777" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[모집 상세내역]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="775" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="192"></COL>
+<COL WIDTH="69"></COL>
+<COL WIDTH="262"></COL>
+<COL WIDTH="123"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">공모대상</TH>
+<TH WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">주수(%)</TH>
+<TH WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">주당공모가액</TH>
+<TH WIDTH="271" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">공모총액</TH>
+<TH WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">비고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">일반청약자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">1,125,000주 ~ 1,350,000주(25.0% ~ 30.0%)</TD>
+<TD ROWSPAN="3" WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="159">2,000원(예정)</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">2,250,000,000원 ~ 2,700,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">3,150,000주 ~ 3,375,000주(70.0% ~ 75.0%)</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">6,300,000,000원 ~ 6,750,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">합 계</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">4,500,000주(100.0%)</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">9,000,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="775" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="728"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주1)</TD>
+<TD WIDTH="737" HEIGHT="53">금번 공모에서 일반투자자 및 기관투자자에게 배정된 물량은 대표주관회사인 하나증권㈜을 통하여 청약이 실시됩니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주2)</TD>
+<TD WIDTH="737" HEIGHT="53">「증권 인수업무 등에 관한 규정」 제9조 제1항 제3호에 따라 일반청약자에게 공모주식의 100분의 25 이상을 배정합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="99">주3)</TD>
+<TD WIDTH="737" HEIGHT="99">「증권 인수업무 등에 관한 규정」 제9조 제1항 제4호에 따라 고위험고수익투자신탁(『상법』 제469조 제2항 제3호에 따른 사채로서 「자본시장과 금융투자업에 관한 법률」 제4조 제7항 제1호에 해당하는 증권을 제외한 비우량채권과 코넥스 상장주식의 합산 보유비율이 100분의 45 이상인 경우에 한한다. 이하 동일하다.)에게 공모주식의 100분의 5 이상을 배정합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="2560">주3)</TD>
+
+<TD WIDTH="737" HEIGHT="2560">
+<P>금번 모집에서 기관투자자(고위험고수익투자신탁 및 벤처기업투자신탁 포함)에게 배정된 모집물량은 대표주관회사인 하나증권㈜을 통하여 청약이 실시됩니다.기관투자자는 「증권 인수업무 등에 관한 규정」제2조 제8호에 의한 다음 각 목에 해당하는 자를 말합니다.가. 「자본시장과 금융투자업에 관한 법률」 시행령 제10조 제2항 제1호부터 제10호(제8호의 경우 동법 제8조제2항부터 제4항까지의 금융투자업자를 말한다. 이하 같다)까지, 제13호부터 제17호까지, 제3항 제3호, 제10호부터 제13호까지의 전문투자자나. 「자본시장과 금융투자업에 관한 법률」 제182조에 따라 금융위원회에 등록되거나 제249조의6 또는 제249조의10에 따라 금융위원회에 보고된 집합투자기구다. 「국민연금법」에 의하여 설립된 국민연금공단라. 「우정사업본부 직제」에 따른 우정사업본부마. 「자본시장과 금융투자업에 관한 법률」 제8조 제6항의 금융투자업자(이하 "투자일임회사"라 한다)</P>
+<P>바. 상기 가목부터 마목에 준하는 법인으로 외국법령에 의하여 설립된 자</P>
+<P>사. 「자본시장과 금융투자업에 관한 법률」 제8조 제7항의 금융투자업자 중 아목 이외의 자(이하 "신탁회사"라 한다)</P>
+<P>아. 「금융투자업규정」 제3-4조 제1항의 부동산신탁업자(이하 "부동산신탁회사"라 한다)</P>
+<P>※ 금번 공모 시 「증권 인수업무 등에 관한 규정」 제5조 제1항 제2호 단서조항의 "창업투자회사등"의 수요예측 참여는 허용되지 않습니다.※  "고위험고수익투자신탁"이란 「조세특례제한법」 제91조의15 제1항 및「자본시장과 금융투자업에 관한 법률」에 따른 집합투자기구, 투자일임재산 또는 특정금전신탁으로서 다음 각 항의 요건을 모두 갖춘 것을 말합니다.① 해당 투자신탁등의 설정일ㆍ설립일부터 매 3개월마다 비우량채권과 코넥스 상장주식을 합한 평균보유비율이 100분의 45 이상이고, 이를 포함한 국내채권의 평균보유비율이 100분의 60 이상일 것. 이 경우 "평균보유비율"은 비우량채권과 코넥스 상장주식, 국내채권 각각의 평가액이 투자신탁등의 평가액에서 차지하는 매일의 비율(이하 "일일보유비율"이라 한다)을 3개월 동안 합산하여 같은 기간의 총일수로 나눈 비율로 합니다.② 국내 자산에만 투자할 것. 다만, 「증권 인수업무 등에 관한 규정」 제2조 제18호에 의거 해당 투자신탁 등의 최초 설정일ㆍ설립일부터 수요예측 참여일까지의 기간이 6개월 미만일 경우에는 수요예측 참여일 직전 영업일에 비우량채권과 코넥스 상장주식을 합한 보유비율이 100분의 45 이상이고, 이를 포함한 국내 채권의 보유비율이 100분의 60 이상이어야 합니다.※ 대표주관회사는 기관투자자가 본 수요예측에 고위험고수익투자신탁으로 참여하는 경우 「증권 인수업무 등에 관한 규정」 제2조 제18호 및 제19호에 따른 고위험고수익투자신탁임을 확약하는 확약서 및 신탁자산 구성내역을 기재한 수요예측 참여명세서를 징구하며, 요청 받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.</P>
+<P>※  "벤처기업투자신탁"이란「조세특례제한법」제16조 제1항 제2호의 벤처기업투자신탁으로서(대통령령 제28636호 「조세특례제한법」 시행령 일부개정령 시행 이후 설정된 벤처기업투자신탁에 한한다) 다음 각 항의 요건을 갖춘 신탁을 말합니다.①「자본시장과 금융투자업에 관한 법률」에 의한 투자신탁(동법 제251조에 따른 보험회사의 특별계정을 제외한다. 이하 "투자신탁"이라 한다)으로서 계약기간이 3년 이상일 것② 통장에 의하여 거래되는 것일 것</P>
+<P>③ 투자신탁의 설정일부터 6개월(「자본시장과 금융투자업에 관한 법률」 제9조 제19항에 따른 사모집합투자기구에 해당하지 않는 경우에는 9개월) 이내에 투자신탁 재산총액에서 다음 각 목에 따른 비율의 합계가 100분의 50 이상일 것. 이 경우 투자신탁 재산총액에서 가목 1)에 따른 투자를 하는 재산의 평가액이 차지하는 비율은 100분의 15 이상이어야 합니다.가. 벤처기업에 다음의 투자를 하는 재산의 평가액의 합계액이 차지하는 비율1)「벤처투자 촉진에 관한 법률」 제2조 제1호에 따른 투자2) 타인 소유의 주식 또는 출자지분을 매입에 의하여 취득하는 방법으로 하는 투자나. 벤처기업이었던 기업이 벤처기업에 해당하지 아니하게 된 이후 7년이 지나지 아니한 기업으로서「자본시장과 금융투자업에 관한 법률」에 따른 코스닥시장에 상장한 중소기업 또는 중견기업에 가목 1) 및 2)에 따른 투자를 하는 재산의 평가액의 합계액이 차지하는 비율④ 제3항의 요건을 갖춘 날부터 매 6개월마다 같은 항 각 목 외의 부분 전단 및 후단에 따른 비율(투자신탁재산의 평가액이 투자원금보다 적은 경우로서 같은 후단에 따른 비율이 100분의 15 미만인 경우에는 이를 100분의 15로 본다)을 매일 6개월 동안 합산하여 같은 기간의 총일수로 나눈 비율이 각각 100분의 50 및 100분의 15 이상일 것. 다만, 투자신탁의 해지일 전 6개월에 대해서는 적용하지 아니합니다.다만, 「증권 인수업무 등에 관한 규정」제2조 제20호에 의거 해당 벤처기업투자신탁의 최초 설정일로부터 수요예측 참여일까지의 기간이 1년 미만인 경우에는 제3항에도 불구하고 수요예측 참여일 직전 영업일의 벤처기업투자신탁 재산총액에서 제3항 각 목에 따른 비율의 합계가 100분의 35 이상이어야 합니다.※ 대표주관회사는 기관투자자가 본 수요예측에 벤처기업투자신탁으로 참여하는 경우「증권 인수업무 등에 관한 규정」제2조 20호에 따른 벤처기업투자신탁임을 확약하는 확약서 및 신탁자산 구성내역을 기재한 수요예측 참여명세서를 징구하며, 요청 받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.</P>
+<P>※ "투자일임회사"는 투자일임계약을 체결한 투자자가 다음 각 항의 요건을 모두 충족하는 경우에 한하여 투자일임재산으로 금번 수요예측에 참여할 수 있습니다. 다만, 「증권 인수업무 등에 관한 규정」제2조 제18호에 따른 고위험고수익투자신탁의 경우에는 아래의 제1항 및 제4항을 적용하지 않습니다.</P>
+<P>①「증권 인수업무 등에 관한 규정」제2조 제8호에 따른 기관투자자일 것</P>
+<P>②「증권 인수업무 등에 관한 규정」제9조 제4항 각호의 어느 하나에 해당하지 아니할 것</P>
+<P>③「증권 인수업무 등에 관한 규정」제17조의2 제6항 제1호에 따라 불성실수요예측 참여자로 지정되어 기업공개를 위한 수요예측 참여 및 공모주식 배정이 금지된 자가 아닐 것</P>
+<P>④ 투자일임계약 체결일로부터 3개월이 경과하고, 수요예측 참여일 전 3개월간의 일평균 투자일임재산의 평가액이 5억원 이상일 것※ "투자일임회사"는 다음 각 항의 어느 하나에 해당하는 경우에 한하여 투자일임회사의 고유재산으로 금번 수요예측에 참여할 수 있습니다.① 투자일임업 등록일로부터 2년 이 경과하고, 투자일임회사가 운용하는 전체 투자일임재산의 수요예측등 참여일전 3개월간의 일평균 평가액이 50억원 이상일 것② 투자일임회사가 운용하는 전체 투자일임재산의 수요예측등 참여일전 3개월간의 일평균 평가액 (투자일임업 등록일로부터 3개월이 경과하지 않은 경우에는 투자일임업 등록일부터 수요예측등 참여일전까지 투자일임재산의 일평균 평가액을 말한다)이 300억원 이상일 것※ "신탁회사"는 신탁계약을 체결한 투자자가 다음 각 항의 요건을 모두 충족하는 경우에 한하여 신탁재산으로 금번 수요예측에 참여할 수 있습니다.①「증권 인수업무 등에 관한 규정」제2조 제8호에 따른 기관투자자일 것②「증권 인수업무 등에 관한 규정」제9조 제4항 각호의 어느 하나에 해당하지 아니할 것③「증권 인수업무 등에 관한 규정」제17조의2 제6항 제1호에 따라 불성실수요예측 참여자로 지정되어 기업공개를 위한 수요예측 참여 및 공모주식 배정이 금지된 자가 아닐 것④ 신탁계약 체결일로부터 3개월이 경과하고, 수요예측 참여일 전 3개월간의 일평균 신탁재산의 평가액이 5억원 이상일 것※ 일반 사모집합투자업을 등록한 집합투자회사는 다음 각 호의 어느 하나에 해당하는 경우에 한하여 집합투자회사의 고유재산으로 기업공개를 위한 수요예측등에 참여할 수 있습니다.</P>
+<P>① 일반사모집합투자업 등록일로부터 2년이 경과하고, 집합투자회사가 운용하는 전체 집합투자재산의 수요예측등 참여일전 3개월간의 일평균 평가액이 50억원 이상일 것 </P>
+<P>② 집합투자회사가 운용하는 전체 집합투자재산의 수요예측등 참여일전 3개월간의 일평균 평가액 (일반사모집합투자업 등록일로부터 3개월이 경과하지 않은 경우에는 일반사모집합투자업 등록일부터 수요예측등 참여일전까지 집합투자재산의 일평균 평가액을 말한다)이 300억원 이상일 것</P>
+<P>※ 대표주관회사는 기관투자자가 본 수요예측에 투자일임회사(또는 신탁회사 및 일반사모집합투자업을 등록한 집합투자회사)로 참여하는 경우 상기 요건에 해당하는 투자일임회사(또는 신탁회사)임을  확약하는 "확약서" 및 펀드명, 펀드설정금액, 펀드별 참여현황 등을 기재한 "수요예측참여 총괄집계표"를 징구할 수 있으며, 이를 요청받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.※ 부동산신탁회사는「증권 인수업무 등에 관한 규정」제5조의2 제3항에 따라 고유재산으로만 기업공개를 위한 수요예측에 참여할 수 있습니다.</P>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="444">주4)</TD>
+<TD WIDTH="737" HEIGHT="444"> 배정주식수(비율)의 변경① 일반청약자와 기관투자자의 배정주식수(비율)는 수요예측 결과 및 기관투자자의 청약 결과에 따라 청약일 및 청약일 전에 변경될 수 있습니다.② 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 초과청약이 있는 다른 청약자 유형군에 합산하여 배정할 수 있습니다. (『제1부 모집 또는 매출에 관한 사항 - Ⅰ. 모집 또는 매출에 관한 사항 - 4. 모집 또는 매출절차 등에 관한 사항 - 마. 청약결과 배정방법』에 관한 사항 부분 참고)③ 최종 청약미달 잔여주식이 있는 경우에는 총액인수계약서에 의거 대표주관회사가 자기계산으로 인수하거나 추첨을 통하여 재배정합니다.④ 「증권 인수업무 등에 관한 규정」 제 9조 제1항 제4호에 따르면 고위험고수익투자신탁(「상법 제469조 제2항 제3호」에 따른 사채로서 「자본시장과 금융투자업에 관한 법률(이하 "법"이라 한다) 제4조 제7항 제1호」에 해당하는 증권을 제외한 비우량채권과 코넥스 상장주식의 합산 보유비율이 100분의 45 이상인 경우에 한한다. 이하 동일하다.)에게 공모주식의 100분의 5이상을 배정합니다.⑤ ④에도 불구하고 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 고위험고수익투자신탁에 대한 배정비율을 달리할 수 있습니다.⑥ 「증권 인수업무 등에 관한 규정」제9조 제1항 제5호에 의거 기관투자자 중 벤처기업투자신탁에 공모주식의 30% 이상을 배정합니다.⑦ ⑥에도 불구하고 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 벤처기업투자신탁에 대한 배정비율을 달리할 수 있습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주5)</TD>
+<TD WIDTH="737" HEIGHT="53">주당 모집가액은 공모희망가액 2,000원을 기준으로 기재한 것이며, 청약일 전에 실시하는 수요예측 결과와 시장상황 등을 감안하여 대표주관회사와 발행회사가 협의한 후 주당 확정공모가액을 최종 결정할 것입니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="76">주6)</TD>
+<TD WIDTH="737" HEIGHT="76">모집총액은 공모희망가액 2,000원을 기준으로 산정한 금액이며, 청약일 전에 실시하는 수요예측 결과와 시장상황 등을 감안하여 대표주관회사가 발행회사와 협의하여 최종 결정할 예정입니다. 따라서 본 증권신고서에 기재 되어있는 공모희망가액과 모집총액은 확정된 가액이 아니며 추후 변동될 수 있습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주7)</TD>
+<TD WIDTH="737" HEIGHT="53">증권의 발행 및 공시 등에 관한 규정 제2-3조 제2항 제1호에 따라 정정신고서상의 공모주식수는 금번 제출한 증권신고서의 공모할 증권수의 100분의 80 이상과 100분의 120 이하에 해당하는 증권수로 변경가능합니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>■ 정정 후</P>
+<P USERMARK="F-16 0XFF0000 B">2. 공모방법</P>
+<P></P>
+<P>금번 하나29호기업인수목적㈜의 코스닥 상장공모는 일반공모의 모집방식을 통해 진행합니다.</P>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[모집방법 : 일반공모]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="102"></COL>
+<COL WIDTH="101"></COL>
+<COL WIDTH="101"></COL>
+<COL WIDTH="259"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="111" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">공모대상</TH>
+<TH WIDTH="110" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">주수</TH>
+<TH WIDTH="110" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비율</TH>
+<TH WIDTH="268" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비  고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="111" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">일반공모</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">4,500,000주</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">100.0%</TD>
+<TD WIDTH="268" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="651" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="642"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="651" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[일반공모대상 배정 내역]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="651" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="192"></COL>
+<COL WIDTH="110"></COL>
+<COL WIDTH="229"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">공모대상</TH>
+<TH WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">주수</TH>
+<TH WIDTH="119" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비율</TH>
+<TH WIDTH="238" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">비고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">1,125,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">25.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B">3,375,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53" USERMARK=" 0XFF1200 B">75.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">합 계</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">100.0%</TD>
+<TD WIDTH="238" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="777" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="768"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="777" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">[모집 상세내역]</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="775" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="192"></COL>
+<COL WIDTH="69"></COL>
+<COL WIDTH="262"></COL>
+<COL WIDTH="123"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">공모대상</TH>
+<TH WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">주수(%)</TH>
+<TH WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">주당공모가액</TH>
+<TH WIDTH="271" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">공모총액</TH>
+<TH WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="53">비고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">일반청약자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B">1,125,000주(25.0%)</TD>
+
+<TD ROWSPAN="3" WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="159">2,000원(
+<SPAN USERMARK=" 0XFF1200 B">확정</SPAN>)
+</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53" USERMARK=" 0XFF1200 B">2,250,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B">3,375,000주(75.0%)</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53" USERMARK=" 0XFF1200 B">6,750,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">합 계</TD>
+<TD WIDTH="201" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">4,500,000주(100.0%)</TD>
+<TD WIDTH="271" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">9,000,000,000원</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="775" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="728"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주1)</TD>
+<TD WIDTH="737" HEIGHT="53">금번 공모에서 일반투자자 및 기관투자자에게 배정된 물량은 대표주관회사인 하나증권㈜을 통하여 청약이 실시됩니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주2)</TD>
+<TD WIDTH="737" HEIGHT="53">「증권 인수업무 등에 관한 규정」 제9조 제1항 제3호에 따라 일반청약자에게 공모주식의 100분의 25 이상을 배정합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="99">주3)</TD>
+<TD WIDTH="737" HEIGHT="99">「증권 인수업무 등에 관한 규정」 제9조 제1항 제4호에 따라 고위험고수익투자신탁(『상법』 제469조 제2항 제3호에 따른 사채로서 「자본시장과 금융투자업에 관한 법률」 제4조 제7항 제1호에 해당하는 증권을 제외한 비우량채권과 코넥스 상장주식의 합산 보유비율이 100분의 45 이상인 경우에 한한다. 이하 동일하다.)에게 공모주식의 100분의 5 이상을 배정합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="2560">주3)</TD>
+
+<TD WIDTH="737" HEIGHT="2560">
+<P>금번 모집에서 기관투자자(고위험고수익투자신탁 및 벤처기업투자신탁 포함)에게 배정된 모집물량은 대표주관회사인 하나증권㈜을 통하여 청약이 실시됩니다.기관투자자는 「증권 인수업무 등에 관한 규정」제2조 제8호에 의한 다음 각 목에 해당하는 자를 말합니다.가. 「자본시장과 금융투자업에 관한 법률」 시행령 제10조 제2항 제1호부터 제10호(제8호의 경우 동법 제8조제2항부터 제4항까지의 금융투자업자를 말한다. 이하 같다)까지, 제13호부터 제17호까지, 제3항 제3호, 제10호부터 제13호까지의 전문투자자나. 「자본시장과 금융투자업에 관한 법률」 제182조에 따라 금융위원회에 등록되거나 제249조의6 또는 제249조의10에 따라 금융위원회에 보고된 집합투자기구다. 「국민연금법」에 의하여 설립된 국민연금공단라. 「우정사업본부 직제」에 따른 우정사업본부마. 「자본시장과 금융투자업에 관한 법률」 제8조 제6항의 금융투자업자(이하 "투자일임회사"라 한다)</P>
+<P>바. 상기 가목부터 마목에 준하는 법인으로 외국법령에 의하여 설립된 자</P>
+<P>사. 「자본시장과 금융투자업에 관한 법률」 제8조 제7항의 금융투자업자 중 아목 이외의 자(이하 "신탁회사"라 한다)</P>
+<P>아. 「금융투자업규정」 제3-4조 제1항의 부동산신탁업자(이하 "부동산신탁회사"라 한다)</P>
+<P>※ 금번 공모 시 「증권 인수업무 등에 관한 규정」 제5조 제1항 제2호 단서조항의 "창업투자회사등"의 수요예측 참여는 허용되지 않습니다.※  "고위험고수익투자신탁"이란 「조세특례제한법」 제91조의15 제1항 및「자본시장과 금융투자업에 관한 법률」에 따른 집합투자기구, 투자일임재산 또는 특정금전신탁으로서 다음 각 항의 요건을 모두 갖춘 것을 말합니다.① 해당 투자신탁등의 설정일ㆍ설립일부터 매 3개월마다 비우량채권과 코넥스 상장주식을 합한 평균보유비율이 100분의 45 이상이고, 이를 포함한 국내채권의 평균보유비율이 100분의 60 이상일 것. 이 경우 "평균보유비율"은 비우량채권과 코넥스 상장주식, 국내채권 각각의 평가액이 투자신탁등의 평가액에서 차지하는 매일의 비율(이하 "일일보유비율"이라 한다)을 3개월 동안 합산하여 같은 기간의 총일수로 나눈 비율로 합니다.② 국내 자산에만 투자할 것. 다만, 「증권 인수업무 등에 관한 규정」 제2조 제18호에 의거 해당 투자신탁 등의 최초 설정일ㆍ설립일부터 수요예측 참여일까지의 기간이 6개월 미만일 경우에는 수요예측 참여일 직전 영업일에 비우량채권과 코넥스 상장주식을 합한 보유비율이 100분의 45 이상이고, 이를 포함한 국내 채권의 보유비율이 100분의 60 이상이어야 합니다.※ 대표주관회사는 기관투자자가 본 수요예측에 고위험고수익투자신탁으로 참여하는 경우 「증권 인수업무 등에 관한 규정」 제2조 제18호 및 제19호에 따른 고위험고수익투자신탁임을 확약하는 확약서 및 신탁자산 구성내역을 기재한 수요예측 참여명세서를 징구하며, 요청 받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.</P>
+<P>※  "벤처기업투자신탁"이란「조세특례제한법」제16조 제1항 제2호의 벤처기업투자신탁으로서(대통령령 제28636호 「조세특례제한법」 시행령 일부개정령 시행 이후 설정된 벤처기업투자신탁에 한한다) 다음 각 항의 요건을 갖춘 신탁을 말합니다.①「자본시장과 금융투자업에 관한 법률」에 의한 투자신탁(동법 제251조에 따른 보험회사의 특별계정을 제외한다. 이하 "투자신탁"이라 한다)으로서 계약기간이 3년 이상일 것② 통장에 의하여 거래되는 것일 것</P>
+<P>③ 투자신탁의 설정일부터 6개월(「자본시장과 금융투자업에 관한 법률」 제9조 제19항에 따른 사모집합투자기구에 해당하지 않는 경우에는 9개월) 이내에 투자신탁 재산총액에서 다음 각 목에 따른 비율의 합계가 100분의 50 이상일 것. 이 경우 투자신탁 재산총액에서 가목 1)에 따른 투자를 하는 재산의 평가액이 차지하는 비율은 100분의 15 이상이어야 합니다.가. 벤처기업에 다음의 투자를 하는 재산의 평가액의 합계액이 차지하는 비율1)「벤처투자 촉진에 관한 법률」 제2조 제1호에 따른 투자2) 타인 소유의 주식 또는 출자지분을 매입에 의하여 취득하는 방법으로 하는 투자나. 벤처기업이었던 기업이 벤처기업에 해당하지 아니하게 된 이후 7년이 지나지 아니한 기업으로서「자본시장과 금융투자업에 관한 법률」에 따른 코스닥시장에 상장한 중소기업 또는 중견기업에 가목 1) 및 2)에 따른 투자를 하는 재산의 평가액의 합계액이 차지하는 비율④ 제3항의 요건을 갖춘 날부터 매 6개월마다 같은 항 각 목 외의 부분 전단 및 후단에 따른 비율(투자신탁재산의 평가액이 투자원금보다 적은 경우로서 같은 후단에 따른 비율이 100분의 15 미만인 경우에는 이를 100분의 15로 본다)을 매일 6개월 동안 합산하여 같은 기간의 총일수로 나눈 비율이 각각 100분의 50 및 100분의 15 이상일 것. 다만, 투자신탁의 해지일 전 6개월에 대해서는 적용하지 아니합니다.다만, 「증권 인수업무 등에 관한 규정」제2조 제20호에 의거 해당 벤처기업투자신탁의 최초 설정일로부터 수요예측 참여일까지의 기간이 1년 미만인 경우에는 제3항에도 불구하고 수요예측 참여일 직전 영업일의 벤처기업투자신탁 재산총액에서 제3항 각 목에 따른 비율의 합계가 100분의 35 이상이어야 합니다.※ 대표주관회사는 기관투자자가 본 수요예측에 벤처기업투자신탁으로 참여하는 경우「증권 인수업무 등에 관한 규정」제2조 20호에 따른 벤처기업투자신탁임을 확약하는 확약서 및 신탁자산 구성내역을 기재한 수요예측 참여명세서를 징구하며, 요청 받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.</P>
+<P>※ "투자일임회사"는 투자일임계약을 체결한 투자자가 다음 각 항의 요건을 모두 충족하는 경우에 한하여 투자일임재산으로 금번 수요예측에 참여할 수 있습니다. 다만, 「증권 인수업무 등에 관한 규정」제2조 제18호에 따른 고위험고수익투자신탁의 경우에는 아래의 제1항 및 제4항을 적용하지 않습니다.</P>
+<P>①「증권 인수업무 등에 관한 규정」제2조 제8호에 따른 기관투자자일 것</P>
+<P>②「증권 인수업무 등에 관한 규정」제9조 제4항 각호의 어느 하나에 해당하지 아니할 것</P>
+<P>③「증권 인수업무 등에 관한 규정」제17조의2 제6항 제1호에 따라 불성실수요예측 참여자로 지정되어 기업공개를 위한 수요예측 참여 및 공모주식 배정이 금지된 자가 아닐 것</P>
+<P>④ 투자일임계약 체결일로부터 3개월이 경과하고, 수요예측 참여일 전 3개월간의 일평균 투자일임재산의 평가액이 5억원 이상일 것※ "투자일임회사"는 다음 각 항의 어느 하나에 해당하는 경우에 한하여 투자일임회사의 고유재산으로 금번 수요예측에 참여할 수 있습니다.① 투자일임업 등록일로부터 2년 이 경과하고, 투자일임회사가 운용하는 전체 투자일임재산의 수요예측등 참여일전 3개월간의 일평균 평가액이 50억원 이상일 것② 투자일임회사가 운용하는 전체 투자일임재산의 수요예측등 참여일전 3개월간의 일평균 평가액 (투자일임업 등록일로부터 3개월이 경과하지 않은 경우에는 투자일임업 등록일부터 수요예측등 참여일전까지 투자일임재산의 일평균 평가액을 말한다)이 300억원 이상일 것※ "신탁회사"는 신탁계약을 체결한 투자자가 다음 각 항의 요건을 모두 충족하는 경우에 한하여 신탁재산으로 금번 수요예측에 참여할 수 있습니다.①「증권 인수업무 등에 관한 규정」제2조 제8호에 따른 기관투자자일 것②「증권 인수업무 등에 관한 규정」제9조 제4항 각호의 어느 하나에 해당하지 아니할 것③「증권 인수업무 등에 관한 규정」제17조의2 제6항 제1호에 따라 불성실수요예측 참여자로 지정되어 기업공개를 위한 수요예측 참여 및 공모주식 배정이 금지된 자가 아닐 것④ 신탁계약 체결일로부터 3개월이 경과하고, 수요예측 참여일 전 3개월간의 일평균 신탁재산의 평가액이 5억원 이상일 것※ 일반 사모집합투자업을 등록한 집합투자회사는 다음 각 호의 어느 하나에 해당하는 경우에 한하여 집합투자회사의 고유재산으로 기업공개를 위한 수요예측등에 참여할 수 있습니다.</P>
+<P>① 일반사모집합투자업 등록일로부터 2년이 경과하고, 집합투자회사가 운용하는 전체 집합투자재산의 수요예측등 참여일전 3개월간의 일평균 평가액이 50억원 이상일 것 </P>
+<P>② 집합투자회사가 운용하는 전체 집합투자재산의 수요예측등 참여일전 3개월간의 일평균 평가액 (일반사모집합투자업 등록일로부터 3개월이 경과하지 않은 경우에는 일반사모집합투자업 등록일부터 수요예측등 참여일전까지 집합투자재산의 일평균 평가액을 말한다)이 300억원 이상일 것</P>
+<P>※ 대표주관회사는 기관투자자가 본 수요예측에 투자일임회사(또는 신탁회사 및 일반사모집합투자업을 등록한 집합투자회사)로 참여하는 경우 상기 요건에 해당하는 투자일임회사(또는 신탁회사)임을  확약하는 "확약서" 및 펀드명, 펀드설정금액, 펀드별 참여현황 등을 기재한 "수요예측참여 총괄집계표"를 징구할 수 있으며, 이를 요청받은 기관투자자가 해당 서류를 미제출할 경우 배정에서 불이익을 받을 수 있습니다.※ 부동산신탁회사는「증권 인수업무 등에 관한 규정」제5조의2 제3항에 따라 고유재산으로만 기업공개를 위한 수요예측에 참여할 수 있습니다.</P>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="444">주4)</TD>
+<TD WIDTH="737" HEIGHT="444"> 배정주식수(비율)의 변경① 일반청약자와 기관투자자의 배정주식수(비율)는 수요예측 결과 및 기관투자자의 청약 결과에 따라 청약일 및 청약일 전에 변경될 수 있습니다.② 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 초과청약이 있는 다른 청약자 유형군에 합산하여 배정할 수 있습니다. (『제1부 모집 또는 매출에 관한 사항 - Ⅰ. 모집 또는 매출에 관한 사항 - 4. 모집 또는 매출절차 등에 관한 사항 - 마. 청약결과 배정방법』에 관한 사항 부분 참고)③ 최종 청약미달 잔여주식이 있는 경우에는 총액인수계약서에 의거 대표주관회사가 자기계산으로 인수하거나 추첨을 통하여 재배정합니다.④ 「증권 인수업무 등에 관한 규정」 제 9조 제1항 제4호에 따르면 고위험고수익투자신탁(「상법 제469조 제2항 제3호」에 따른 사채로서 「자본시장과 금융투자업에 관한 법률(이하 "법"이라 한다) 제4조 제7항 제1호」에 해당하는 증권을 제외한 비우량채권과 코넥스 상장주식의 합산 보유비율이 100분의 45 이상인 경우에 한한다. 이하 동일하다.)에게 공모주식의 100분의 5이상을 배정합니다.⑤ ④에도 불구하고 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 고위험고수익투자신탁에 대한 배정비율을 달리할 수 있습니다.⑥ 「증권 인수업무 등에 관한 규정」제9조 제1항 제5호에 의거 기관투자자 중 벤처기업투자신탁에 공모주식의 30% 이상을 배정합니다.⑦ ⑥에도 불구하고 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 벤처기업투자신탁에 대한 배정비율을 달리할 수 있습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주5)</TD>
+
+<TD WIDTH="737" HEIGHT="53">주당 모집가액은 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> 2,000원을 기준으로 기재한 것이며, 청약일 전에 실시하는 수요예측 결과와 시장상황 등을 감안하여 대표주관회사와 발행회사가 협의한 후 주당 확정공모가액을 최종 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주6)</TD>
+
+<TD WIDTH="737" HEIGHT="53">모집총액은 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> 2,000원을 기준으로 산정한 금액이며, 청약일 전에 실시하는 수요예측 결과와 시장상황 등을 감안하여 대표주관회사가 발행회사와 협의하여 최종 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주7)</TD>
+<TD WIDTH="737" HEIGHT="53">증권의 발행 및 공시 등에 관한 규정 제2-3조 제2항 제1호에 따라 정정신고서상의 공모주식수는 금번 제출한 증권신고서의 공모할 증권수의 100분의 80 이상과 100분의 120 이하에 해당하는 증권수로 변경가능합니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(주3)■ 정정 전</P>
+
+<P>
+<SPAN USERMARK=" B">나. 공모가격 산정개요</SPAN>대표주관회사인 하나증권㈜는 하나29호기업인수목적㈜의 코스닥시장 상장을 위한 공모와 관련하여 주식시장 상황 등을 고려하여 공모희망가액을 다음과 같이 제시합니다.
+</P>
+
+<TABLE BORDER="1" WIDTH="727" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="162"></COL>
+<COL WIDTH="547"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="171" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구분</TH>
+<TH WIDTH="556" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="171" ALIGN="CENTER" HEIGHT="30">주당 공모희망가액</TD>
+<TD WIDTH="556" ALIGN="CENTER" HEIGHT="30">2,000원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="171" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76">확정공모가액 결정방법</TD>
+<TD WIDTH="556" HEIGHT="76">금번 하나29호기업인수목적㈜의 코스닥시장 상장 공모를 위한 확정공모가액은 수요예측 결과 및 주식시장의 상황 등을 감안한 후 대표주관회사인 하나증권㈜과 발행회사인 하나29호기업인수목적㈜가 협의한 후 최종 결정할 예정입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="728" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="33"></COL>
+<COL WIDTH="677"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="76">주1)</TD>
+<TD WIDTH="686" HEIGHT="76">위에서 제시한 공모희망가액의 범위는 하나29호기업인수목적㈜의 절대적 평가가치가 아니며, 향후 국내외 시장상황, 산업위험 및 재무위험의 변화 등 다양한 제반 요인의 영향으로 변동될 수 있음을 투자자께서는 유의하시기 바랍니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="53">주2)</TD>
+<TD WIDTH="686" HEIGHT="53">공모희망가액의 산정 근거는 「Ⅳ. 인수인의 의견(분석기관의 평가의견)」 중 「3. 기업실사결과 및 평가내용, 다. 공모가격에 대한 의견」을 참고하시기 바랍니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>■ 정정 후</P>
+
+<P>
+<SPAN USERMARK=" B">나. 공모가격 산정개요</SPAN>대표주관회사인 하나증권㈜는 하나29호기업인수목적㈜의 코스닥시장 상장을 위한 공모와 관련하여 주식시장 상황 등을 고려하여
+<SPAN USERMARK=" 0XFF1200 B"> 확정공모가액을 다음과 같이 결정하였습니다.</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="727" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="162"></COL>
+<COL WIDTH="547"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="171" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구분</TH>
+<TH WIDTH="556" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+
+<TD WIDTH="171" ALIGN="CENTER" HEIGHT="30">주당 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</TD>
+<TD WIDTH="556" ALIGN="CENTER" HEIGHT="30">2,000원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="171" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76">확정공모가액 결정방법</TD>
+
+<TD WIDTH="556" HEIGHT="76">금번 하나29호기업인수목적㈜의 코스닥시장 상장 공모를 위한 확정공모가액은 수요예측 결과 및 주식시장의 상황 등을 감안한 후 대표주관회사인 하나증권㈜과 발행회사인 하나29호기업인수목적㈜가 협의한 후 최종 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="728" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="33"></COL>
+<COL WIDTH="677"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="76">주1)</TD>
+
+<TD WIDTH="686" HEIGHT="76">위에서 제시한 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>의 범위는 하나29호기업인수목적㈜의 절대적 평가가치가 아니며, 향후 국내외 시장상황, 산업위험 및 재무위험의 변화 등 다양한 제반 요인의 영향으로 변동될 수 있음을 투자자께서는 유의하시기 바랍니다.
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="53">주2)</TD>
+
+<TD WIDTH="686" HEIGHT="53">
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>의 산정 근거는 「Ⅳ. 인수인의 의견(분석기관의 평가의견)」 중 「3. 기업실사결과 및 평가내용, 다. 공모가격에 대한 의견」을 참고하시기 바랍니다.
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주4)■ 정정 전</P>
+<P></P>
+
+<P>
+<SPAN USERMARK=" B">다. 수요예측에 관한 사항</SPAN>
+</P>
+<P>(중략)</P>
+
+<P>
+<SPAN USERMARK=" B">(3) 수요예측 대상주식에 관한 사항</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="105"></COL>
+<COL WIDTH="123"></COL>
+<COL WIDTH="83"></COL>
+<COL WIDTH="253"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="92" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비 율</TH>
+<TH WIDTH="262" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비 고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">3,150,000주~ 3,375,000주</TD>
+<TD WIDTH="92" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">70.0%~75.0%</TD>
+<TD WIDTH="262" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="30"></COL>
+<COL WIDTH="552"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="30">주1)</TD>
+<TD WIDTH="561" HEIGHT="30">상기 기관투자자는 고위험고수익투자신탁 및 벤처기업투자신탁을 포함합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="30">주2)</TD>
+<TD WIDTH="561" HEIGHT="30">비율은 전체 공모주식수 4,500,000주에 대한 비율입니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="53">주3)</TD>
+<TD WIDTH="561" HEIGHT="53">일반청약자 배정분 1,125,000주 ~ 1,350,000주(25.0%~30.0%)는 수요예측 참여 대상주식이 아닙니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>■ 정정 후</P>
+<P></P>
+
+<P>
+<SPAN USERMARK=" B">다. 수요예측에 관한 사항</SPAN>
+</P>
+<P>(중략)</P>
+
+<P>
+<SPAN USERMARK=" B">(3) 수요예측 대상주식에 관한 사항</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="105"></COL>
+<COL WIDTH="123"></COL>
+<COL WIDTH="83"></COL>
+<COL WIDTH="253"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="132" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="92" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비 율</TH>
+<TH WIDTH="262" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비 고</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="114" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기관투자자</TD>
+<TD WIDTH="132" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53" USERMARK=" 0XFF1200 B">3,375,000주</TD>
+<TD WIDTH="92" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53" USERMARK=" 0XFF1200 B">75.0%</TD>
+<TD WIDTH="262" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">고위험고수익투자신탁 및벤처기업투자신탁 배정수량 포함</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="30"></COL>
+<COL WIDTH="552"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="30">주1)</TD>
+<TD WIDTH="561" HEIGHT="30">상기 기관투자자는 고위험고수익투자신탁 및 벤처기업투자신탁을 포함합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="30">주2)</TD>
+<TD WIDTH="561" HEIGHT="30">비율은 전체 공모주식수 4,500,000주에 대한 비율입니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="53">주3)</TD>
+
+<TD WIDTH="561" HEIGHT="53">일반청약자 배정분 
+<SPAN USERMARK=" 0XFF1200 B">1,125,000주(25.0%)</SPAN>는 수요예측 참여 대상주식이 아닙니다.
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주5)■ 정정 전</P>
+
+<P>(신규 작성)■ 정정 후
+<SPAN USERMARK=" 0XFF1200 B">(13) 수요예측 결과(가) 수요예측 참여 내역</SPAN>
+</P>
+
+<TABLE WIDTH="1035" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="508"></COL>
+<COL WIDTH="509"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="517" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B"></TD>
+<TD WIDTH="518" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">(단위: 건, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="1034" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="54"></COL>
+<COL WIDTH="130"></COL>
+<COL WIDTH="130"></COL>
+<COL WIDTH="130"></COL>
+<COL WIDTH="130"></COL>
+<COL WIDTH="130"></COL>
+<COL WIDTH="129"></COL>
+<COL WIDTH="129"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH ROWSPAN="2" WIDTH="63" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="106" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH COLSPAN="4" WIDTH="556" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">국내기관투자자</TH>
+<TH COLSPAN="2" WIDTH="277" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">해외기관투자자</TH>
+<TH ROWSPAN="2" WIDTH="138" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="106" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">합 계</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="139" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">운용사(집합)</TH>
+<TH WIDTH="139" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">투자매매, 중개업자</TH>
+<TH WIDTH="139" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">연기금,운용사(고유),은행, 보험</TH>
+<TH WIDTH="139" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">기타</TH>
+<TH WIDTH="139" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(유)주1)</TH>
+<TH WIDTH="138" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(무)</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="63" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">건수</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">299</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">177</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">48</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">76</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">8</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">611</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="63" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">수량</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">844,716,000</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">535,632,000</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">140,030,000</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">207,975,000</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">138,000</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">90,000</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,728,581,000</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="63" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">경쟁률</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">250.29</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">158.71</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">41.49</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">61.62</TD>
+<TD WIDTH="139" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.04</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.03</TD>
+<TD WIDTH="138" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">512.17</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="1033" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="43"></COL>
+<COL WIDTH="972"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="52" HEIGHT="30" USERMARK=" 0XFF1200 B">주1)</TD>
+<TD WIDTH="981" HEIGHT="30" USERMARK=" 0XFF1200 B">인수인(해외현지법인 및 해외지점을 포함한다)과 거래관계가 있거나 인수인이 실재성을 인지하고 있는 외국기관투자자</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P USERMARK=" 0XFF1200 B">(나) 수요예측 신청가격 분포</P>
+<P USERMARK=" 0XFF1200 B"></P>
+
+<TABLE WIDTH="1376" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="508"></COL>
+<COL WIDTH="850"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="517" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B"></TD>
+<TD WIDTH="859" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">(단위: 건, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="1375" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="267"></COL>
+<COL WIDTH="37"></COL>
+<COL WIDTH="96"></COL>
+<COL WIDTH="38"></COL>
+<COL WIDTH="97"></COL>
+<COL WIDTH="37"></COL>
+<COL WIDTH="98"></COL>
+<COL WIDTH="38"></COL>
+<COL WIDTH="100"></COL>
+<COL WIDTH="43"></COL>
+<COL WIDTH="86"></COL>
+<COL WIDTH="48"></COL>
+<COL WIDTH="86"></COL>
+<COL WIDTH="50"></COL>
+<COL WIDTH="119"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH ROWSPAN="3" WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="136" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH COLSPAN="8" WIDTH="613" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">국내기관투자자</TH>
+<TH COLSPAN="4" WIDTH="299" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">해외기관투자자</TH>
+<TH COLSPAN="2" ROWSPAN="2" WIDTH="187" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="106" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">합 계</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="151" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">운용사(집합)</TH>
+<TH COLSPAN="2" WIDTH="153" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">투자매매, 중개업자</TH>
+<TH COLSPAN="2" WIDTH="153" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">연기금,운용사(고유),은행, 보험</TH>
+<TH COLSPAN="2" WIDTH="156" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">기타</TH>
+<TH COLSPAN="2" WIDTH="147" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(유)</TH>
+<TH COLSPAN="2" WIDTH="152" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(무)</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="46" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="105" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="47" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="106" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="46" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="107" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="47" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="109" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="52" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="95" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="57" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="95" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="59" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="128" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드상단 초과</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 상위 75% 초과~100% 이하</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">289</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">814,336,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">176</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">532,257,000</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">47</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">139,980,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">76</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">207,975,000</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">138,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">8</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">90,000</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">599</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,694,776,000</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 상위 50% 초과~75% 이하</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 상위 25% 초과~50% 이하</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 중간값 초과~상위 25% 이하</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 중간값</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 중간값 미만 ~하위 25% 이상</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 하위 25% 미만~50% 이상</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 하위 50% 미만∼75% 이상</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드 하위 75% 미만~100% 이상</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">밴드하단 미만</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">가격미제시</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">10</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">30,380,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3,375,000</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">50,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">12</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">33,805,000</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="276" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">합 계</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">299</TD>
+<TD WIDTH="105" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">844,716,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">177</TD>
+<TD WIDTH="106" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">535,632,000</TD>
+<TD WIDTH="46" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">48</TD>
+<TD WIDTH="107" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">140,030,000</TD>
+<TD WIDTH="47" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">76</TD>
+<TD WIDTH="109" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">207,975,000</TD>
+<TD WIDTH="52" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">138,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">8</TD>
+<TD WIDTH="95" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">90,000</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">611</TD>
+<TD WIDTH="128" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,728,581,000</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="1375" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="43"></COL>
+<COL WIDTH="1314"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="52" HEIGHT="30" USERMARK=" 0XFF1200 B">주1)</TD>
+<TD WIDTH="1323" HEIGHT="30" USERMARK=" 0XFF1200 B">인수인(해외현지법인 및 해외지점을 포함한다)과 거래관계가 있거나 인수인이 실재성을 인지하고 있는 외국기관투자자</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="52" HEIGHT="30" USERMARK=" 0XFF1200 B">주2)</TD>
+<TD WIDTH="1323" HEIGHT="30" USERMARK=" 0XFF1200 B">「증권 인수업무 등에 관한 규정」 제9조의2에 의거하여 관계인수인으로 구분되는 기관은 금번 수요예측 참여 시 신청가격을 제시하지 않았습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P USERMARK=" 0XFF1200 B">과거 양식으로 작성한 수요예측 신청가격 분포는 아래와 같습니다. </P>
+<P USERMARK=" 0XFF1200 B"></P>
+
+<TABLE BORDER="1" WIDTH="750" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="203"></COL>
+<COL WIDTH="126"></COL>
+<COL WIDTH="126"></COL>
+<COL WIDTH="125"></COL>
+<COL WIDTH="125"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH ROWSPAN="2" WIDTH="212" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH COLSPAN="2" WIDTH="270" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">참여건수 기준</TH>
+<TH COLSPAN="2" WIDTH="268" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">신청수량 기준</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="135" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">참여건수(건)</TH>
+<TH WIDTH="135" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+<TH WIDTH="134" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">신청수량(주) </TH>
+<TH WIDTH="134" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="212" VALIGN="MIDDLE" HEIGHT="30" USERMARK=" 0XFF1200 B">2,000원 초과</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.00%</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.00%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="212" VALIGN="MIDDLE" HEIGHT="30" USERMARK=" 0XFF1200 B">2,000원</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">599</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">98.04%</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,694,776,000</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">98.04%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="212" VALIGN="MIDDLE" HEIGHT="30" USERMARK=" 0XFF1200 B">2,000원 미만</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.00%</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">0.00%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="212" VALIGN="MIDDLE" HEIGHT="30" USERMARK=" 0XFF1200 B">미제시</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">12</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1.96%</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">33,805,000</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1.96%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="212" VALIGN="MIDDLE" HEIGHT="30" USERMARK=" 0XFF1200 B">합 계</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">611</TD>
+<TD WIDTH="135" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">100.00%</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,728,581,000</TD>
+<TD WIDTH="134" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">100.00%</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P USERMARK=" 0XFF1200 B">(다) 의무보유 확약 신청내역</P>
+
+<TABLE WIDTH="1327" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="508"></COL>
+<COL WIDTH="801"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="517" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B"></TD>
+<TD WIDTH="810" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">(단위: 건, 주)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="1326" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="95"></COL>
+<COL WIDTH="39"></COL>
+<COL WIDTH="110"></COL>
+<COL WIDTH="48"></COL>
+<COL WIDTH="113"></COL>
+<COL WIDTH="48"></COL>
+<COL WIDTH="111"></COL>
+<COL WIDTH="49"></COL>
+<COL WIDTH="110"></COL>
+<COL WIDTH="45"></COL>
+<COL WIDTH="101"></COL>
+<COL WIDTH="44"></COL>
+<COL WIDTH="110"></COL>
+<COL WIDTH="50"></COL>
+<COL WIDTH="118"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH ROWSPAN="3" WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="113" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH COLSPAN="8" WIDTH="700" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">국내기관투자자</TH>
+<TH COLSPAN="4" WIDTH="336" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">해외기관투자자</TH>
+<TH COLSPAN="2" ROWSPAN="2" WIDTH="186" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="83" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">합 계</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="167" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">운용사(집합)</TH>
+<TH COLSPAN="2" WIDTH="179" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">투자매매, 중개업자</TH>
+<TH COLSPAN="2" WIDTH="177" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">연기금, 운용사(고유),은행, 보험</TH>
+<TH COLSPAN="2" WIDTH="177" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">기타</TH>
+<TH COLSPAN="2" WIDTH="164" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(유)</TH>
+<TH COLSPAN="2" WIDTH="172" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">거래실적(무)</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="48" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="119" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="57" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="122" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="57" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="120" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="58" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="119" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="54" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="110" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="53" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="119" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+<TH WIDTH="59" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">건수</TH>
+<TH WIDTH="127" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">수량</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">6개월확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">3개월확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">2개월확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">1개월확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">15일확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">미확약</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">299</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">844,716,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">177</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">535,632,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">48</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">140,030,000</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">76</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">207,975,000</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">138,000</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">8</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">90,000</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">611</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,728,581,000</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="104" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">계</TD>
+<TD WIDTH="48" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">299</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">844,716,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">177</TD>
+<TD WIDTH="122" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">535,632,000</TD>
+<TD WIDTH="57" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">48</TD>
+<TD WIDTH="120" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">140,030,000</TD>
+<TD WIDTH="58" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">76</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">207,975,000</TD>
+<TD WIDTH="54" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">3</TD>
+<TD WIDTH="110" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">138,000</TD>
+<TD WIDTH="53" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">8</TD>
+<TD WIDTH="119" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">90,000</TD>
+<TD WIDTH="59" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">611</TD>
+<TD WIDTH="127" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30" USERMARK=" 0XFF1200 B">1,728,581,000</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<P USERMARK=" 0XFF1200 B">(라) 주당 확정공모가액의 결정상기와 같은 수요예측 결과 및 시장상황 등을 고려하여 하나29호기업인수목적㈜와 대표주관회사인 하나증권㈜가 협의하여 1주당 확정공모가액을 2,000원으로 결정하였습니다.
+<SPAN USERMARK=" 0X1814FF"></SPAN>
+</P>
+<P>(주6)■ 정정 전</P>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">4. 모집 또는 매출절차 등에 관한 사항</P>
+<P></P>
+<P USERMARK=" B">가. 모집 또는 매출 조건</P>
+
+<TABLE WIDTH="668" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="659"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="668" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="669" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="106"></COL>
+<COL WIDTH="111"></COL>
+<COL WIDTH="90"></COL>
+<COL WIDTH="326"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="3" WIDTH="334" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구분</TH>
+<TH WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">모집 또는 매출 주식의 수</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주 4,500,000주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" ROWSPAN="2" WIDTH="235" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">주당 모집가액 또는 매출가액</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">예정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">확정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" ROWSPAN="2" WIDTH="235" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">모집총액 또는 매출총액</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">예정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">9,000,000,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">확정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">청약단위</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">(주2)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="4" WIDTH="115" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="120">청약일</TD>
+<TD ROWSPAN="2" WIDTH="120" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">기관투자자</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">개시일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 19일(월)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">종료일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 20일(화)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="2" WIDTH="120" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">일반청약자</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">개시일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 19일(월)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">종료일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 20일(화)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="2" WIDTH="115" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">청약증거금률</TD>
+<TD COLSPAN="2" WIDTH="219" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" WIDTH="219" ALIGN="CENTER" HEIGHT="30">기관투자자</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">0.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">배정 및 환불공고일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 22일(목)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">환불 및 납입일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 22일(목)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="672" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="39"></COL>
+<COL WIDTH="615"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="99">주1)</TD>
+<TD WIDTH="624" HEIGHT="99">주당 모집가액 및 모집총액은 공모희망가액인 2,000원 기준입니다. 공모희망가액은 청약일 전에 실시하는 수요예측 결과를 반영하여 대표주관회사인 하나증권㈜과 발행회사인 하나29호기업인수목적㈜가 협의한 후 주당 확정공모가액을 결정할 예정이며, 공모가액 확정시 정정신고서를 제출할 예정입니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="145">주2)</TD>
+<TD WIDTH="624" HEIGHT="145">① 기관투자자의 청약은 수요예측에 참여하는 물량을 배정받은 수량 단위로 하며, 청약 미달을 고려하여 추가 청약을 하고자 하는 기관투자자는 최고 청약한도를 각 기관별 법령 등에 의한 투자 한도액을 고려한 수량으로 1주 단위로 청약할 수 있습니다.② 일반청약자는 대표주관회사인 하나증권㈜의 본ㆍ지점에서 청약이 가능합니다. 청약단위는 아래 "라. 청약방법 - (4) 청약단위"를 참조해주시기 바라며 기타 사항은 대표주관회사에서 투명하고 공정하게 정하여 공시한 방법에 의합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="352">주3)</TD>
+<TD WIDTH="624" HEIGHT="352">① 기관투자자의 청약증거금은 없습니다.② 일반청약자 청약증거금은 청약금액의 100.0%로 합니다. 동 청약자 유형군에 따른 배정 비율은 기관투자자에 대한 수요예측 결과에 따라 청약일 전에 변경될 수 있습니다. 한편, 상기 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 청약주식수에 비례하여 초과청약이 있는 다른 항의 배정분에 합산하여 배정합니다.③ 일반청약자의 청약증거금은 주금납입기일인 2023년 06월 22일에 주금납입금으로 대체하되, 초과 청약증거금이 있는 경우에는 이를 주금납입기일 당일에 반환합니다. 이 경우 청약증거금은 무이자로 합니다.④ 기관투자자는 금번 공모에 있어 청약증거금이 면제되는 바, 청약하여 배정받은 물량의 100%에 해당하는 금액을 납입일인 2023년 06월 22일 13시까지 대표주관회사에 납입하여야 하며, 동 납입금액은 주금납입기일에 주금납입금으로 대체됩니다. 한편, 동 납입금액이 기관투자자가 청약하여 배정받은 주식의 납입금액에 미달할 경우에는 대표주관회사가 그 미달금액에 해당하는 주식을 재배정할 수 있습니다. 재배정에도 불구하고 미달금액에 해당하는 주식이 발생하는 경우 대표주관회사가 총액인수계약서에서 정하는 바에 따라 자기계산으로 인수합니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="99">주4)</TD>
+<TD WIDTH="624" HEIGHT="99">대표주관회사인 하나증권㈜의 청약 마감시간은 청약 2일차인 2023년 06월 20일 16시입니다. 청약 마감시간 이후에는 청약이 불가하오니 이 점 유의하시기 바랍니다. 단, 청약 후 미청약물량에 대해 인수하고자 하는 기관투자자의 경우 청약 종료 후 배정 전까지 추가로 청약을 할 수 있습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>기관투자자 및 일반청약자의 청약은 2023년 06월 19일부터 2023년 06월 20일까지 이틀간 실시됨에 유의하시기 바라며, 상기 청약일 및 납입일 등 일정은 효력발생일의 변경 및 회사상황, 주식시장 상황 등에 따라 변경될 수 있습니다. 기관투자자 및 일반청약자의 청약 후 최종 미청약 물량에 대해 인수하고자 하는 기관투자자의 경우 청약 종료 후 배정 전까지 추가로 청약을 할 수 있습니다.■ 정정 후</P>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">4. 모집 또는 매출절차 등에 관한 사항</P>
+<P></P>
+<P USERMARK=" B">가. 모집 또는 매출 조건</P>
+
+<TABLE WIDTH="668" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="659"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="668" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="669" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="106"></COL>
+<COL WIDTH="111"></COL>
+<COL WIDTH="90"></COL>
+<COL WIDTH="326"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="3" WIDTH="334" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구분</TH>
+<TH WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">모집 또는 매출 주식의 수</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">기명식 보통주 4,500,000주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" ROWSPAN="2" WIDTH="235" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">주당 모집가액 또는 매출가액</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">예정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">확정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">2,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" ROWSPAN="2" WIDTH="235" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">모집총액 또는 매출총액</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">예정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">9,000,000,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">확정가액</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">9,000,000,000원 (주1)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">청약단위</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">(주2)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="4" WIDTH="115" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="120">청약일</TD>
+<TD ROWSPAN="2" WIDTH="120" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">기관투자자</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">개시일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 19일(월)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">종료일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 20일(화)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="2" WIDTH="120" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">일반청약자</TD>
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">개시일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 19일(월)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="99" ALIGN="CENTER" HEIGHT="30">종료일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 20일(화)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD ROWSPAN="2" WIDTH="115" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60">청약증거금률</TD>
+<TD COLSPAN="2" WIDTH="219" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="2" WIDTH="219" ALIGN="CENTER" HEIGHT="30">기관투자자</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">0.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">배정 및 환불공고일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 22일(목)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD COLSPAN="3" WIDTH="334" ALIGN="CENTER" HEIGHT="30">환불 및 납입일</TD>
+<TD WIDTH="335" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2023년 06월 22일(목)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="672" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="39"></COL>
+<COL WIDTH="615"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="99">주1)</TD>
+
+<TD WIDTH="624" HEIGHT="99">주당 모집가액 및 모집총액은
+<SPAN USERMARK=" 0XFF1200 B"> 확정공모가액</SPAN>인 2,000원 기준입니다. 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>은 청약일 전에 실시하는 수요예측 결과를 반영하여 대표주관회사인 하나증권㈜과 발행회사인 하나29호기업인수목적㈜가 협의한 후 주당 확정공모가액을
+<SPAN USERMARK=" 0XFF1200 B"> 2,000원으로 최종 결정하였습니다.</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="145">주2)</TD>
+<TD WIDTH="624" HEIGHT="145">① 기관투자자의 청약은 수요예측에 참여하는 물량을 배정받은 수량 단위로 하며, 청약 미달을 고려하여 추가 청약을 하고자 하는 기관투자자는 최고 청약한도를 각 기관별 법령 등에 의한 투자 한도액을 고려한 수량으로 1주 단위로 청약할 수 있습니다.② 일반청약자는 대표주관회사인 하나증권㈜의 본ㆍ지점에서 청약이 가능합니다. 청약단위는 아래 "라. 청약방법 - (4) 청약단위"를 참조해주시기 바라며 기타 사항은 대표주관회사에서 투명하고 공정하게 정하여 공시한 방법에 의합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="352">주3)</TD>
+<TD WIDTH="624" HEIGHT="352">① 기관투자자의 청약증거금은 없습니다.② 일반청약자 청약증거금은 청약금액의 100.0%로 합니다. 동 청약자 유형군에 따른 배정 비율은 기관투자자에 대한 수요예측 결과에 따라 청약일 전에 변경될 수 있습니다. 한편, 상기 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 청약주식수에 비례하여 초과청약이 있는 다른 항의 배정분에 합산하여 배정합니다.③ 일반청약자의 청약증거금은 주금납입기일인 2023년 06월 22일에 주금납입금으로 대체하되, 초과 청약증거금이 있는 경우에는 이를 주금납입기일 당일에 반환합니다. 이 경우 청약증거금은 무이자로 합니다.④ 기관투자자는 금번 공모에 있어 청약증거금이 면제되는 바, 청약하여 배정받은 물량의 100%에 해당하는 금액을 납입일인 2023년 06월 22일 13시까지 대표주관회사에 납입하여야 하며, 동 납입금액은 주금납입기일에 주금납입금으로 대체됩니다. 한편, 동 납입금액이 기관투자자가 청약하여 배정받은 주식의 납입금액에 미달할 경우에는 대표주관회사가 그 미달금액에 해당하는 주식을 재배정할 수 있습니다. 재배정에도 불구하고 미달금액에 해당하는 주식이 발생하는 경우 대표주관회사가 총액인수계약서에서 정하는 바에 따라 자기계산으로 인수합니다. </TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="48" HEIGHT="99">주4)</TD>
+<TD WIDTH="624" HEIGHT="99">대표주관회사인 하나증권㈜의 청약 마감시간은 청약 2일차인 2023년 06월 20일 16시입니다. 청약 마감시간 이후에는 청약이 불가하오니 이 점 유의하시기 바랍니다. 단, 청약 후 미청약물량에 대해 인수하고자 하는 기관투자자의 경우 청약 종료 후 배정 전까지 추가로 청약을 할 수 있습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>기관투자자 및 일반청약자의 청약은 2023년 06월 19일부터 2023년 06월 20일까지 이틀간 실시됨에 유의하시기 바라며, 상기 청약일 및 납입일 등 일정은 효력발생일의 변경 및 회사상황, 주식시장 상황 등에 따라 변경될 수 있습니다. 기관투자자 및 일반청약자의 청약 후 최종 미청약 물량에 대해 인수하고자 하는 기관투자자의 경우 청약 종료 후 배정 전까지 추가로 청약을 할 수 있습니다.</P>
+<P>(주7)■ 정정 전</P>
+<P></P>
+
+<P>
+<SPAN USERMARK=" B">라. 청약방법</SPAN>(중략)
+</P>
+
+<P>
+<SPAN USERMARK=" B">(4) 청약단위</SPAN>① 기관투자자의 청약단위는 1주로 합니다.② 일반청약자는 대표주관회사인 하나증권㈜에서 청약이 가능합니다. 단, 청약단위와 상이한 청약수량은 그 청약수량 하위의 청약단위로 청약한 것으로 간주합니다. 일반청약 수량에 대한 대표주관회사의 청약한도 및 단위는 아래와 같으며 기타 사항은 대표주관회사에서 투명하고 공정하게 정하여 공시한 방법에 의합니다.
+</P>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="590"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="599" ALIGN="CENTER" HEIGHT="30">【하나증권㈜ 일반청약자 청약주식수별 청약단위】</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="375"></COL>
+<COL WIDTH="206"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="384" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약주식수</TH>
+<TH WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약단위</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">100주 이상 ~ 1,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">1,000주 초과 ~ 10,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">500주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">10,000주 초과 ~ 50,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">1,000주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">50,000주 초과</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">5,000주</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="590"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="599" ALIGN="CENTER" HEIGHT="30">【하나증권㈜의 일반청약자 배정물량, 최고청약한도 및 청약증거금률】</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="218"></COL>
+<COL WIDTH="157"></COL>
+<COL WIDTH="104"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구분</TH>
+<TH WIDTH="227" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">일반청약자 배정물량</TH>
+<TH WIDTH="166" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">최고청약한도</TH>
+<TH WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약증거금률</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="227" ALIGN="CENTER" HEIGHT="30">1,125,000주 ~ 1,350,000주</TD>
+<TD WIDTH="166" ALIGN="CENTER" HEIGHT="30">(주1)</TD>
+<TD WIDTH="113" ALIGN="CENTER" HEIGHT="30">100%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="33"></COL>
+<COL WIDTH="548"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="76">주1)</TD>
+
+<TD WIDTH="557" HEIGHT="76">
+<P>하나증권㈜의 일반청약자 청약한도는 청약자격별로 상이합니다.- 우대고객의 청약한도: 100,000주 ~ 125,000주- 일반고객의 청약한도: 80,000주 ~ 100,000주</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>■ 정정 후</P>
+
+<P>
+<SPAN USERMARK=" B">라. 청약방법</SPAN>(중략)
+</P>
+
+<P>
+<SPAN USERMARK=" B">(4) 청약단위</SPAN>① 기관투자자의 청약단위는 1주로 합니다.② 일반청약자는 대표주관회사인 하나증권㈜에서 청약이 가능합니다. 단, 청약단위와 상이한 청약수량은 그 청약수량 하위의 청약단위로 청약한 것으로 간주합니다. 일반청약 수량에 대한 대표주관회사의 청약한도 및 단위는 아래와 같으며 기타 사항은 대표주관회사에서 투명하고 공정하게 정하여 공시한 방법에 의합니다.
+</P>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="590"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="599" ALIGN="CENTER" HEIGHT="30">【하나증권㈜ 일반청약자 청약주식수별 청약단위】</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="375"></COL>
+<COL WIDTH="206"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="384" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약주식수</TH>
+<TH WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약단위</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">100주 이상 ~ 1,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">1,000주 초과 ~ 10,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">500주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">10,000주 초과 ~ 50,000주 이하</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">1,000주</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="384" ALIGN="CENTER" HEIGHT="30">50,000주 초과</TD>
+<TD WIDTH="215" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">5,000주</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="590"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="599" ALIGN="CENTER" HEIGHT="30">【하나증권㈜의 일반청약자 배정물량, 최고청약한도 및 청약증거금률】</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="599" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="218"></COL>
+<COL WIDTH="157"></COL>
+<COL WIDTH="104"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구분</TH>
+<TH WIDTH="227" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">일반청약자 배정물량</TH>
+<TH WIDTH="166" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">최고청약한도</TH>
+<TH WIDTH="113" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">청약증거금률</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="227" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">1,125,000주</TD>
+<TD WIDTH="166" ALIGN="CENTER" HEIGHT="30">(주1)</TD>
+<TD WIDTH="113" ALIGN="CENTER" HEIGHT="30">100%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="599" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="33"></COL>
+<COL WIDTH="548"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="42" HEIGHT="76">주1)</TD>
+
+<TD WIDTH="557" HEIGHT="76">
+
+<P>하나증권㈜의 일반청약자 청약한도는 청약자격별로 상이합니다.- 우대고객의 청약한도: 
+<SPAN USERMARK=" 0XFF1200 B">100,000주</SPAN>- 일반고객의 청약한도: 
+<SPAN USERMARK=" 0XFF1200 B">80,000주</SPAN>
+</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주8)■ 정정 전</P>
+
+<P>
+<SPAN USERMARK=" B">마. 청약결과 배정방법</SPAN>
+<SPAN USERMARK=" B">(1) 공모주식 배정비율</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="598" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="191"></COL>
+<COL WIDTH="190"></COL>
+<COL WIDTH="190"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="200" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">모집대상</TH>
+<TH WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">배정주식수</TH>
+<TH WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">배정비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">1,125,000주 ~ 1,350,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">25.0% ~ 30.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">기관투자자</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">3,150,000주 ~ 3,375,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">70.0% ~ 75.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">합계</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100.0%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<P>① 기관투자자(고위험고수익투자신탁, 벤처기업투자신탁 포함) : 전체 공모주식의 70.0% ~ 75.0%(3,150,000주 ~ 3,375,000주)를 배정합니다.② 일반청약자 : 전체 공모주식의 25.0% ~ 30.0%(1,125,000주 ~ 1,350,000주)를 배정합니다.③ 상기 ①, ②항의 청약자 유형군에 따른 배정 비율은 기관투자자에 대한 수요예측 결과에 따라 청약일 전에 변경될 수 있습니다. 한편, 상기 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 청약주식수에 비례하여 초과청약이 있는 다른 항의 배정분에 합산하여 배정할 수 있습니다.④ 단, 인수회사 및 인수회사의 이해관계인(단,「증권 인수업무 등에 관한 규정」 제9조의2제1항에 따라 위탁재산으로 청약하는 집합투자회사, 투자일임회사, 신탁회사는 인수회사 및 인수회사의 이해관계인으로 보지 아니한다), 발행회사의 이해관계인(단, 증권 인수업무 등에 관한 규정 제2조 제9호의 가목 및 라목의 임원을 제외)및 기타 금번 공모와 관련하여 발행회사에 용역을 제공하거나 중대한 이해관계가 있는 자는 배정대상에서 제외됩니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 3호에 따라 일반청약자에 전체 공모주식의 25% 이상을 배정합니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 제4호에 의거 기관투자자 중 고위험고수익투자신탁에 공모주식의 5% 이상을 배정합니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 제5호에 의거 기관투자자 중 벤처기업투자신탁에 공모주식의 30%이상을 배정합니다. 다만 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 고위험고수익투자신탁 및 벤처기업투자신탁에 대한 배정비율을 달리할 수 있습니다.
+<SPAN USERMARK=" B">(2) 배정방법</SPAN>청약결과 공모주식의 배정은 수요예측 결과 대표주관회사와 발행회사가 협의하여 정한 공모가액으로, 대표주관회사와 발행회사가 사전에 약정한 배정기준에 의거 다음과 같이 배정합니다.
+</P>
+<P>① 금번 IPO는 일반청약자에게 1,125,000주에서 1,350,000주 이하를 배정할 예정으로서 균등방식 최소배정 예정물량은 562,500주에서 675,000주 이하이며, 균등방식의 세부 방법은 일괄청약방식입니다. 균등방식 배정물량을 제외한 나머지 일반청약자 배정은 전부 비례방식으로 배정이 이루어집니다.② 일반청약자가 비례방식으로 배정을 받고자 하는 수량을 청약하면 자동으로 균등방식 배정의 청약자로 인정됩니다.③ 일반청약자 배정물량 중 1/2이상을 일반청약자 인원수로 나눈 몫을 청약자 전원에게 동일하게 배정(전원 균등)하고, 일반청약자 배정 총 주식수에서 균등배정분을 제외한 수량에 대해서는 비례 배정이 이루어지게 됩니다.④  각 청약자의 청약증거금에서 균등배정분 배정수량(금액)을 차감한 금액(이하 "비례배정분 청약증거금")을 기준으로 비례하여 안분배정하며, 비례배정분 청약증거금을 한도로 비례배정이 이루어지게 됩니다.</P>
+<P>⑤ 일반청약자 배정 총 주식수에서 균등배정분을 제외한 수량에 대해서는 비례배정이 이루어지게 됩니다. 각 청약자의 청약증거금에서 균등배정분 배정수량(금액)을 차감한 금액(이하 "비례배정분 청약증거금")을 기준으로 비례하여 안분배정하며, 비례배정분 청약증거금을 한도로 비례배정이 이루어지게 됩니다.⑥ 일반청약자에 대한 배정결과 발생하는 1주 미만의 단수주는 1주 이상을 배정받은일반청약자들을 대상으로 하여 재배정하며 소숫점이 높은 청약자들부터 순차적으로 배정합니다. 이후 동일한 소숫점을 보유한 일반청약자들에게 배분할 단수주가 부족하게 될 경우 청약주식수량, 청약등급 등을 고려하여 잔여주식이 최소화되도록 배정합니다. 그 결과 발생하는 잔여주식은 총액인수계약서에 따라 자기계산으로 인수하거나 추첨을 통하여 재배정합니다.⑦ 기관투자자의 청약에 대한 배정은 수요예측 후 배정받은 물량 범위 내에서 우선배정하되, 추가 청약에 대한 배정은 대표주관회사가 자율적으로 결정하여 배정합니다.⑧「증권 인수업무 등에 관한 규정 제9조 제4항」 각 호(아래)의 어느 하나에 해당하는 자가 청약하는 경우 그 전부를 청약하지 아니한 것으로 보아 배정하지 아니합니다.</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+
+<TD WIDTH="600" HEIGHT="306">
+<P>1. 인수회사(대표주관회사 포함) 및 인수회사의 이해관계인(「증권 인수업무 등에 관한 규정 제2조제9호」의 규정에 따른 이해관계인을 말함. 다만, 제9조의2제1항에 따라 위탁재산으로 청약하는 집합투자회사, 투자일임회사, 신탁회사(이하 "집합투자회사등"이라 한다)는 인수회사 및 인수회사의 이해관계인으로 보지 아니한다.)</P>
+<P>2. 발행회사의 이해관계인. 다만, 제2조제9호의 가목 및 라목의 임원을 제외한다.</P>
+<P>3. 해당 공모와 관련하여 발행회사 또는 인수회사에 용역을 제공하는 등 중대한 이해관계가 있는 자</P>
+<P>4. 주금납입능력을 초과하는 물량 또는 현저히 높거나 낮은 가격을 제시하는 등 수요예측에 참여하여 제시한 매입희망 물량과 가격의 진실성이 낮다고 판단되는 자</P>
+<P>5. 자신이 대표주관업무를 수행한 발행회사(해당 발행회사가 발행한 주권의 신규 상장일이 이번 기업공개를 위한 공모주식의 배정일부터 과거 1년이내인 회사를 말한다)의 기업공개를 위하여 금융위원회에 제출된 증권신고서의 "주주에 관한 사항"에 주주로 기재된 주요주주에 해당하는 기관투자자 및 창업투자회사등</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(후략)■ 정정 후</P>
+
+<P>
+<SPAN USERMARK=" B">마. 청약결과 배정방법</SPAN>
+<SPAN USERMARK=" B">(1) 공모주식 배정비율</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="598" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="191"></COL>
+<COL WIDTH="190"></COL>
+<COL WIDTH="190"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="200" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">모집대상</TH>
+<TH WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">배정주식수</TH>
+<TH WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">배정비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">일반청약자</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">1,125,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">25.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">기관투자자</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">3,375,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" USERMARK=" 0XFF1200 B">75.0%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="200" ALIGN="CENTER" HEIGHT="30">합계</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+<TD WIDTH="199" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">100.0%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<P>① 기관투자자(고위험고수익투자신탁, 벤처기업투자신탁 포함) : 전체 공모주식의 
+<SPAN USERMARK=" 0XFF1200 B">75.0% (3,375,000주)</SPAN>를 배정합니다.② 일반청약자 : 전체 공모주식의 
+<SPAN USERMARK=" 0XFF1200 B">25.0% (1,125,000주)</SPAN>를 배정합니다.③ 상기 ①, ②항의 청약자 유형군에 따른 배정 비율은 기관투자자에 대한 수요예측 결과에 따라 청약일 전에 변경될 수 있습니다. 한편, 상기 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 이를 청약주식수에 비례하여 초과청약이 있는 다른 항의 배정분에 합산하여 배정할 수 있습니다.④ 단, 인수회사 및 인수회사의 이해관계인(단,「증권 인수업무 등에 관한 규정」 제9조의2제1항에 따라 위탁재산으로 청약하는 집합투자회사, 투자일임회사, 신탁회사는 인수회사 및 인수회사의 이해관계인으로 보지 아니한다), 발행회사의 이해관계인(단, 증권 인수업무 등에 관한 규정 제2조 제9호의 가목 및 라목의 임원을 제외)및 기타 금번 공모와 관련하여 발행회사에 용역을 제공하거나 중대한 이해관계가 있는 자는 배정대상에서 제외됩니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 3호에 따라 일반청약자에 전체 공모주식의 25% 이상을 배정합니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 제4호에 의거 기관투자자 중 고위험고수익투자신탁에 공모주식의 5% 이상을 배정합니다.「증권 인수업무에 등에 관한 규정」제9조 제1항 제5호에 의거 기관투자자 중 벤처기업투자신탁에 공모주식의 30%이상을 배정합니다. 다만 대표주관회사는 수요예측 또는 청약 경쟁률, 기관투자자의 투자성향 및 신뢰도 등을 고려하여 고위험고수익투자신탁 및 벤처기업투자신탁에 대한 배정비율을 달리할 수 있습니다.
+<SPAN USERMARK=" B">(2) 배정방법</SPAN>청약결과 공모주식의 배정은 수요예측 결과 대표주관회사와 발행회사가 협의하여 정한 공모가액으로, 대표주관회사와 발행회사가 사전에 약정한 배정기준에 의거 다음과 같이 배정합니다.
+</P>
+
+<P>① 금번 IPO는 일반청약자에게 
+<SPAN USERMARK=" 0XFF1200 B">1,125,000주</SPAN>를 배정할 예정으로서 균등방식 최소배정 예정물량은 
+<SPAN USERMARK=" 0XFF1200 B">562,500주 이상</SPAN>이며, 균등방식의 세부 방법은 일괄청약방식입니다. 균등방식 배정물량을 제외한 나머지 일반청약자 배정은 전부 비례방식으로 배정이 이루어집니다.② 일반청약자가 비례방식으로 배정을 받고자 하는 수량을 청약하면 자동으로 균등방식 배정의 청약자로 인정됩니다.③ 일반청약자 배정물량 중 1/2이상을 일반청약자 인원수로 나눈 몫을 청약자 전원에게 동일하게 배정(전원 균등)하고, 일반청약자 배정 총 주식수에서 균등배정분을 제외한 수량에 대해서는 비례 배정이 이루어지게 됩니다.④  각 청약자의 청약증거금에서 균등배정분 배정수량(금액)을 차감한 금액(이하 "비례배정분 청약증거금")을 기준으로 비례하여 안분배정하며, 비례배정분 청약증거금을 한도로 비례배정이 이루어지게 됩니다.
+</P>
+<P>⑤ 일반청약자 배정 총 주식수에서 균등배정분을 제외한 수량에 대해서는 비례배정이 이루어지게 됩니다. 각 청약자의 청약증거금에서 균등배정분 배정수량(금액)을 차감한 금액(이하 "비례배정분 청약증거금")을 기준으로 비례하여 안분배정하며, 비례배정분 청약증거금을 한도로 비례배정이 이루어지게 됩니다.⑥ 일반청약자에 대한 배정결과 발생하는 1주 미만의 단수주는 1주 이상을 배정받은일반청약자들을 대상으로 하여 재배정하며 소숫점이 높은 청약자들부터 순차적으로 배정합니다. 이후 동일한 소숫점을 보유한 일반청약자들에게 배분할 단수주가 부족하게 될 경우 청약주식수량, 청약등급 등을 고려하여 잔여주식이 최소화되도록 배정합니다. 그 결과 발생하는 잔여주식은 총액인수계약서에 따라 자기계산으로 인수하거나 추첨을 통하여 재배정합니다.⑦ 기관투자자의 청약에 대한 배정은 수요예측 후 배정받은 물량 범위 내에서 우선배정하되, 추가 청약에 대한 배정은 대표주관회사가 자율적으로 결정하여 배정합니다.⑧「증권 인수업무 등에 관한 규정 제9조 제4항」 각 호(아래)의 어느 하나에 해당하는 자가 청약하는 경우 그 전부를 청약하지 아니한 것으로 보아 배정하지 아니합니다.</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+
+<TD WIDTH="600" HEIGHT="306">
+<P>1. 인수회사(대표주관회사 포함) 및 인수회사의 이해관계인(「증권 인수업무 등에 관한 규정 제2조제9호」의 규정에 따른 이해관계인을 말함. 다만, 제9조의2제1항에 따라 위탁재산으로 청약하는 집합투자회사, 투자일임회사, 신탁회사(이하 "집합투자회사등"이라 한다)는 인수회사 및 인수회사의 이해관계인으로 보지 아니한다.)</P>
+<P>2. 발행회사의 이해관계인. 다만, 제2조제9호의 가목 및 라목의 임원을 제외한다.</P>
+<P>3. 해당 공모와 관련하여 발행회사 또는 인수회사에 용역을 제공하는 등 중대한 이해관계가 있는 자</P>
+<P>4. 주금납입능력을 초과하는 물량 또는 현저히 높거나 낮은 가격을 제시하는 등 수요예측에 참여하여 제시한 매입희망 물량과 가격의 진실성이 낮다고 판단되는 자</P>
+<P>5. 자신이 대표주관업무를 수행한 발행회사(해당 발행회사가 발행한 주권의 신규 상장일이 이번 기업공개를 위한 공모주식의 배정일부터 과거 1년이내인 회사를 말한다)의 기업공개를 위하여 금융위원회에 제출된 증권신고서의 "주주에 관한 사항"에 주주로 기재된 주요주주에 해당하는 기관투자자 및 창업투자회사등</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(후략)</P>
+<P>(주9)■ 정정 전</P>
+
+<P>
+<SPAN USERMARK=" B">가. 인수방법에 관한 사항</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="829" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="73"></COL>
+<COL WIDTH="255"></COL>
+<COL WIDTH="159"></COL>
+<COL WIDTH="135"></COL>
+<COL WIDTH="69"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="3" WIDTH="439" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수인</TH>
+<TH ROWSPAN="2" WIDTH="168" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수주식의 종류 및 수</TH>
+<TH ROWSPAN="2" WIDTH="144" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수금액</TH>
+<TH ROWSPAN="2" WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수조건</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">명칭</TH>
+<TH WIDTH="82" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">고유번호</TH>
+<TH WIDTH="264" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주소</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">하나증권㈜</TD>
+<TD WIDTH="82" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">00113465</TD>
+<TD WIDTH="264" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">서울특별시 영등포구 의사당대로 82 </TD>
+<TD WIDTH="168" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기명식보통주4,500,000주</TD>
+<TD WIDTH="144" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">9,000,000,000원</TD>
+<TD WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">(주1)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="832" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="785"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="76">주1)</TD>
+<TD WIDTH="794" HEIGHT="76">대표주관회사인 하나증권㈜이 전체공모물량의 100%를 총액인수하며, 기관투자자 및 일반청약자 배정 후 청약미달 잔여주식이 있는 경우에는 총액인수계약서에 의거 대표주관회사인 하나증권㈜이 자기계산으로 최종 실권주를 인수합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주2)</TD>
+<TD WIDTH="794" HEIGHT="53">당사의 금번 코스닥시장 상장공모에는 인수회사와 발행회사간에 초과배정옵션계약을 체결하지 않았으므로 총 공모주식수(4,500,000주) 이외에 추가로 발행되는 주식 및 추가 발행 주식에 대한 인수수수료는별도로 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="30">주3)</TD>
+<TD WIDTH="794" HEIGHT="30">인수금액은 대표주관회사와 발행회사가 협의하여 제시한 희망공모가액인 2,000원 기준입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>■ 정정 후</P>
+
+<P>
+<SPAN USERMARK=" B">가. 인수방법에 관한 사항</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="829" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="84"></COL>
+<COL WIDTH="73"></COL>
+<COL WIDTH="255"></COL>
+<COL WIDTH="159"></COL>
+<COL WIDTH="135"></COL>
+<COL WIDTH="69"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="3" WIDTH="439" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수인</TH>
+<TH ROWSPAN="2" WIDTH="168" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수주식의 종류 및 수</TH>
+<TH ROWSPAN="2" WIDTH="144" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수금액</TH>
+<TH ROWSPAN="2" WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">인수조건</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">명칭</TH>
+<TH WIDTH="82" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">고유번호</TH>
+<TH WIDTH="264" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주소</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="93" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">하나증권㈜</TD>
+<TD WIDTH="82" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">00113465</TD>
+<TD WIDTH="264" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">서울특별시 영등포구 의사당대로 82 </TD>
+<TD WIDTH="168" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기명식보통주4,500,000주</TD>
+<TD WIDTH="144" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">9,000,000,000원</TD>
+<TD WIDTH="78" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">(주1)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="832" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="785"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="76">주1)</TD>
+<TD WIDTH="794" HEIGHT="76">대표주관회사인 하나증권㈜이 전체공모물량의 100%를 총액인수하며, 기관투자자 및 일반청약자 배정 후 청약미달 잔여주식이 있는 경우에는 총액인수계약서에 의거 대표주관회사인 하나증권㈜이 자기계산으로 최종 실권주를 인수합니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주2)</TD>
+<TD WIDTH="794" HEIGHT="53">당사의 금번 코스닥시장 상장공모에는 인수회사와 발행회사간에 초과배정옵션계약을 체결하지 않았으므로 총 공모주식수(4,500,000주) 이외에 추가로 발행되는 주식 및 추가 발행 주식에 대한 인수수수료는별도로 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="30">주3)</TD>
+
+<TD WIDTH="794" HEIGHT="30">인수금액은 대표주관회사와 발행회사가 협의하여 
+<SPAN USERMARK=" 0XFF1200 B">결정한 확정공모가액인 2,000원 기준입니다.</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(주10)■ 정정 전</P>
+<P></P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" HEIGHT="122" USERMARK=" B">가. 지분 희석 가능성본 공모에 참여하는 주주들의 주당 장부가액은 현재 주주들의 상대적으로 낮은 취득가액으로 인해 희석화 될 수 있으며 공모주식수 4,500,000주, 주당 공모가액 2,000원을 기준으로 한 당사의 지분희석률은 16.42% 수준입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>현재 당사의 주주들은 당사의 주식을 1주당 1,000원(액면가 100원)에 취득하였으며,향후 진행될 최초 모집 과정에서는 1주당 2,000원에 공모가 진행될 예정입니다. 이에 따라 향후 공모에 참여하는 주주들의 주당 장부가액은 현재 주주들의 상대적으로 낮은 취득가액으로 인해 희석화 될 수 있습니다.또한, 발기주주가 인수한 전환사채의 전환가액도 보통주 취득가액과 동일한 주당 1,000원입니다. 그리고, 당사 전환사채 인수계약서에는 "합병, 회사의 분할, 자본의 감소 등이 이루어지는 경우에는, 그 사유 발생 직전에 본건 사채가 보통주식으로 전환되었다면 받을 수 있었던 대가가 전환사채로서 받을 수 있는 대가보다 크다면, 그와 같이 보통주식으로 전환되었다면 받을 수 있었던 대가를 받을 수 있도록 본건 사채의전환가격을 조정하며" 라고 기재되어 있는 바, 합병, 분할 등이 이루어지는 경우 그 사유 발생 직전에 본건 사채가 보통주식으로 전환되었다면 받을 수 있었던 대가가 전환사채로서 받을 수 있는 대가보다 작다면 전환사채의 전환가액이 조정되지는 않습니다. 따라서, 이 경우 추가적인 주식의 희석화 가능성도 존재합니다.지분희석률이란 공모주주의 주당 주식가치 희석화 정도를 측정하는 대표적인 지표로, 공모주투자자들이 기존 주주들의 투자가액 대비 상대적으로 높은 가격에 투자함으로서 기존에 저가 투자분에 의해 주당가치가 희석화되는 비율을 말하며, 지분희석률이 낮을수록 공모투자자에게 유리하다고 볼 수 있습니다. 지분희석률은 공모가액이 기존 주주들의 발행가 대비 낮게 할증될수록, 사모발행주식수가 전체 공모후 주식수에 대한 비중이 적을수록 낮게 나타나게 됩니다. 당사의 지분희석률은 공모주식수 4,500,000주, 주당 공모가액 2,000원을 기준으로 했을 때 16.42% 수준입니다.희석비율 산정근거는 다음과 같습니다.</P>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" ALIGN="RIGHT" HEIGHT="30">(단위: 주, 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="83"></COL>
+<COL WIDTH="74"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="170" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모</TH>
+<TH COLSPAN="2" WIDTH="170" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모전주주(CB전환)</TH>
+<TH ROWSPAN="2" WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모가격</TH>
+<TH ROWSPAN="2" WIDTH="92" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">가중평균발행가격</TH>
+<TH ROWSPAN="2" WIDTH="83" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">희석비율</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">67.16%</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">2,200,000</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">32.84%</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="92" ALIGN="RIGHT" HEIGHT="30">1,672</TD>
+<TD WIDTH="83" ALIGN="RIGHT" HEIGHT="30">16.42%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="25"></COL>
+<COL WIDTH="557"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="34" HEIGHT="191">주)</TD>
+<TD WIDTH="566" HEIGHT="191">* 공모비율 = 공모주식수 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 공모전주주비율 = (공모전 발행주식수 + CB전환가능주식수) / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 가중평균발행가격 = 총납입금액 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 총납입금액 = (공모전발행가 × 공모전발행주식수) + (CB전환가능가격 × CB전환가능주식수) + (공모희망가액 × 공모주식수)* 희석비율 = (공모희망가액 - 가중평균발행가격) / 공모희망가액</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>■ 정정 후</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" HEIGHT="122" USERMARK=" B">가. 지분 희석 가능성본 공모에 참여하는 주주들의 주당 장부가액은 현재 주주들의 상대적으로 낮은 취득가액으로 인해 희석화 될 수 있으며 공모주식수 4,500,000주, 주당 공모가액 2,000원을 기준으로 한 당사의 지분희석률은 16.42% 수준입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>현재 당사의 주주들은 당사의 주식을 1주당 1,000원(액면가 100원)에 취득하였으며,향후 진행될 최초 모집 과정에서는 1주당 2,000원에 공모가 진행될 예정입니다. 이에 따라 향후 공모에 참여하는 주주들의 주당 장부가액은 현재 주주들의 상대적으로 낮은 취득가액으로 인해 희석화 될 수 있습니다.또한, 발기주주가 인수한 전환사채의 전환가액도 보통주 취득가액과 동일한 주당 1,000원입니다. 그리고, 당사 전환사채 인수계약서에는 "합병, 회사의 분할, 자본의 감소 등이 이루어지는 경우에는, 그 사유 발생 직전에 본건 사채가 보통주식으로 전환되었다면 받을 수 있었던 대가가 전환사채로서 받을 수 있는 대가보다 크다면, 그와 같이 보통주식으로 전환되었다면 받을 수 있었던 대가를 받을 수 있도록 본건 사채의전환가격을 조정하며" 라고 기재되어 있는 바, 합병, 분할 등이 이루어지는 경우 그 사유 발생 직전에 본건 사채가 보통주식으로 전환되었다면 받을 수 있었던 대가가 전환사채로서 받을 수 있는 대가보다 작다면 전환사채의 전환가액이 조정되지는 않습니다. 따라서, 이 경우 추가적인 주식의 희석화 가능성도 존재합니다.지분희석률이란 공모주주의 주당 주식가치 희석화 정도를 측정하는 대표적인 지표로, 공모주투자자들이 기존 주주들의 투자가액 대비 상대적으로 높은 가격에 투자함으로서 기존에 저가 투자분에 의해 주당가치가 희석화되는 비율을 말하며, 지분희석률이 낮을수록 공모투자자에게 유리하다고 볼 수 있습니다. 지분희석률은 공모가액이 기존 주주들의 발행가 대비 낮게 할증될수록, 사모발행주식수가 전체 공모후 주식수에 대한 비중이 적을수록 낮게 나타나게 됩니다. 당사의 지분희석률은 공모주식수 4,500,000주, 주당 공모가액 2,000원을 기준으로 했을 때 16.42% 수준입니다.희석비율 산정근거는 다음과 같습니다.</P>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" ALIGN="RIGHT" HEIGHT="30">(단위: 주, 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="76"></COL>
+<COL WIDTH="83"></COL>
+<COL WIDTH="74"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH COLSPAN="2" WIDTH="170" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모</TH>
+<TH COLSPAN="2" WIDTH="170" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모전주주(CB전환)</TH>
+<TH ROWSPAN="2" WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모가격</TH>
+<TH ROWSPAN="2" WIDTH="92" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">가중평균발행가격</TH>
+<TH ROWSPAN="2" WIDTH="83" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="60" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">희석비율</TH>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">주식수</TH>
+<TH WIDTH="85" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">비율</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">4,500,000</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">67.16%</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">2,200,000</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">32.84%</TD>
+<TD WIDTH="85" ALIGN="RIGHT" HEIGHT="30">2,000</TD>
+<TD WIDTH="92" ALIGN="RIGHT" HEIGHT="30">1,672</TD>
+<TD WIDTH="83" ALIGN="RIGHT" HEIGHT="30">16.42%</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="25"></COL>
+<COL WIDTH="557"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="34" HEIGHT="191">주)</TD>
+
+<TD WIDTH="566" HEIGHT="191">* 공모비율 = 공모주식수 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 공모전주주비율 = (공모전 발행주식수 + CB전환가능주식수) / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 가중평균발행가격 = 총납입금액 / (공모전 발행주식수 + CB전환가능주식수 + 공모주식수)* 총납입금액 = (공모전발행가 × 공모전발행주식수) + (CB전환가능가격 × CB전환가능주식수) + (
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> × 공모주식수)* 희석비율 = (
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> - 가중평균발행가격) / 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>(주11)■ 정정 전</P>
+<P></P>
+
+<TABLE BORDER="1" WIDTH="615" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="606"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="615" HEIGHT="145" USERMARK=" B">아. 청약자 유형군별 배정비율 변경위험기관투자자에게 배정할 주식은 수요예측을 통해 배정하며, 동 수요예측 결과에 따라 청약일 전에 청약자 유형군별 배정비율이 변경될 수 있습니다. 또한 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 초과청약이 있는 다른 항의 배정분에 합산하여 배정될 수 있습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P>증권신고서 제출일 현재 금번 총 공모주식 4,500,000주의 청약자 유형군별 배정비율은 일반청약자 1,125,000주 ~ 1,350,000주(공모주식의 25.0% ~ 30.0%), 기관투자자 3,150,000주 ~ 3,375,000주(공모주식의 70.0% ~ 75.0%)입니다. 기관투자자 배정주식을 대상으로 2023년 06월 12일 ~ 13일에 수요예측을 실시하여 배정하며, 동 수요예측 결과에 따라 청약일 전에 청약자 유형군별 배정비율이 변경될 수 있습니다.한편, 2023년 06월 19일 ~ 20일에 실시되는 청약결과 잔여주식이 있는 경우에는 추첨에 의한 재배정을 하게 됩니다. 만약 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 초과 청약이 있는 다른 항의 배정분에 합산하여 배정될 수 있습니다.■ 정정 후</P>
+
+<TABLE BORDER="1" WIDTH="615" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="606"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="615" HEIGHT="145" USERMARK=" B">아. 청약자 유형군별 배정비율 변경위험기관투자자에게 배정할 주식은 수요예측을 통해 배정하며, 동 수요예측 결과에 따라 청약일 전에 청약자 유형군별 배정비율이 변경될 수 있습니다. 또한 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 초과청약이 있는 다른 항의 배정분에 합산하여 배정될 수 있습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+
+<P>증권신고서 제출일 현재 금번 총 공모주식 4,500,000주의 청약자 유형군별 배정비율은 일반청약자 
+<SPAN USERMARK=" 0XFF1200 B">1,125,000주 (공모주식의 25.0% )</SPAN>, 기관투자자 
+<SPAN USERMARK=" 0XFF1200 B">3,375,000주(공모주식의 75.0%)</SPAN>입니다. 기관투자자 배정주식을 대상으로 2023년 06월 12일 ~ 13일에 수요예측을 실시하여 배정하며, 동 수요예측 결과에 따라 청약일 전에 청약자 유형군별 배정비율이 변경될 수 있습니다.한편, 2023년 06월 19일 ~ 20일에 실시되는 청약결과 잔여주식이 있는 경우에는 추첨에 의한 재배정을 하게 됩니다. 만약 청약자 유형군에 따른 배정분 중 청약미달 잔여주식이 있는 경우에는 초과 청약이 있는 다른 항의 배정분에 합산하여 배정될 수 있습니다.
+</P>
+<P>(주12)■ 정정 전</P>
+
+<P>
+<SPAN USERMARK=" B">다. 공모가격에 대한 의견</SPAN>
+<SPAN USERMARK=" B">(1) 평가결과</SPAN>대표주관회사인 하나증권㈜은 하나29호기업인수목적㈜의 공모희망가액을 다음과 같이 제시하였습니다.
+</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="160"></COL>
+<COL WIDTH="422"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구분</TH>
+<TH WIDTH="431" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">주당 공모희망가액</TD>
+<TD WIDTH="431" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2,000원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="122">확정공모가액결정방법</TD>
+<TD WIDTH="431" VALIGN="MIDDLE" HEIGHT="122">대표주관회사인 하나증권㈜은 상기와 같이 제시된 공모희망가액을 바탕으로 국내외 기관투자자를 대상으로 수요예측을 실시하며, 확정공모가액은 동 수요예측 결과 및 주식시장 상황 등을 고려하여 하나증권㈜과 하나29호기업인수목적㈜가 협의하여 결정할 예정입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<P>하나증권㈜이 제시하는 상기 주당 공모희망가액은 동사의 실질적인 가치를 의미하는 절대적 평가액이 아닙니다. 또한, 향후 발생될 수 있는 경기변동에 따른 위험,동사의 재무에 대한 위험, 동사가 합병하고자 하는 산업에 대한 위험, 주식시장상황의 변동가능성 등이 반영되지 않았습니다.
+<SPAN USERMARK=" B">(2) 공모가액의 산출방법</SPAN>공모가는 스폰서 및 발기인 그리고 대표주관사의 합의에 의하여 이루어진 가격이며, 공모규모는 동사 설립시 및 설립 이후 대표주관사와의 협의를 통해 주식시장 상황 및주관사의 자금유치능력 등을 고려하여 결정되었으므로 일반적으로 상장되는 기업과는 달리 사업연혁 및 재무성과 등이 없기에 당사의 공모가 및 공모규모가 상대적으로자의적일 수 있습니다. 즉 일반적인 상장기업들은 매출액이나 영업이익, 순이익 등의영업실적을 기반으로 그 기업가치를 평가받으나 합병 이외의 사업목적을 영위하지 않는 당사의 경우에는 비교할 수 있는 영업실적 등이 없기에 공모가 및 공모규모의 결정이 보다 자의적일 수 있습니다.현재 주된 평가기법으로 사용하고 있는 기 상장된 유사회사의 영업실적 혹은 재무상태와의 비교방법을 동사에 적용할 수는 없으나, 동사의 유사회사로 볼 수 있는 기업인수목적회사들이 과거 공모를 통해 상장된 바 있으므로 이들 회사의 공모가액 결정방법을 참조하여 동사의 공모가액을 제시하였습니다. 과거 공모를 거쳐 상장된 기업인수목적회사의 공모현황은 다음과 같습니다.
+</P>
+<P>(중략)</P>
+<P>이에 동사는 현재 시장 상황 및 그 외 고려사항 등을 반영하고, 공모전주주와 공모주주간의 형평성을 고려하여 공모전 주주들의 투자 단가인 1,000원의 2배 수준인 2,000원을 공모희망가액으로 결정하였습니다. 이러한 공모희망가액을 바탕으로 국내외 기관투자자를 대상으로 수요예측을 실시하며, 확정공모가액은 동 수요예측 결과 및 주식시장 상황 등을 고려하여 하나증권㈜과 하나29호기업인수목적㈜가 협의하여 결정할 예정입니다.투자자들의 투자판단을 돕기 위하여 동사의 공모희망가에 따른 희석비율을 제시하면아래와 같습니다.</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="291"></COL>
+<COL WIDTH="291"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모가 (2,000원)</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">희석비율</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">16.42%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">가중평균발행가</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">1,672원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">총납입금액</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">9,000백만원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">총발행주식수</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="553"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="145">주)</TD>
+
+<TD WIDTH="562" HEIGHT="145">
+<P>산식은 아래와 같음▶ 희석비율= (공모희망가격-가중평균발행가격)÷공모희망가격</P>
+<P>▶ 가중평균발행가격= 총납입금액÷총발행주식수(CB 전환 가정)</P>
+<P>▶ 총납입금액=(공모전발행가×공모전발행주식수)+(CB 행사가액×전환가능주식수)+(공모희망가격×공모주식수)</P>
+<P>▶ 총발행주식수= 공모전발행주식수+전환가능주식수+공모주식수</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>대표주관회사인 하나증권㈜은 기업실사과정을 통해 발행회사인 하나29호기업인수목적㈜로부터 제공받은 정보 및 자료에 기초하여 발행회사의 재무상태, 경영진의 경력사항 및 전문성, 합병대상 산업군의 산업동향, 유사회사의 주가 등 주식가치에 미치는 중요한 사항 등에 대하여 분석ㆍ평가한 결과, 하나29호기업인수목적㈜에 대한 공모주식의 코스닥시장 상장 및 공모예정가액의 제시 과정이 타당하고 적합하게 작성되었다고 판단합니다.■ 정정 후</P>
+
+<P>
+<SPAN USERMARK=" B">다. 공모가격에 대한 의견</SPAN>
+<SPAN USERMARK=" B">(1) 평가결과</SPAN>대표주관회사인 하나증권㈜은 하나29호기업인수목적㈜의 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>을 다음과 같이 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>
+</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="160"></COL>
+<COL WIDTH="422"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구분</TH>
+<TH WIDTH="431" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">내용</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+
+<TD WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">주당 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</TD>
+<TD WIDTH="431" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">2,000원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="169" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="122">확정공모가액결정방법</TD>
+
+<TD WIDTH="431" VALIGN="MIDDLE" HEIGHT="122">대표주관회사인 하나증권㈜은 상기와 같이 제시된 공모희망가액을 바탕으로 국내외 기관투자자를 대상으로 수요예측을 실시하며, 확정공모가액은 동 수요예측 결과 및 주식시장 상황 등을 고려하여 하나증권㈜과 하나29호기업인수목적㈜가 협의하여 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<P>하나증권㈜이 제시하는 상기 주당 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>은 동사의 실질적인 가치를 의미하는 절대적 평가액이 아닙니다. 또한, 향후 발생될 수 있는 경기변동에 따른 위험,동사의 재무에 대한 위험, 동사가 합병하고자 하는 산업에 대한 위험, 주식시장상황의 변동가능성 등이 반영되지 않았습니다.
+<SPAN USERMARK=" B">(2) 공모가액의 산출방법</SPAN>공모가는 스폰서 및 발기인 그리고 대표주관사의 합의에 의하여 이루어진 가격이며, 공모규모는 동사 설립시 및 설립 이후 대표주관사와의 협의를 통해 주식시장 상황 및주관사의 자금유치능력 등을 고려하여 결정되었으므로 일반적으로 상장되는 기업과는 달리 사업연혁 및 재무성과 등이 없기에 당사의 공모가 및 공모규모가 상대적으로자의적일 수 있습니다. 즉 일반적인 상장기업들은 매출액이나 영업이익, 순이익 등의영업실적을 기반으로 그 기업가치를 평가받으나 합병 이외의 사업목적을 영위하지 않는 당사의 경우에는 비교할 수 있는 영업실적 등이 없기에 공모가 및 공모규모의 결정이 보다 자의적일 수 있습니다.현재 주된 평가기법으로 사용하고 있는 기 상장된 유사회사의 영업실적 혹은 재무상태와의 비교방법을 동사에 적용할 수는 없으나, 동사의 유사회사로 볼 수 있는 기업인수목적회사들이 과거 공모를 통해 상장된 바 있으므로 이들 회사의 공모가액 결정방법을 참조하여 동사의 공모가액을 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN> 과거 공모를 거쳐 상장된 기업인수목적회사의 공모현황은 다음과 같습니다.
+</P>
+<P>(중략)</P>
+
+<P>이에 동사는 현재 시장 상황 및 그 외 고려사항 등을 반영하고, 공모전주주와 공모주주간의 형평성을 고려하여 공모전 주주들의 투자 단가인 1,000원의 2배 수준인 2,000원을 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>으로 결정하였습니다. 이러한 공모희망가액을 바탕으로 국내외 기관투자자를 대상으로 수요예측을 실시하며, 확정공모가액은 동 수요예측 결과 및 주식시장 상황 등을 고려하여 하나증권㈜과 하나29호기업인수목적㈜가 협의하여 
+<SPAN USERMARK=" 0XFF1200 B">결정하였습니다.</SPAN>투자자들의 투자판단을 돕기 위하여 동사의 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>에 따른 희석비율을 제시하면아래와 같습니다.
+</P>
+
+<TABLE BORDER="1" WIDTH="600" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="291"></COL>
+<COL WIDTH="291"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">공모가 (2,000원)</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">희석비율</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">16.42%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">가중평균발행가</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">1,672원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">총납입금액</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">9,000백만원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">총발행주식수</TD>
+<TD WIDTH="300" ALIGN="CENTER" HEIGHT="30">4,500,000주</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="600" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="553"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="145">주)</TD>
+
+<TD WIDTH="562" HEIGHT="145">
+
+<P>산식은 아래와 같음▶ 희석비율= (
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>-가중평균발행가격)÷
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>
+</P>
+<P>▶ 가중평균발행가격= 총납입금액÷총발행주식수(CB 전환 가정)</P>
+
+<P>▶ 총납입금액=(공모전발행가×공모전발행주식수)+(CB 행사가액×전환가능주식수)+(
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN>×공모주식수)
+</P>
+<P>▶ 총발행주식수= 공모전발행주식수+전환가능주식수+공모주식수</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>대표주관회사인 하나증권㈜은 기업실사과정을 통해 발행회사인 하나29호기업인수목적㈜로부터 제공받은 정보 및 자료에 기초하여 발행회사의 재무상태, 경영진의 경력사항 및 전문성, 합병대상 산업군의 산업동향, 유사회사의 주가 등 주식가치에 미치는 중요한 사항 등에 대하여 분석ㆍ평가한 결과, 하나29호기업인수목적㈜에 대한 공모주식의 코스닥시장 상장 및 공모예정가액의 제시 과정이 타당하고 적합하게 작성되었다고 판단합니다.</P>
+<P>(주13)■ 정정 전</P>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">1. 모집 또는 매출에 의한 자금조달 내역</P>
+<P USERMARK=" B">가. 자금조달금액</P>
+
+<TABLE WIDTH="607" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="598"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="607" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="608" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="291"></COL>
+<COL WIDTH="299"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구 분</TH>
+<TH WIDTH="308" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">금 액</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76">총 공 모 금 액(1)발 행 제 비 용(2)순 수 입 금 [ (1)-(2) ]</TD>
+<TD WIDTH="308" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="76">9,000,000,000-9,000,000,000</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="607" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="560"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="53">주)</TD>
+<TD WIDTH="569" HEIGHT="53">총 공모금액은 공모희망가액 2,000원을 기준으로 작성되었으며, 추후 확정공모가액이 결정되면 총 공모금액도 변경될 수 있습니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">2. 발행제비용의 내역</P>
+
+<TABLE WIDTH="608" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="599"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="608" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="608" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="149"></COL>
+<COL WIDTH="148"></COL>
+<COL WIDTH="284"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="157" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">금 액</TH>
+<TH WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">계 산 근 거</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">인수수수료</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">300,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">공모시 1.50억원, 합병시 1.50억원 (주2)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">상장수수료</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">3,500,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">상장심사수수료, 신규상장수수료</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">회계감사등</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">10,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">연간 10백만원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등록세</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">1,800,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">증자 자본금의 0.4%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">교육세</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">360,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등록세의 20%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등기비용</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">5,400,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">증자 자본금의 1.2%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기타비용</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">30,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">IR 비용, 법무사 수수료 등투자설명서 인쇄비, 신문공고비</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">합 계</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">351,060,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="608" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="30"></COL>
+<COL WIDTH="560"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="53">주1)</TD>
+<TD WIDTH="569" HEIGHT="53">발행제비용 내역은 공모희망가액 2,000원을 기준으로 작성하였으며 공모결과에 따라 달라질 수 있습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="99">주2)</TD>
+<TD WIDTH="569" HEIGHT="99">하나29호기업인수목적㈜는 대표주관회사 하나증권㈜에게 인수대가로 3.0억원에 해당하는 수수료로 지급합니다. 단, 전체 수수료 중 50%에 해당하는 금액(1.50억원)은 금번 공모 이후에 지급되며, 나머지 50%는 합병등기 완료시점으로 이연되어 지급되므로 합병이 완료되지 않은 경우에는 지급을 청구할 수 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="53">주3)</TD>
+<TD WIDTH="569" HEIGHT="53">상기 발행제비용은 본 공모금액에서 사용하지 않고, 당사의 설립자본금과 전환사채 발행금액에서 사용할 예정입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(후략)■ 정정 후</P>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">1. 모집 또는 매출에 의한 자금조달 내역</P>
+<P USERMARK=" B">가. 자금조달금액</P>
+
+<TABLE WIDTH="607" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="598"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="607" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="608" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="291"></COL>
+<COL WIDTH="299"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">구 분</TH>
+<TH WIDTH="308" VALIGN="MIDDLE" ALIGN="CENTER" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N" HEIGHT="30">금 액</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="300" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="76">총 공 모 금 액(1)발 행 제 비 용(2)순 수 입 금 [ (1)-(2) ]</TD>
+<TD WIDTH="308" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="76">9,000,000,000-9,000,000,000</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="607" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="29"></COL>
+<COL WIDTH="560"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="38" HEIGHT="30">주)</TD>
+
+<TD WIDTH="569" HEIGHT="30">총 공모금액은 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> 2,000원을 기준으로 
+<SPAN USERMARK=" 0XFF1200 B">작성되었습니다.</SPAN>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P></P>
+<P USERMARK="F-16 0XFF0000 B">2. 발행제비용의 내역</P>
+
+<TABLE WIDTH="608" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="599"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="608" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">(단위: 원)</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE BORDER="1" WIDTH="608" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="149"></COL>
+<COL WIDTH="148"></COL>
+<COL WIDTH="284"></COL>
+</COLGROUP>
+
+<THEAD ALIGN="LEFT" VALIGN="TOP">
+
+<TR ACOPY="Y" ADELETE="Y">
+<TH WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">구 분</TH>
+<TH WIDTH="157" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">금 액</TH>
+<TH WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30" ACOPYCOL="Y" ADELETECOL="Y" AMOVECOL="N">계 산 근 거</TH>
+</TR>
+</THEAD>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">인수수수료</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">300,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">공모시 1.50억원, 합병시 1.50억원 (주2)</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">상장수수료</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">3,500,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">상장심사수수료, 신규상장수수료</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">회계감사등</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">10,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">연간 10백만원</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등록세</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">1,800,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">증자 자본금의 0.4%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">교육세</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">360,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등록세의 20%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">등기비용</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">5,400,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">증자 자본금의 1.2%</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">기타비용</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="53">30,000,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="53">IR 비용, 법무사 수수료 등투자설명서 인쇄비, 신문공고비</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="158" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">합 계</TD>
+<TD WIDTH="157" VALIGN="MIDDLE" ALIGN="RIGHT" HEIGHT="30">351,060,000</TD>
+<TD WIDTH="293" VALIGN="MIDDLE" ALIGN="CENTER" HEIGHT="30">-</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<TABLE WIDTH="608" BORDER="0" ACLASS="NORMAL" AFIXTABLE="N">
+
+<COLGROUP>
+<COL WIDTH="30"></COL>
+<COL WIDTH="560"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="30">주1)</TD>
+
+<TD WIDTH="569" HEIGHT="30">발행제비용 내역은 
+<SPAN USERMARK=" 0XFF1200 B">확정공모가액</SPAN> 2,000원을 기준으로 
+<SPAN USERMARK=" 0XFF1200 B">작성하였습니다.</SPAN>
+</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="99">주2)</TD>
+<TD WIDTH="569" HEIGHT="99">하나29호기업인수목적㈜는 대표주관회사 하나증권㈜에게 인수대가로 3.0억원에 해당하는 수수료로 지급합니다. 단, 전체 수수료 중 50%에 해당하는 금액(1.50억원)은 금번 공모 이후에 지급되며, 나머지 50%는 합병등기 완료시점으로 이연되어 지급되므로 합병이 완료되지 않은 경우에는 지급을 청구할 수 없습니다.</TD>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="39" HEIGHT="53">주3)</TD>
+<TD WIDTH="569" HEIGHT="53">상기 발행제비용은 본 공모금액에서 사용하지 않고, 당사의 설립자본금과 전환사채 발행금액에서 사용할 예정입니다.</TD>
+</TR>
+</TBODY>
+</TABLE>
+<P>(후략)</P>
+
+<TABLE ACLASS="NORMAL" AFIXTABLE="N" WIDTH="600" BORDER="1">
+
+<COLGROUP>
+<COL WIDTH="591"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y">
+<TD WIDTH="600" HEIGHT="99">　위 정정사항외에 모든 사항은 2023년 05월 12일자로 당사가 제출한 신고서와 동일하오니 이를 참고하시기 바랍니다. </TD>
+</TR>
+</TBODY>
+</TABLE>
+</CORRECTION>
+</LIBRARY>
+
+</BODY>
+</DOCUMENT>

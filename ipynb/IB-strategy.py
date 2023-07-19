@@ -1,10 +1,11 @@
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
 from streamlit_option_menu import option_menu
 from datetime import datetime, timedelta, date
 from selenium import webdriver
-from utils import *
+from IB_utils import *
 from io import BytesIO
 from pyxlsb import open_workbook as open_xlsb
 
@@ -16,7 +17,7 @@ import warnings
 import time
 import re
 import os
-
+import copy
 
 warnings.filterwarnings('ignore')
 
@@ -29,10 +30,12 @@ def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949')
 
-#@st.cache_resource
-def get_driver():
+def get_driver(viz_opt = False):
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    return webdriver.Chrome(options=options)
+    if viz_opt:
+        return webdriver.Chrome()
+    else:
+        return webdriver.Chrome(options=options)
 
 def to_excel(df):
     output = BytesIO()
@@ -50,33 +53,24 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     progress_text = "Operation in progress. Please wait."
     p_bar = st.progress(0.0, text=progress_text)
     
-    api_key = '1b39652cef07f626c9d37375edf582ee51b1407f'
-    #api_key = 'd08546d14aedde5f2918b783aa10188e789f8f5f'
-    dart = OpenDartReader(api_key)
-    
-    # C=발행공시, D=지분공시
-    market_dict = {"Y": "코스피","K": "코스닥", "N": "코넥스", "E": "기타"}
-
-    info_df = dart.list(start=start_dt, end=end_dt, kind_detail='C001')
-    info_df = pd.concat([info_df, dart.list(start=start_dt, end=end_dt, kind_detail='G002')])
-
-    info_df = info_df.loc[[True if "증권발행실적보고서" in x else False for x in info_df.report_nm]]
-    info_df = info_df.loc[info_df.corp_cls.isin(['Y', 'K'])]
-    info_df.corp_cls = info_df.corp_cls.map(market_dict)
-    
+    # Dart
+    start_dt2 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 80), '%Y-%m-%d')
+    dart_df, dart = initial_set(start_dt2, end_dt)
     p_ratio = 0.05
     p_bar.progress(p_ratio, text=progress_text)
     
     # kind
-    driver = get_driver()
+    driver = get_driver(viz_opt = True)
     driver.set_window_size(1920, 1080)
+    time.sleep(3)
     p_ratio = 0.10
     p_bar.progress(p_ratio, text=progress_text)
     
-    #driver = webdriver.Chrome()
     st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/4) </p>',unsafe_allow_html=True)
     p_ratio = 0.15
-    first_df = kind_main(driver, info_df, start_dt, end_dt)
+    table = set_kind(driver, start_dt2, end_dt)
+    kind_output = get_kind_inner(driver, table)
+    first_df = post_proc(dart_df, kind_output, start_dt)
     p_ratio = 0.55
     p_bar.progress(p_ratio, text=progress_text)
     
@@ -87,15 +81,21 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     p_ratio = 0.60
     p_bar.progress(p_ratio, text=progress_text)
     
-    ipo_df = ipo_main(driver, info_df)
-    first_df = pd.merge(first_df, ipo_df, on = 'corp_name')
+    driver = get_driver()
+    driver.set_window_size(1920, 1080)
+    ipo_df = ipo_main(driver, first_df)
+    first_df = pd.merge(first_df, ipo_df, on = 'corp_name', how = 'left')
+    first_df.replace(np.NaN, 0, inplace = True)
+    first_df['key'] = [change_join(x) if "스팩" in x else x for x in list(first_df.corp_name)]
     p_ratio = 0.8
     p_bar.progress(p_ratio, text=progress_text)
     
     # 38커뮤니케이션
     st.write('<p style="font-size:14px; color:black"> - 38커뮤니케이션 수집 시작 (3/4) </p>',unsafe_allow_html=True)
     outer_df = get_38(start_dt, end_dt)
-    second_df = pd.merge(first_df, outer_df, on = 'stock_code', how = 'inner')
+    second_df = pd.merge(first_df, outer_df, left_on = 'key', right_on = '기업명', how = 'inner')
+    del second_df['기업명'], second_df['key'], second_df['stock_code_x']
+    second_df.rename(columns = {'stock_code_y':'stock_code'}, inplace = True)
     p_ratio = 0.9
     p_bar.progress(p_ratio, text=progress_text)
     
@@ -140,6 +140,10 @@ with c2:
 with c1:
     start_date = st.date_input('시작일', value=end_date - timedelta(days=31), min_value = end_date - diff_day, max_value = end_date)
 
+origin_start_date = copy.deepcopy(start_date)
+origin_start_date = datetime.strftime(start_date,'%Y-%m-%d')
+
+start_date -= timedelta(days=30)
 start_dt = datetime.strftime(start_date,'%Y-%m-%d')
 end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 
@@ -147,6 +151,9 @@ start_btn = st.button('🛠 수집')
 
 if start_btn:
     head_df = main(start_dt, end_dt, opt = 'IB전략')
+    head_df = head_df.loc[head_df['상장일'] >= origin_start_date]
+    head_df = head_df.sort_values("수요예측(시작일)")
+    head_df.index = [x for x in range(1, head_df.shape[0]+1)]
     st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('IPO 공모기업 현황'),unsafe_allow_html=True)
     st.dataframe(head_df)
     
@@ -159,4 +166,4 @@ if start_btn:
     
     st.download_button(label='📥 다운로드',
                                 data=processed_data ,
-                                file_name= 'IB전략컨설팅부-IPO 집계 데이터_{}~{}.xlsx'.format(start_dt[2:].replace('-', '.'), end_dt[2:].replace('-', '.')))
+                                file_name= 'IB전략컨설팅부-IPO 집계 데이터_{}~{}.xlsx'.format(origin_start_date[2:].replace('-', '.'), end_dt[2:].replace('-', '.')))

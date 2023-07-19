@@ -1,10 +1,1 @@
-streamlit
-webdriver-manager
-selenium
-seleniumbase
-beautifulsoup4
-chromedriver-binary
-streamlit_option_menu
-pandas
-OpenDartReader
-requests
+<DOCUMENT SAFER V2010 R2>?ÎAB‹¯Î1/(­¨áræá‰?¶•Cy‡à}Ãº·ĞÈÈ“`}§€x5V1êFH‡Í‰@å€×¡âğ§‹È—ëŠöø‘PŒmÊ'ØÆøÈdH™Q‚õ’Á¦ƒ$Bjn3®EÄøá!ªÉÙ0=±ÍÁ7GÃôpR—M™ËojyGl‡_¶&y½`óõ"[úüŞ	Ş\˜,¨CÔ×şpÍxXÁZ)gn¢I££ëZˆ˜DP6ıŸ`*@šÍİº¶7ËİÃÔ:9Aaƒ,x/ˆF˜Ç_ÏF«œHïè'ı6«¾Àˆtš…Iè¡âÊ2l¢²Íg#nv·²®°,°ª|æÖö¯˜‘–òÚÕm3B‚ô}É	j¯õC3Â2\´ä—C¿°Ó™~Á‡Ú¥cHîŠ¡lZ¹¿ŠÿzO‰¡îl;Çkanydocsafer>îI÷õv1¯ïÜœ¯!ş_ºCãzG©ÔÿyÚLå•ÃZ¢!˜ËÉöpûÜßğ÷cÿ¢4Bø$9¾Åª$dù–C¯Kc÷aCªæ-/©{¹\ÓAÀp<®¦rhË¥k4s~Ñı¡¥VWQúxóoÏ<¸f±4„4ÁÍ”?¯}¢bĞï>÷]uóKğîø­,PV|ˆäŸV±\üÈ²G% šLî‹]C|OÛöWÈìÜˆK4>CÁÈôA°”|–)c# ÎÏŸIÀnÚˆ¾¡]¼ìâE¯‹™W¨¬çy4tDÈi Ú¡?yAŠM=FÒœn³¤Œj

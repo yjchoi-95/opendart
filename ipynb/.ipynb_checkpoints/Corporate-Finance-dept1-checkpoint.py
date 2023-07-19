@@ -2,10 +2,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-#from selenium.webdriver.firefox.options import Options
-#from selenium.webdriver.firefox.service import Service
-#from webdriver_manager.firefox import GeckoDriverManager
-
 from streamlit_option_menu import option_menu
 from datetime import datetime, timedelta, date
 from selenium import webdriver
@@ -21,6 +17,7 @@ import warnings
 import time
 import re
 import os
+import copy
 
 warnings.filterwarnings('ignore')
 
@@ -98,7 +95,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     p_bar.progress(p_ratio, text=progress_text)
     
     ipo_df = ipo_main(driver, info_df)
-    first_df = pd.merge(first_df, ipo_df, on = 'corp_name')
+    first_df = pd.merge(first_df, ipo_df, on = 'corp_name', how = 'left')
     p_ratio = 0.8
     p_bar.progress(p_ratio, text=progress_text)
     
@@ -146,7 +143,11 @@ with c2:
     end_date = st.date_input('종료일', value=today, max_value = today)
 with c1:
     start_date = st.date_input('시작일', value=end_date - timedelta(days=31), min_value = end_date - diff_day, max_value = end_date)
-    
+
+origin_start_date = copy.deepcopy(start_date)
+origin_start_date = datetime.strftime(start_date,'%Y-%m-%d')
+
+start_date -= timedelta(days=30)
 start_dt = datetime.strftime(start_date,'%Y-%m-%d')
 end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 
@@ -155,6 +156,10 @@ start_btn = st.button('🛠 수집')
 if start_btn:
     #head_df = main(start_dt, end_dt, opt = 'IB전략')
     form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
+    form_1 = form_1.loc[form_1['상장일'] >= origin_start_date]
+    form_2 = form_2.loc[form_2['상장일'] >= origin_start_date]
+    form_3 = form_3.loc[form_3['상장일'] >= origin_start_date]
+    
     st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('01_리그테이블'),unsafe_allow_html=True)
     st.dataframe(form_1)
     save_df1 = convert_df(form_1)
