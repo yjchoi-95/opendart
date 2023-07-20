@@ -1,3 +1,6 @@
+######################
+### import library ###
+######################
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -42,7 +45,9 @@ def cleansing(x):
     else :
         return 0
     
-## kind 수집
+######################
+### DART 수집 관련 ###
+######################
 def initial_set(start_dt, end_dt):
     api_key = '1b39652cef07f626c9d37375edf582ee51b1407f'
     dart = OpenDartReader(api_key)
@@ -69,197 +74,6 @@ def initial_set(start_dt, end_dt):
     
     return dart_df, dart
 
-def set_kind(driver, start_dt, end_dt):
-    driver.get('https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain')
-
-    wait = WebDriverWait(driver, 10, poll_frequency=0.25)
-    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'ord-02')))
-    
-    # 시작일
-    start_date = driver.find_elements(By.ID, 'fromDate')[0]
-    start_date.clear()
-    time.sleep(0.25)
-    start_date.send_keys(start_dt)
-    start_date.send_keys(Keys.ESCAPE)
-    
-    # 종료일
-    end_date = driver.find_elements(By.ID, 'toDate')[0]
-    end_date.clear()
-    time.sleep(0.25)
-    end_date.send_keys(end_dt)
-    end_date.send_keys(Keys.ESCAPE)
-    
-    # 검색
-    search = driver.find_elements(By.CLASS_NAME, 'btn-sprite.type-00.vmiddle.search-btn')
-    search[0].click()
-    time.sleep(0.5)
-
-    # 페이지 수 선택
-    pages = driver.find_elements(By.ID, 'currentPageSize')
-    pages[1].click()
-    time.sleep(0.5)
-
-    # 100건
-    driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[2]/div[2]/select/option[4]')[0].click()
-    time.sleep(0.25)
-
-    # 적용
-    driver.find_elements(By.CLASS_NAME, 'btn-sprite.btn-go.vmiddle')[0].click()
-    time.sleep(1)
-
-    # 테이블 가져오기
-    table_src = pd.read_html(driver.page_source)
-    table = [x for x in table_src if '수요예측일정' in x][0]
-    # 상세 페이지 번호 가져오기
-    rows = driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[1]/table/tbody/tr')
-    table['inner'] = [re.sub("[^0-9]", "", x.get_attribute('onclick')) for x in rows]
-    
-    return table
-
-def get_kind_inner(driver, table):
-    # 상세페이지 url
-    rows = driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[1]/table/tbody/tr')
-    idx = 0
-
-    for name, number in zip(table['회사명'], table['inner']):
-        base_url = 'https://kind.krx.co.kr/listinvstg/pubofrprogcomdetail.do?method=searchProgComDetailMain&bzProcsNo={}'.format(number)
-        driver.get(base_url)
-        time.sleep(0.1)
-
-        driver.switch_to.window(driver.window_handles[-1])
-        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
-        wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/section/table[1]/tbody/tr[5]/td')))
-
-        # 상장 주식수
-        l_cnt = cleansing(driver.find_elements(By.CSS_SELECTOR, 'body > section > table:nth-child(5) > tbody > tr:nth-child(7) > td:nth-child(2)')[0].text)
-        # 유통가능 주식수 = 0
-        #c_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[4]/tbody/tr[9]/td[2]')[0].text)
-        c_cnt = 0
-        # 제품
-        m_product = driver.find_elements(By.XPATH, '/html/body/section/table[1]/tbody/tr[5]/td')[0].text
-        # 경쟁률
-        #없음
-        # 공모주식수
-        w_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[11]/td[1]')[0].text)
-        # 신주모집
-        new_s = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[9]/td[1]')[0].text)
-        # 구주매출
-        old_s = w_cnt - new_s
-        # 기관배정수량
-        a_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[14]/td[2]')[0].text)
-
-        loop_df = pd.DataFrame({"회사명": [name], "상장주식수": [l_cnt] ,"공모주식수": [w_cnt], "유통가능주식수": [c_cnt], "주요제품": [m_product], "경쟁률": [0] ,"신주모집": [new_s],
-                                "구주매출": [old_s], "기관배정수량": [a_cnt]})
-
-        if idx == 0:
-            kind_df = loop_df
-        else:
-            kind_df = pd.concat([kind_df, loop_df])
-
-        idx += 1
-
-    driver.close()
-    
-    kind_output = pd.merge(table, kind_df, on = '회사명')
-    
-    kind_output['수요예측(시작일)'] = [x.split("  ~ ")[0] for x in kind_output['수요예측일정']]
-    kind_output['수요예측(종료일)'] = [x.split("  ~ ")[1] for x in kind_output['수요예측일정']]
-    kind_output['청약일'] = [x.split("  ~ ")[0] for x in kind_output['청약일정']]
-    
-    select_cols = ['회사명', '상장주식수', '주요제품', '상장주선인/ 지정자문인', '확정공모가', '경쟁률', '신주모집', '구주매출', '기관배정수량', '상장예정일', 
-                   '납입일', '공모주식수', '수요예측(시작일)', '수요예측(종료일)', '청약일']
-    
-    return kind_output.loc[:, select_cols]
-
-def post_proc(dart_df, kind_output, start_dt):
-    select_cols = ['corp_code', 'corp_name', 'stock_code', 'corp_cls', 'rcept_no']
-    merged_df = pd.merge(dart_df.loc[dart_df.rcept_dt >= start_dt.replace("-", ""), select_cols], kind_output, left_on = 'corp_name', right_on = '회사명', how = 'inner')
-
-    del merged_df['회사명']
-
-    change_name = {'상장주선인/ 지정자문인':'상장주선인', '확정공모가':'공모가', '상장예정일':'상장일'}
-    merged_df.rename(columns = change_name, inplace = True)
-    merged_df['공모가'] = [int(x) if x != '-' else 0 for x in merged_df['공모가']]
-    
-    return merged_df
-
-## 38커뮤니케이션
-def get_38df(soup, x):
-    return pd.read_html(str(soup.select('table[summary="{}"]'.format(x))[0]))[0]
-
-def change_corp(x):
-    if "모간스탠리" in x : return "MS"
-    elif "골드" in x : return "골드만"
-    elif "씨티" in x : return "씨티"
-    elif "메릴" in x : return "메릴린치"
-    elif "케이비" in x : return "KB"
-    elif "스위스" in x : return "CS"
-    elif "엔에이치" in x : return "NH"
-    elif "아이비케이" in x : return "IBK"
-    elif "에스케이" in x : return "SK"
-    elif "디비금융" in x : return "DB"
-    else: return x.replace("투자", "").replace("금융", "").replace("증권", "").replace("에셋", "").replace("(주)", "").replace("㈜", "")
-
-def change(x):
-    return x.replace('TE', 'TD').replace('TU', 'TD')
-
-def get_38(start_dt, end_dt, max_page = 30):
-    cnt = 0
-    p = 0
-
-    for page in range(1, max_page+1):
-        outer_url = 'http://www.38.co.kr/html/fund/index.htm?o=r1&page={}'.format(page)
-        base_url = 'http://www.38.co.kr/html/fund'
-
-        response = requests.get(outer_url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        tb_src = soup.select('table[summary="수요예측결과"]')
-
-        temp_df = pd.read_html(str(tb_src))[0]
-        temp_df = temp_df.loc[~temp_df['기업명'].isna()]
-
-        if cnt == 0:
-            url_tags = soup.select('tbody > tr > td > a')
-            temp_df['url'] = [base_url + x.attrs['href'].split(".")[-1] for x in url_tags]
-            outer_df = temp_df
-
-        else:
-            url_tags = soup.select('tbody > tr > td > a')
-            temp_df['url'] = [base_url + x.attrs['href'].split(".")[-1] for x in url_tags]
-            outer_df = pd.concat([outer_df, temp_df])
-
-        if temp_df['예측일'].min() < start_dt.replace("-", "."):
-            p += 1
-            if p > 1:
-                break
-                
-        cnt += 1
-
-    data_dict = {x:[] for x in ['stock_code', '기업명']}
-
-    for name, url in zip(outer_df['기업명'], outer_df['url']):
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        overview_df = get_38df(soup, '기업개요')
-        overview_df.columns = ["O" + str(x) for x in range(overview_df.shape[1])]
-
-        # 종목 코드
-        code = overview_df.loc[overview_df.O2 == '종목코드', 'O3'].values[0]
-
-        data_dict['stock_code'].append(code)
-        data_dict['기업명'].append(name)
-
-    inner_df = pd.DataFrame.from_dict(data_dict)
-    outer_df = pd.merge(outer_df, inner_df, on = '기업명', how = 'inner')
-    
-    select_cols = ['기업명', 'stock_code', '하단공모가액', '상단공모가액', '의무보유 확약', '기관 경쟁률']
-    outer_df['하단공모가액'] = [cleansing(x.split("~")[0]) for x in outer_df['공모희망가(원)']]
-    outer_df['상단공모가액'] = [cleansing(x.split("~")[1]) for x in outer_df['공모희망가(원)']]
-    
-    return outer_df.loc[:, select_cols]
-
-## DART
 def get_table(xml_text, title):
     table_src = re.findall('{}</TITLE>.*?</TABLE-GROUP>'.format(title), xml_text)
     value = pd.read_html(change(table_src[0]))
@@ -390,7 +204,206 @@ def get_d_tables(dart, third_df):
         third_df.loc[third_df['대표주관회사'] == '', ['대표주관회사']] = third_df['인수회사']
     
     return third_df, fourth_df
-## ipo stock
+
+
+######################
+### KIND 수집 관련 ###
+######################
+def set_kind(driver, start_dt, end_dt):
+    driver.get('https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain')
+
+    wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'ord-02')))
+    
+    # 시작일
+    start_date = driver.find_elements(By.ID, 'fromDate')[0]
+    start_date.clear()
+    time.sleep(0.25)
+    start_date.send_keys(start_dt)
+    start_date.send_keys(Keys.ESCAPE)
+    
+    # 종료일
+    end_date = driver.find_elements(By.ID, 'toDate')[0]
+    end_date.clear()
+    time.sleep(0.25)
+    end_date.send_keys(end_dt)
+    end_date.send_keys(Keys.ESCAPE)
+    
+    # 검색
+    search = driver.find_elements(By.CLASS_NAME, 'btn-sprite.type-00.vmiddle.search-btn')
+    search[0].click()
+    time.sleep(0.5)
+
+    # 페이지 수 선택
+    pages = driver.find_elements(By.ID, 'currentPageSize')
+    pages[1].click()
+    time.sleep(0.5)
+
+    # 100건
+    driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[2]/div[2]/select/option[4]')[0].click()
+    time.sleep(0.25)
+
+    # 적용
+    driver.find_elements(By.CLASS_NAME, 'btn-sprite.btn-go.vmiddle')[0].click()
+    time.sleep(1)
+
+    # 테이블 가져오기
+    table_src = pd.read_html(driver.page_source)
+    table = [x for x in table_src if '수요예측일정' in x][0]
+    # 상세 페이지 번호 가져오기
+    rows = driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[1]/table/tbody/tr')
+    table['inner'] = [re.sub("[^0-9]", "", x.get_attribute('onclick')) for x in rows]
+    
+    return table
+
+def get_kind_inner(driver, table):
+    # 상세페이지 url
+    rows = driver.find_elements(By.XPATH, '/html/body/section[2]/section/article/section[1]/table/tbody/tr')
+    idx = 0
+
+    for name, number in zip(table['회사명'], table['inner']):
+        base_url = 'https://kind.krx.co.kr/listinvstg/pubofrprogcomdetail.do?method=searchProgComDetailMain&bzProcsNo={}'.format(number)
+        driver.get(base_url)
+        time.sleep(0.1)
+
+        driver.switch_to.window(driver.window_handles[-1])
+        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/section/table[1]/tbody/tr[5]/td')))
+
+        # 상장 주식수
+        l_cnt = cleansing(driver.find_elements(By.CSS_SELECTOR, 'body > section > table:nth-child(5) > tbody > tr:nth-child(7) > td:nth-child(2)')[0].text)
+        # 유통가능 주식수 = 0
+        #c_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[4]/tbody/tr[9]/td[2]')[0].text)
+        c_cnt = 0
+        # 제품
+        m_product = driver.find_elements(By.XPATH, '/html/body/section/table[1]/tbody/tr[5]/td')[0].text
+        # 경쟁률
+        #없음
+        # 공모주식수
+        w_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[11]/td[1]')[0].text)
+        # 신주모집
+        new_s = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[9]/td[1]')[0].text)
+        # 구주매출
+        old_s = w_cnt - new_s
+        # 기관배정수량
+        a_cnt = cleansing(driver.find_elements(By.XPATH, '/html/body/section/table[2]/tbody/tr[14]/td[2]')[0].text)
+
+        loop_df = pd.DataFrame({"회사명": [name], "상장주식수": [l_cnt] ,"공모주식수": [w_cnt], "유통가능주식수": [c_cnt], "주요제품": [m_product], "경쟁률": [0] ,"신주모집": [new_s],
+                                "구주매출": [old_s], "기관배정수량": [a_cnt]})
+
+        if idx == 0:
+            kind_df = loop_df
+        else:
+            kind_df = pd.concat([kind_df, loop_df])
+
+        idx += 1
+
+    driver.close()
+    
+    kind_output = pd.merge(table, kind_df, on = '회사명')
+    
+    kind_output['수요예측(시작일)'] = [x.split("  ~ ")[0] for x in kind_output['수요예측일정']]
+    kind_output['수요예측(종료일)'] = [x.split("  ~ ")[1] for x in kind_output['수요예측일정']]
+    kind_output['청약일'] = [x.split("  ~ ")[0] for x in kind_output['청약일정']]
+    
+    select_cols = ['회사명', '상장주식수', '주요제품', '상장주선인/ 지정자문인', '확정공모가', '경쟁률', '신주모집', '구주매출', '기관배정수량', '상장예정일', 
+                   '납입일', '공모주식수', '수요예측(시작일)', '수요예측(종료일)', '청약일']
+    
+    return kind_output.loc[:, select_cols]
+
+def post_proc(dart_df, kind_output, start_dt):
+    select_cols = ['corp_code', 'corp_name', 'stock_code', 'corp_cls', 'rcept_no']
+    merged_df = pd.merge(dart_df.loc[dart_df.rcept_dt >= start_dt.replace("-", ""), select_cols], kind_output, left_on = 'corp_name', right_on = '회사명', how = 'inner')
+
+    del merged_df['회사명']
+
+    change_name = {'상장주선인/ 지정자문인':'상장주선인', '확정공모가':'공모가', '상장예정일':'상장일'}
+    merged_df.rename(columns = change_name, inplace = True)
+    merged_df['공모가'] = [int(x) if x != '-' else 0 for x in merged_df['공모가']]
+    
+    return merged_df
+
+################################
+### 38커뮤니케이션 수집 관련 ###
+################################
+def get_38df(soup, x):
+    return pd.read_html(str(soup.select('table[summary="{}"]'.format(x))[0]))[0]
+
+def change_corp(x):
+    if "모간스탠리" in x : return "MS"
+    elif "골드" in x : return "골드만"
+    elif "씨티" in x : return "씨티"
+    elif "메릴" in x : return "메릴린치"
+    elif "케이비" in x : return "KB"
+    elif "스위스" in x : return "CS"
+    elif "엔에이치" in x : return "NH"
+    elif "아이비케이" in x : return "IBK"
+    elif "에스케이" in x : return "SK"
+    elif "디비금융" in x : return "DB"
+    else: return x.replace("투자", "").replace("금융", "").replace("증권", "").replace("에셋", "").replace("(주)", "").replace("㈜", "")
+
+def change(x):
+    return x.replace('TE', 'TD').replace('TU', 'TD')
+
+def get_38(start_dt, end_dt, max_page = 30):
+    cnt = 0
+    p = 0
+
+    for page in range(1, max_page+1):
+        outer_url = 'http://www.38.co.kr/html/fund/index.htm?o=r1&page={}'.format(page)
+        base_url = 'http://www.38.co.kr/html/fund'
+
+        response = requests.get(outer_url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        tb_src = soup.select('table[summary="수요예측결과"]')
+
+        temp_df = pd.read_html(str(tb_src))[0]
+        temp_df = temp_df.loc[~temp_df['기업명'].isna()]
+
+        if cnt == 0:
+            url_tags = soup.select('tbody > tr > td > a')
+            temp_df['url'] = [base_url + x.attrs['href'].split(".")[-1] for x in url_tags]
+            outer_df = temp_df
+
+        else:
+            url_tags = soup.select('tbody > tr > td > a')
+            temp_df['url'] = [base_url + x.attrs['href'].split(".")[-1] for x in url_tags]
+            outer_df = pd.concat([outer_df, temp_df])
+
+        if temp_df['예측일'].min() < start_dt.replace("-", "."):
+            p += 1
+            if p > 1:
+                break
+                
+        cnt += 1
+
+    data_dict = {x:[] for x in ['stock_code', '기업명']}
+
+    for name, url in zip(outer_df['기업명'], outer_df['url']):
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        overview_df = get_38df(soup, '기업개요')
+        overview_df.columns = ["O" + str(x) for x in range(overview_df.shape[1])]
+
+        # 종목 코드
+        code = overview_df.loc[overview_df.O2 == '종목코드', 'O3'].values[0]
+
+        data_dict['stock_code'].append(code)
+        data_dict['기업명'].append(name)
+
+    inner_df = pd.DataFrame.from_dict(data_dict)
+    outer_df = pd.merge(outer_df, inner_df, on = '기업명', how = 'inner')
+    
+    select_cols = ['기업명', 'stock_code', '하단공모가액', '상단공모가액', '의무보유 확약', '기관 경쟁률']
+    outer_df['하단공모가액'] = [cleansing(x.split("~")[0]) for x in outer_df['공모희망가(원)']]
+    outer_df['상단공모가액'] = [cleansing(x.split("~")[1]) for x in outer_df['공모희망가(원)']]
+    
+    return outer_df.loc[:, select_cols]
+
+###########################
+### IPO Stock 수집 관련 ###
+###########################
 def ipo_main(driver, info_df):
     # driver 실행
     url = 'http://www.ipostock.co.kr/sub03/ipo05.asp'
@@ -474,6 +487,9 @@ def ipo_main(driver, info_df):
     
     return ipo_df
 
+###########################
+### 자료 형태 변환 관련 ###
+###########################
 def change_form(df, dept, opt = None):
     if dept == 'IB전략':
         select_cols = ['수요예측(시작일)', '수요예측(종료일)', '상장일', '대표주관회사', 'corp_name', '신주모집', '구주매출',

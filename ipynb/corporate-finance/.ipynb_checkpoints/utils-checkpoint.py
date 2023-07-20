@@ -1,3 +1,6 @@
+######################
+### import library ###
+######################
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -27,7 +30,9 @@ def cleansing(x):
     else :
         return 0
     
-## kind 수집
+######################
+### KIND 수집 관련 ###
+######################
 def go_kind(driver, code, FIRST = True):
     ## 01. 회사명 검색하기
     name_element = driver.find_element(By.ID, 'AKCKwd')
@@ -145,10 +150,8 @@ def get_finstate(driver):
 
     return df_change
 
+## kind 수집 main ##
 def kind_main(driver, info_df, start_dt, end_dt):
-    # driver 실행
-#    driver = webdriver.Chrome()
-
     ## 01.KIND 접속
     driver.get("https://kind.krx.co.kr/listinvstg/listingcompany.do?method=searchListingTypeMain")
 
@@ -229,7 +232,9 @@ def kind_main(driver, info_df, start_dt, end_dt):
     
     return first_df
 
-## 38커뮤니케이션
+################################
+### 38커뮤니케이션 수집 관련 ###
+################################
 def get_38df(soup, x):
     return pd.read_html(str(soup.select('table[summary="{}"]'.format(x))[0]))[0]
 
@@ -305,7 +310,9 @@ def get_38(start_dt, end_dt, max_page = 30):
     
     return outer_df.loc[:, select_cols]
 
-## DART
+######################
+### DART 수집 관련 ###
+######################
 def get_table(xml_text, title):
     table_src = re.findall('{}</TITLE>.*?</TABLE-GROUP>'.format(title), xml_text)
     value = pd.read_html(change(table_src[0]))
@@ -425,7 +432,9 @@ def get_d_tables(dart, third_df):
     
     return third_df, fourth_df
 
-## ipo stock
+###########################
+### IPO Stock 수집 관련 ###
+###########################
 def ipo_main(driver, info_df):
     # driver 실행
     url = 'http://www.ipostock.co.kr/sub03/ipo05.asp'
@@ -509,6 +518,9 @@ def ipo_main(driver, info_df):
     
     return ipo_df
 
+###########################
+### 자료 형태 변환 관련 ###
+###########################
 def change_form(df, dept, opt = None):
     if dept == 'IB전략':
         select_cols = ['수요예측(시작일)', '수요예측(종료일)', '상장일', '대표주관회사', 'corp_name', '신주모집', '구주매출',
