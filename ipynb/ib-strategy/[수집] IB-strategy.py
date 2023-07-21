@@ -55,6 +55,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     
     # Dart
     start_dt2 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 80), '%Y-%m-%d')
+    start_dt3 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 180), '%Y-%m-%d')
     dart_df, dart = initial_set(start_dt2, end_dt)
     p_ratio = 0.05
     p_bar.progress(p_ratio, text=progress_text)
@@ -68,9 +69,28 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     
     st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/4) </p>',unsafe_allow_html=True)
     p_ratio = 0.15
-    table = set_kind(driver, start_dt2, end_dt)
+    # 상장 기업들
+    dart_df1 = dart_df.loc[dart_df.stock_code != '']
+    # 상장전 기업들
+    dart_df2 = dart_df.loc[dart_df.stock_code == '']
+
+    ### STEP3. KIND 수집 항목 가져오기, 셀레늄 사용, 이 경우 viz_opt를 True로 함으로써 수집해야 함, False 시 조회 불가
+    driver = get_driver()
+    driver.set_window_size(1920, 1080)
+    first_df = kind_main(driver, dart_df1, start_dt3, end_dt)
+
+    driver = get_driver(viz_opt = True)
+    driver.set_window_size(1920, 1080)
+    table = set_kind(driver, start_dt3, end_dt)
+    kind_output = get_kind_inner(driver, table)
+    first_df2 = post_proc(dart_df2, kind_output, start_dt)
+    first_df = pd.concat([first_df, first_df2]).drop_duplicates()
+
+    '''
+    table = set_kind(driver, start_dt3, end_dt)
     kind_output = get_kind_inner(driver, table)
     first_df = post_proc(dart_df, kind_output, start_dt)
+    '''
     p_ratio = 0.55
     p_bar.progress(p_ratio, text=progress_text)
     

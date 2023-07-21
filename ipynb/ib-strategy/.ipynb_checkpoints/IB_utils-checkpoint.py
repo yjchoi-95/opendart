@@ -323,6 +323,208 @@ def post_proc(dart_df, kind_output, start_dt):
     
     return merged_df
 
+## 상장기업 kind
+def go_kind(driver, code, FIRST = True):
+    ## 01. 회사명 검색하기
+    name_element = driver.find_element(By.ID, 'AKCKwd')
+    name_element.click()
+    name_element.clear()
+    time.sleep(0.1)
+    name_element.send_keys(code)
+
+    time.sleep(0.25)
+    ## 02. 신규상장만 활용
+    if FIRST:
+        check_box = '/html/body/section[2]/section/form/section/div/div[1]/table/tbody/tr[7]/td/label[{}]'
+
+        for idx in range(1, 4):
+            driver.find_element(By.XPATH, check_box.format(idx+2)).click()
+
+        time.sleep(0.1)
+
+    ## 03. 기간 전체 설정
+    driver.find_element(By.CLASS_NAME, 'ord-07').click()
+    
+    ## 04. 검색 시작
+    search_element = driver.find_element(By.CLASS_NAME, 'btn-sprite.type-00.vmiddle.search-btn')
+    search_element.click()
+    time.sleep(1.5)
+
+def go_inner(driver):
+    # table 확인
+    temp_df = pd.read_html(driver.page_source)
+    listing_df = [x for x in temp_df if "회사명" in x and "상장유형" in x][0]
+
+    if listing_df['회사명'].values[0] != '조회된 결과값이 없습니다.':
+        driver.find_element(By.CSS_SELECTOR, '#main-contents > section.scrarea.type-00 > table > tbody > tr').click()
+        time.sleep(0.25)
+
+        driver.switch_to.window(driver.window_handles[1])
+        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "btn-sprite.type-98.vmiddle")))
+    else:
+        return "검색실패"
+
+def get_overview(driver):
+    # 상장주식수
+    l_cnt = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(3) > tbody > tr:nth-child(9) > td:nth-child(2)')
+    l_cnt = cleansing(l_cnt.text)
+
+    # 유통가능주식수
+    c_cnt = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(3) > tbody > tr:nth-child(10) > td.txr')
+    c_cnt = cleansing(c_cnt.text)
+
+    # 주요 제품
+    m_product = driver.find_element(By.CSS_SELECTOR, "#tab-contents > table:nth-child(3) > tbody > tr:nth-child(6) > td").text
+    
+    # 상장주선인
+    corps = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(3) > tbody > tr:nth-child(11) > td:nth-child(2)').text
+    
+    # 공모가
+    f_price = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(6) > tbody > tr.first > td:nth-child(4)').text
+    f_price = cleansing(f_price)
+    
+    return l_cnt, c_cnt, m_product, corps, f_price
+
+def get_inform(driver):
+    # 경쟁률
+    ratio = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr:nth-child(3) > td').text
+    # 신주모집
+    new_s = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(2)').text
+    new_s = cleansing(new_s)
+    # 구주매출
+    old_s = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table:nth-child(5) > tbody > tr:nth-child(3) > td:nth-child(2)').text
+    old_s = cleansing(old_s)
+    # 기관 배정 수량
+    a_cnt = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-foot.mt3 > tbody > tr:nth-child(3) > td:nth-child(2)').text
+    a_cnt = cleansing(a_cnt)
+    # 상장일
+    l_date = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr:nth-child(4) > td').text
+    # 수요예측일정
+    f_date = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr.first > td:nth-child(4)').text
+    # 공모청약일정
+    temp_date1 = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr:nth-child(2) > td:nth-child(2)').text
+    # 납입일
+    temp_date2 = driver.find_element(By.CSS_SELECTOR, '#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr:nth-child(2) > td:nth-child(4)').text
+    
+    return ratio, new_s, old_s, a_cnt, l_date, f_date, temp_date1, temp_date2
+
+def get_finstate(driver): 
+    dfs = pd.read_html(driver.page_source, header=0)
+
+    try:
+        get_idx = [idx for idx, x in enumerate(dfs) if "매출액(수익)" in list(x['항목']) and "영업이익(손실)" in list(x['항목']) and "당기순이익(손실)" in list(x['항목'])][0]
+    except:
+        get_idx = 1
+    df = dfs[get_idx]
+    df = df.loc[df['항목'].isin(['매출액(수익)', '영업이익(손실)', '당기순이익(손실)'])]
+    t_year = re.sub("[^0-9]", "", df.columns[-1])
+
+    if df.shape[0] != 3:
+        except_values = [x for x in ['매출액(수익)', '영업이익(손실)', '당기순이익(손실)'] if x not in list(df['항목'])]
+        append_df = pd.DataFrame({"항목":[x for x in except_values],
+                      df.columns[1]:[0 for x in range(len(except_values))],
+                      df.columns[2]:[0 for x in range(len(except_values))],
+                      df.columns[3]:[0 for x in range(len(except_values))]})
+        df = pd.concat([df, append_df])
+        df['항목'] = df['항목'].astype("category")
+        df['항목'] = df['항목'].cat.set_categories(['매출액(수익)', '영업이익(손실)', '당기순이익(손실)'])
+        df = df.sort_values("항목")
+
+    col_names = [x+"매출액" + "({})".format(y) for x, y in zip(['전전연도', '직전연도', '당해연도'], ['T-2', 'T-1', 'T'])]
+    col_names.extend([x+"영업이익" + "({})".format(y) for x, y in zip(['전전연도', '직전연도', '당해연도'], ['T-2', 'T-1', 'T'])])
+    col_names.extend([x+"당기순이익" + "({})".format(y) for x, y in zip(['전전연도', '직전연도', '당해연도'], ['T-2', 'T-1', 'T'])])
+
+    df_change = pd.DataFrame.from_dict({x:[y] for x,y in zip(col_names, np.array(df.iloc[:, 1:]).reshape(1, -1)[0])})
+    df_change['기준연도(T=)'] = t_year
+    df_change.index = [0]
+
+    return df_change
+
+def kind_main(driver, info_df, start_dt, end_dt):
+    # driver 실행
+#    driver = webdriver.Chrome()
+
+    ## 01.KIND 접속
+    driver.get("https://kind.krx.co.kr/listinvstg/listingcompany.do?method=searchListingTypeMain")
+
+    wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+    wait.until(EC.presence_of_element_located((By.ID, "fromDate")))
+
+    value = '-'
+    cnt = 0
+    
+    for idx, code in enumerate(info_df.stock_code):
+        time.sleep(1)
+
+        # kind 접속 및 code 검색
+        if idx == 0:
+            go_kind(driver, code)
+        else:
+            go_kind(driver, code, False)
+
+        try:
+            wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#main-contents > section.scrarea.type-00 > table > tbody > tr > td:nth-child(2)")))
+            l_date1 = driver.find_element(By.CSS_SELECTOR, '#main-contents > section.scrarea.type-00 > table > tbody > tr > td:nth-child(2)').text
+
+        except:
+            continue
+
+        # 세부 홉페이지 접속
+        value = go_inner(driver)
+
+        driver.switch_to.window(driver.window_handles[-1])
+        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tab-contents > table:nth-child(6) > tbody > tr:nth-child(2) > td:nth-child(4)")))
+
+        ## 회사 개요 수집
+        # 상장주식수, 유통가능주식수, 제품, 상장주선인, 공모가
+        l_cnt, c_cnt, m_product, corps, f_price = get_overview(driver)
+
+        ## 공모 정보 수집
+        driver.find_element(By.CSS_SELECTOR, '#tabName > a[title="공모정보"]').click()
+        time.sleep(0.25)
+        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tab-contents > table.detail.type-01.chain-head.mt10 > tbody > tr:nth-child(3) > td")))
+
+        # 경쟁률, 신주모집, 구주매출, 기관 배정 수량, 상장일, 수요예측일정, 공모청약일정, 납입일
+        ratio, new_s, old_s, a_cnt, l_date2, f_date, temp_date1, temp_date2 = get_inform(driver)
+        l_date = max([l_date1, l_date2])
+
+        driver.close()
+        driver.switch_to.window(driver.window_handles[0])
+
+        # dataframe 만들기
+        keys = ["stock_code", "상장주식수", '주요제품', '상장주선인', '공모가'
+                 ,'경쟁률', '신주모집', '구주매출', '기관배정수량', '상장일', '수요예측일정', '공모청약일정' ,'납입일']
+        values = [code, l_cnt, m_product, corps, f_price,
+                  ratio, new_s, old_s, a_cnt, l_date, f_date, temp_date1, temp_date2]
+        temp_dict = {x:[y] for x, y in zip(keys, values)}
+
+        if cnt == 0:
+            kind_df = pd.DataFrame(temp_dict)
+            cnt += 1
+        else:
+            loop_df = pd.DataFrame(temp_dict)
+            kind_df = pd.concat([kind_df, loop_df])
+
+    kind_df = kind_df.loc[(kind_df['상장일'] >= start_dt) & (kind_df['상장일'] <= end_dt)]
+    driver.close()
+    
+    select_cols = ['corp_name', 'corp_code','stock_code', 'corp_cls', 'rcept_no']
+    first_df = pd.merge(info_df.loc[:, select_cols], kind_df, on ='stock_code', how = 'inner')
+
+    # 후처리
+    first_df['공모주식수'] = first_df['신주모집'] + first_df['구주매출']
+    first_df['수요예측(시작일)'] = [x.split(" ~ ")[0] for x in first_df['수요예측일정']]
+    first_df['수요예측(종료일)'] = [x.split(" ~ ")[1] for x in first_df['수요예측일정']]
+    first_df['청약일'] = [x.split(" ~ ")[0] for x in first_df['공모청약일정']]
+
+    del first_df['수요예측일정'], first_df['공모청약일정']
+    
+    return first_df
+
 ################################
 ### 38커뮤니케이션 수집 관련 ###
 ################################

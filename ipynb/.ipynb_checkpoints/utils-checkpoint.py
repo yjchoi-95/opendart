@@ -168,7 +168,7 @@ def kind_main(driver, info_df, start_dt, end_dt):
             go_kind(driver, code, False)
 
         try:
-            wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+            wait = WebDriverWait(driver, 5, poll_frequency=0.25)
             wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#main-contents > section.scrarea.type-00 > table > tbody > tr > td:nth-child(2)")))
             l_date1 = driver.find_element(By.CSS_SELECTOR, '#main-contents > section.scrarea.type-00 > table > tbody > tr > td:nth-child(2)').text
 

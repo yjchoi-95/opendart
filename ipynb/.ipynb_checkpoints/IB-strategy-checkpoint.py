@@ -69,6 +69,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     
     st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/4) </p>',unsafe_allow_html=True)
     p_ratio = 0.15
+    
     table = set_kind(driver, start_dt3, end_dt)
     kind_output = get_kind_inner(driver, table)
     first_df = post_proc(dart_df, kind_output, start_dt)
