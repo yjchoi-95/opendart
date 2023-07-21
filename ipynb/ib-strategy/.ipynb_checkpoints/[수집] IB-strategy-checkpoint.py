@@ -55,7 +55,6 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     
     # Dart
     start_dt2 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 80), '%Y-%m-%d')
-    start_dt3 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 180), '%Y-%m-%d')
     dart_df, dart = initial_set(start_dt2, end_dt)
     p_ratio = 0.05
     p_bar.progress(p_ratio, text=progress_text)
@@ -69,7 +68,7 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     
     st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/4) </p>',unsafe_allow_html=True)
     p_ratio = 0.15
-    table = set_kind(driver, start_dt3, end_dt)
+    table = set_kind(driver, start_dt2, end_dt)
     kind_output = get_kind_inner(driver, table)
     first_df = post_proc(dart_df, kind_output, start_dt)
     p_ratio = 0.55

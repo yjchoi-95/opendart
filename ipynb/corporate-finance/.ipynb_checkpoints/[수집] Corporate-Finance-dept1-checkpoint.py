@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from streamlit_option_menu import option_menu
 from datetime import datetime, timedelta, date
 from selenium import webdriver
-from IB_utils import *
+from utils import *
 from io import BytesIO
 from pyxlsb import open_workbook as open_xlsb
 
@@ -22,7 +22,13 @@ import copy
 warnings.filterwarnings('ignore')
 
 options = Options()
-options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--disable-gpu")
+options.add_argument("--disable-features=NetworkService")
+options.add_argument("--window-size=1920x1080")
 
 ## 01. functions
 @st.cache_data
@@ -30,21 +36,19 @@ def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
     return df.to_csv().encode('CP949')
 
-def get_driver(viz_opt = False):
+#@st.cache_resource
+def get_driver():
     #return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    if viz_opt:
-        return webdriver.Chrome()
-    else:
-        return webdriver.Chrome(options=options)
-
+    return webdriver.Chrome(options=options)
+    
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df.to_excel(writer, index=False, sheet_name='Sheet1')
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
-    format1 = workbook.add_format({'num_format': '0.00'}) 
-    worksheet.set_column('A:A', None, format1)  
+    format1 = workbook.add_format({'num_format': '0.00'})
+    worksheet.set_column('A:A', None, format1)
     writer.save()
     processed_data = output.getvalue()
     return processed_data
@@ -53,55 +57,55 @@ def main(start_dt, end_dt, opt = 'IB전략'):
     progress_text = "Operation in progress. Please wait."
     p_bar = st.progress(0.0, text=progress_text)
     
-    # Dart
-    start_dt2 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 80), '%Y-%m-%d')
-    start_dt3 = datetime.strftime(datetime.strptime(end_dt, '%Y-%m-%d') - timedelta(days = 180), '%Y-%m-%d')
-    dart_df, dart = initial_set(start_dt2, end_dt)
+    api_key = '1b39652cef07f626c9d37375edf582ee51b1407f'
+    #api_key = 'd08546d14aedde5f2918b783aa10188e789f8f5f'
+    dart = OpenDartReader(api_key)
+    
+    # C=발행공시, D=지분공시
+    market_dict = {"Y": "코스피","K": "코스닥", "N": "코넥스", "E": "기타"}
+
+    info_df = dart.list(start=start_dt, end=end_dt, kind_detail='C001')
+    info_df = pd.concat([info_df, dart.list(start=start_dt, end=end_dt, kind_detail='G002')])
+
+    info_df = info_df.loc[[True if "증권발행실적보고서" in x else False for x in info_df.report_nm]]
+    info_df = info_df.loc[info_df.corp_cls.isin(['Y', 'K'])]
+    info_df.corp_cls = info_df.corp_cls.map(market_dict)
+    
     p_ratio = 0.05
     p_bar.progress(p_ratio, text=progress_text)
     
     # kind
-    driver = get_driver(viz_opt = True)
+    driver = get_driver()
     driver.set_window_size(1920, 1080)
-    time.sleep(3)
     p_ratio = 0.10
     p_bar.progress(p_ratio, text=progress_text)
     
-    st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/4) </p>',unsafe_allow_html=True)
+    #driver = webdriver.Chrome()
+    st.write('<p style="font-size:14px; color:black"> - KIND 수집 시작 (1/2) </p>',unsafe_allow_html=True)
     p_ratio = 0.15
-    table = set_kind(driver, start_dt3, end_dt)
-    kind_output = get_kind_inner(driver, table)
-    first_df = post_proc(dart_df, kind_output, start_dt)
+    first_df = kind_main(driver, info_df, start_dt, end_dt)
     p_ratio = 0.55
     p_bar.progress(p_ratio, text=progress_text)
     
     # ipo stock
-    st.write('<p style="font-size:14px; color:black"> - IPO 스탁 수집 시작 (2/4) </p>',unsafe_allow_html=True)
+    st.write('<p style="font-size:14px; color:black"> - OpenDART 수집 시작 (2/2) </p>',unsafe_allow_html=True)
     driver = get_driver()
     driver.set_window_size(1920, 1080)
     p_ratio = 0.60
     p_bar.progress(p_ratio, text=progress_text)
     
-    driver = get_driver()
-    driver.set_window_size(1920, 1080)
-    ipo_df = ipo_main(driver, first_df)
+    ipo_df = ipo_main(driver, info_df)
     first_df = pd.merge(first_df, ipo_df, on = 'corp_name', how = 'left')
-    first_df.replace(np.NaN, 0, inplace = True)
-    first_df['key'] = [change_join(x) if "스팩" in x else x for x in list(first_df.corp_name)]
     p_ratio = 0.8
     p_bar.progress(p_ratio, text=progress_text)
     
     # 38커뮤니케이션
-    st.write('<p style="font-size:14px; color:black"> - 38커뮤니케이션 수집 시작 (3/4) </p>',unsafe_allow_html=True)
     outer_df = get_38(start_dt, end_dt)
-    second_df = pd.merge(first_df, outer_df, left_on = 'key', right_on = '기업명', how = 'inner')
-    del second_df['기업명'], second_df['key'], second_df['stock_code_x']
-    second_df.rename(columns = {'stock_code_y':'stock_code'}, inplace = True)
+    second_df = pd.merge(first_df, outer_df, on = 'stock_code', how = 'inner')
     p_ratio = 0.9
     p_bar.progress(p_ratio, text=progress_text)
     
     # DART
-    st.write('<p style="font-size:14px; color:black"> - OpenDART 수집 시작 (4/4) </p>',unsafe_allow_html=True)
     third_df = get_dd(dart, second_df)
     third_df, fourth_df = get_d_tables(dart, third_df)
     p_ratio = 1.0
@@ -121,15 +125,14 @@ def main(start_dt, end_dt, opt = 'IB전략'):
 st.set_page_config(layout='wide')
 
 with st.sidebar:
-    selected = option_menu("Menu", ["IB전략컨설팅부"],
+    selected = option_menu("Menu", ["기업금융1부"],
                            icons=['card-list'],
                            menu_icon='cast', default_index=0,
                           styles={
                               "nav-link-selected": {"background-color": "#1c82e1"}
                           })
 
-
-st.header('IB전략컨설팅부 - IPO 현황 수집')
+st.header('기업금융1부 - IPO 현황 수집')
 
 c1, c2 = st.columns(2)
 
@@ -151,20 +154,32 @@ end_dt = datetime.strftime(end_date,'%Y-%m-%d')
 start_btn = st.button('🛠 수집')
 
 if start_btn:
-    head_df = main(start_dt, end_dt, opt = 'IB전략')
-    head_df = head_df.loc[head_df['상장일'] >= origin_start_date]
-    head_df = head_df.sort_values("수요예측(시작일)")
-    head_df.index = [x for x in range(1, head_df.shape[0]+1)]
-    st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('IPO 공모기업 현황'),unsafe_allow_html=True)
-    st.dataframe(head_df)
+    #head_df = main(start_dt, end_dt, opt = 'IB전략')
+    form_1, form_2, form_3 = main(start_dt, end_dt, opt = '기업금융1부')
+    form_1 = form_1.loc[form_1['상장일'] >= origin_start_date]
+    form_2 = form_2.loc[form_2['상장일'] >= origin_start_date]
+    form_3 = form_3.loc[form_3['상장일'] >= origin_start_date]
+    
+    st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('01_리그테이블'),unsafe_allow_html=True)
+    st.dataframe(form_1)
+    save_df1 = convert_df(form_1)
+    
+    st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('02_통합집계_Rawdata'),unsafe_allow_html=True)
+    st.dataframe(form_2)
+    save_df2 = convert_df(form_2)
+    
+    st.write('<p style="font-size:15px; color:white"><span style="background-color: #1c82e1;"> ✔ {} </span></p>'.format('03_IPO현황_Summary'),unsafe_allow_html=True)
+    st.dataframe(form_3)
+    save_df3 = convert_df(form_3)
     
     output = BytesIO()
     
     with pd.ExcelWriter(output, engine = 'xlsxwriter') as writer:
-        head_df.to_excel(writer, sheet_name="IPO 공모 기업 현황", index=False)
+        form_1.to_excel(writer, sheet_name="01_리그테이블", index=False)
+        form_2.to_excel(writer, sheet_name="02_통합집계_Rawdata", index=False)
+        form_3.to_excel(writer, sheet_name="03_IPO현황_Summary", index=False)
         
     processed_data = output.getvalue()
-    
     st.download_button(label='📥 다운로드',
                                 data=processed_data ,
-                                file_name= 'IB전략컨설팅부-IPO 집계 데이터_{}~{}.xlsx'.format(origin_start_date[2:].replace('-', '.'), end_dt[2:].replace('-', '.')))
+                                file_name= '기업금융1부-IPO 집계 데이터_{}~{}.xlsx'.format(start_dt[2:].replace('-', '.'), end_dt[2:].replace('-', '.')))
