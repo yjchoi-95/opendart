@@ -267,7 +267,7 @@ def get_kind_inner(driver, table):
         time.sleep(0.1)
 
         driver.switch_to.window(driver.window_handles[-1])
-        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait = WebDriverWait(driver, 20, poll_frequency=0.25)
         wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/section/table[1]/tbody/tr[5]/td')))
 
         # 상장 주식수
@@ -416,7 +416,7 @@ def ipo_main(driver, info_df):
 
     for idx, corp_name in enumerate(info_df.corp_name):
         driver.get(url)
-        wait = WebDriverWait(driver, 10, poll_frequency=0.25)
+        wait = WebDriverWait(driver, 20, poll_frequency=0.25)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 
                                                    'body > table:nth-child(1) > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(1) > td > form > table > tbody > tr:nth-child(2) > td > input.GBOX')))
 
@@ -439,7 +439,7 @@ def ipo_main(driver, info_df):
         # 주주구성
         try:
             driver.find_element(By.CSS_SELECTOR, 'img[alt="주주구성"]').click()
-            wait = WebDriverWait(driver, 5, poll_frequency=0.25)
+            wait = WebDriverWait(driver, 10, poll_frequency=0.25)
             wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="print"]/table/tbody/tr[8]/td/table[2]/tbody')))
 
             raw_tbls = pd.read_html(driver.page_source, header = 0)
@@ -482,6 +482,7 @@ def ipo_main(driver, info_df):
             ipo_df = pd.concat([ipo_df, df_change])
             
     driver.close()
+    
     ipo_df['유통가능주식수'] = [cleansing(x) for x in ipo_df['유통가능주식수']]
     ipo_df.loc[:, col_names] = ipo_df.loc[:, col_names].astype(float)
     

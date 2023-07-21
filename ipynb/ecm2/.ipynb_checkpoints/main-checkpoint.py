@@ -60,6 +60,9 @@ if selected == "주식연계채권":
         df = pe_func.get_mezn_data(knd, corp_nm, start_dt, end_dt, intr_ex_min, intr_ex_max, intr_sf_min, intr_sf_max)
         pe_func.set_df(df, "mezzanine", start_dt.strftime('%Y%m%d'), end_dt.strftime('%Y%m%d'))
 
+###################################
+####### 타법인출자현황 부분 #######
+###################################
 elif selected == "타법인출자현황":
     st.header('ECM2부 - 타법인출자현황(단순투자)')
     with st.form(key='form2'):
@@ -74,23 +77,12 @@ elif selected == "타법인출자현황":
 
     if form2_bt:
         # 파일 존재할 경우
-        if os.path.isfile('./datasets/' + "ECM_타법인출자-단순투자-{}-{}.csv".format(year, r_code)):
-            st.warning("""ECM_타법인출자-단순투자-{}-{} 파일이 저장소에 존재합니다.""".format(year, r_code), icon="⚠️")
-
-            if load == "예":
-                st.warning('사용자 조건에 따라 재수집을 진행합니다.', icon="⚠️")
-                ecm2.main(year, r_code)
-
-            else:
-                st.warning('사용자 조건에 따라 저장소 파일을 불러옵니다.', icon="⚠️")
-                save_df = pd.read_csv('./datasets/' + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
-                save_df.index += 1
-                st.dataframe(save_df)
-                save_df = ecm2.convert_df(save_df, encode_opt=True)
-                st.download_button(label="Download", data=save_df,
-                                   file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
-        else:
-            ecm2.main(year, r_code)
+        save_df = pd.read_csv('./datasets/' + 'ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code))
+        save_df.index += 1
+        st.dataframe(save_df)
+        save_df = ecm2.convert_df(save_df, encode_opt=True)
+        st.download_button(label="Download", data=save_df,
+                           file_name='ECM_타법인출자-단순투자-{}-{}.csv'.format(year, r_code), mime='text/csv')
 
 elif selected == "CPS/RCPS":
     st.header('CPS/RCPS 발행내역')
